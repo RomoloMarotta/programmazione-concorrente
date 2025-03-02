@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione
+# Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-02 19:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../source/2025/questions.rst:2
+msgid "Esercizi di preparazione"
+msgstr ""
+
+#: ../source/2025/questions.rst:4
+msgid ""
+"In questa sezione vengono riportate alcuni esercizi/domande che possono "
+"essere utilizzate come preparazione all'esame."
+msgstr ""
+
+#: ../source/2025/questions.rst:8
+msgid "Domande"
+msgstr ""
+
+#: ../source/2025/questions.rst:15
+msgid "Esercizi di teoria"
+msgstr ""
+
+#: ../source/2025/questions.rst:20
+msgid ""
+"Alcuni esercizi possono deliberatamente ammettere più di una soluzione in"
+" funzione delle assunzioni fatte durante lo svolgimento. Di conseguenza, "
+"le soluzioni proposte potrebbe non essere le uniche ammissibili."
+msgstr ""
+
+#: ../source/2025/questions.rst:26
+msgid "Esercizi di programmazione"
+msgstr ""
+
+#: ../source/2025/questions.rst:31
+msgid ""
+"Alcuni esercizi possono deliberatamente ammettere più di una "
+"implementazione. Di conseguenza, le soluzioni proposte potrebbe non "
+"essere le uniche ammissibili."
+msgstr ""
+

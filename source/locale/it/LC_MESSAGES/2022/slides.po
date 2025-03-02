@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione
+# Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-02 19:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../source/2022/slides.rst:2
+msgid "Slides"
+msgstr ""
+
+#: ../source/2022/slides.rst:4
+msgid "In questa sezione potete scaricare le slide delle lezioni."
+msgstr ""
+
+#: ../source/2022/slides.rst:9
+msgid ""
+":download:`01 - Introduzione <slides/01-so-introduzione-221004v1.pdf>` "
+"(Aggiornato il 04/10/2022)"
+msgstr ""
+
+#: ../source/2022/slides.rst:10
+msgid ""
+":download:`02 - Richiami C <slides/02-so-richiamiC-221003v2.pdf>` "
+"(Aggiornato il 11/10/2022)"
+msgstr ""
+
+#: ../source/2022/slides.rst:11
+msgid ""
+":download:`03 - Processi e threads <slides/03-so-processi-221019v3.pdf>` "
+"(Aggiornato il 19/10/2022)"
+msgstr ""
+
+#: ../source/2022/slides.rst:12
+msgid ""
+":download:`04 - Sincronizzazione <slides/04-so-sincronizzazione-"
+"221116v1.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:13
+msgid ":download:`05 - CPU scheduling <slides/05-so-cpu-scheduling-221116v1.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:14
+msgid ""
+":download:`06 - I/O e file management <slides/06-so-IO-file-management-"
+"221116v1.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:15
+msgid ":download:`07 - Gestione delle memoria <slides/07-so-memoria-221129.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:16
+msgid ""
+":download:`08 - Introduzione a Linux <slides/08-introduzione-linux-"
+"211214v1.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:18
+msgid ""
+":download:`A1 - Solid state drives: architetture e soluzioni enterprise "
+"[en] <slides/A1-solid-state-drives.pdf>`"
+msgstr ""
+
+#: ../source/2022/slides.rst:22
+msgid "Documentazione"
+msgstr ""
+
+#: ../source/2022/slides.rst:45
+msgid "Approfondimenti"
+msgstr ""
+

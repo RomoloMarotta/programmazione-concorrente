@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-02 21:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../source/index.rst:2
+msgid "Programmazione Concorrente A.A. 2024/2025"
+msgstr ""
+
+#: ../source/index.rst:4
+msgid "Benvenuti al corso di Programmazione Concorrente per A.A. 2024/2025 del Corso di Laurea Magistrale in Ingegneria Informatica di Tor Vergata"
+msgstr ""
+
+#: ../source/index.rst:6
+msgid "Docente: `Romolo Marotta <https://romolomarotta.github.io>`_"
+msgstr ""
+
+#: ../source/index.rst:9
+msgid "News"
+msgstr ""
+
+#: ../source/index.rst:12
+msgid ":ref:`n02-03-2025`"
+msgstr ""
+
+#: ../source/index.rst:14
+msgid "Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news`"
+msgstr ""
+
+#: ../source/index.rst:17
+msgid "Obiettivi del corso"
+msgstr ""
+
+#: ../source/index.rst:19
+msgid "L'obiettivo del corso è fornire allo studente competenze sull'architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux, e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno. Infine, particolare attenzione verrà dedicata alla programmazione di sistema e scripting."
+msgstr ""
+
+#: ../source/index.rst:25
+msgid "Orario delle lezioni"
+msgstr ""
+
+#: ../source/index.rst:28
+msgid "Giorno"
+msgstr ""
+
+#: ../source/index.rst:28
+msgid "Orario"
+msgstr ""
+
+#: ../source/index.rst:28
+msgid "Aula"
+msgstr ""
+
+#: ../source/index.rst:30
+msgid "Lunedì"
+msgstr ""
+
+#: ../source/index.rst:30
+#: ../source/index.rst:31
+msgid "14:00 - 16:00"
+msgstr ""
+
+#: ../source/index.rst:30
+#: ../source/index.rst:31
+msgid "B10"
+msgstr ""
+
+#: ../source/index.rst:31
+msgid "Mercoledì"
+msgstr ""
+
+#: ../source/index.rst:36
+msgid "Il corso è pensato per essere seguito dagli studenti in presenza."
+msgstr ""
+
+#: ../source/index.rst:40
+msgid "Link ai contenuti del corso"
+msgstr ""
+
+#: ../source/index.rst:42
+msgid ":doc:`Slides <2025/slides>`"
+msgstr ""
+
+#: ../source/index.rst:54
+msgid "Ricevimento"
+msgstr ""
+
+#: ../source/index.rst:56
+msgid "Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e riportare il prefisso **[PC2425]** nell'oggetto."
+msgstr ""
+
+#: ../source/index.rst:60
+msgid "Modalità d'esame"
+msgstr ""
+
+#: ../source/index.rst:62
+msgid "L'esame prevede 1 prova scritta."
+msgstr ""
+
+#: ../source/index.rst:66
+msgid "Date"
+msgstr ""
+
+#: ../source/index.rst:68
+msgid "**I Appello** (Giugno)"
+msgstr ""
+
+#: ../source/index.rst:70
+#: ../source/index.rst:74
+msgid "TBD"
+msgstr ""
+
+#: ../source/index.rst:72
+msgid "**II Appello** (Febbraio)"
+msgstr ""
+
+#: ../source/index.rst:82
+msgid "Testi consigliati e link utili (in aggiornamento)"
+msgstr ""
+
+#: ../source/index.rst:84
+msgid "[t1] Operating Systems: Internals and Design Principles - William Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: ninth global edition."
+msgstr ""
+
+#: ../source/index.rst:90
+msgid "Programma"
+msgstr ""
+
+#: ../source/index.rst:92
+msgid "**Introduzione alla programmazione concorrente e preliminari.**  Richiami a tematiche di sincronizzazione."
+msgstr ""
+
+#: ../source/index.rst:93
+msgid "**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, Sun-Ni) - Richiami a concetti di safety e liveness"
+msgstr ""
+
+#: ../source/index.rst:94
+msgid "**Correttezza.** Condizione di safety - Sequential consistency - Linearizability -Quiscient consistency."
+msgstr ""
+
+#: ../source/index.rst:95
+msgid "**Progresso.** Deadlock-freedom. Starvation-freedom.** Progresso minimale e massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed indipendente dallo scheduler"
+msgstr ""
+
+#: ../source/index.rst:96
+msgid "**Richiami di architetture shared memory.**  Core e cache - Memory model - Primitive atomiche"
+msgstr ""
+
+#: ../source/index.rst:97
+msgid "**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code di priorità, Registri."
+msgstr ""
+
+#: ../source/index.rst:98
+msgid "**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. Test and set lock, test-and-test-and-set lock. Ticket lock. MCS e CLH lock. Busy waiting vs sleeping. Malthusian lock. MUTEXEE. Cenni ad altri meccanismi (barriere e condizioni)."
+msgstr ""
+
+#: ../source/index.rst:100
+msgid "**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity (cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware Transactional Memory (Intel TSX)."
+msgstr ""
+
+#: ../source/index.rst:101
+msgid "**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in algoritmi non bloccanti e non."
+msgstr ""
+
+#: ../source/index.rst:102
+msgid "**Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti universali."
+msgstr ""

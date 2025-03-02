@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione
+# Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-02 18:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../source/2022/q_exercises/programming.rst:2
+msgid "1 - Riscaldamento"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:4
+#: ../source/2022/q_exercises/programming.rst:11
+msgid "Scrivere un programma che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:6
+msgid ""
+"prende una stringa da tastiera e la inserisce all’interno di un buffer "
+"allocato dinamicamente nella heap da parte della funzione scanf()."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:7
+msgid ""
+"Copia poi tale stringa all’interno di un secondo buffer allocato sullo "
+"stack della taglia necessaria a contenerla."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:8
+msgid "Libera quindi il buffer allocato nella heap."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:9
+msgid "Stampa sullo schermo la stringa copiata nel buffer allocato sullo stack."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:13
+msgid ""
+"prende una stringa passata come primo argomento (i.e. :code:`char "
+"*argv[]`) al programma stesso quando questo viene eseguito."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:14
+msgid ""
+"Copia tale stringa all’interno di un buffer di dimensione fissa facendo "
+"attenzione a non superare il limite imposto dalla taglia, e stamparla "
+"quindi sullo schermo."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:15
+msgid ""
+"Rigira la stringa (primo carattere in ultima posizione, secondo carattere"
+" in penultima posizione, ecc.) senza fare utilizzo di un ulteriore buffer"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:16
+msgid "Stampa anche questa stringa sullo schermo."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:20
+msgid "2 - Processi e threads"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:23
+#: ../source/2022/q_exercises/programming.rst:29
+#: ../source/2022/q_exercises/programming.rst:35
+msgid "Scrivere un programma in C che:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:25
+#: ../source/2022/q_exercises/programming.rst:31
+msgid ""
+"prende inizialmente una stringa da input (può contenere anche spazi "
+"bianchi) e la salva in un buffer"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:26
+msgid ""
+"fork-a un processo figlio che manda in stampa la stessa stringa acquisita"
+" dal processo padre."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:27
+msgid ""
+"Il processo padre termina solo dopo che il processo figlio ha terminato "
+"(verificare che tale ordine è rispettato stampando i PID dei processi)."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:32
+msgid ""
+"fork-are 2 processi figli che contribuiscono a stampare la stringa "
+"inversa della stringa acquisita dal processo padre."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:33
+msgid "Il processo padre termina solo dopo che i processi figli hanno terminato."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:37
+msgid ""
+"prende inizialmente N (a piacere) stringhe rappresentanti N directory "
+"corrette"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:38
+msgid ""
+"fork-a quindi N processi che andranno ad eseguire il comando ls su una "
+"directory differente."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:39
+msgid "Il processo padre termina dopo i processi figli"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:41
+msgid "Svolgere l'esercizio 2.1 utilizzando threads piuttosto che processi."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:42
+msgid "Svolgere l'esercizio 2.2 utilizzando threads piuttosto che processi."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:43
+msgid "Implementare l'esercizio di teoria 3.1 in C."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:48
+msgid "3 - File"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:52
+msgid ""
+"Nei sistemi operativi UNIX, `/dev/urandom <https://man7.org/linux/man-"
+"pages/man4/random.4.html>`_ è un dispositivo a caratteri (char device) "
+"virtuale in grado di generare numeri casuali. Nello specifico, "
+"l'operazione di lettura dal relativo file produce byte casuali. Scrivere "
+"un programma C che genera un file con contenuto interamente randomico. Il"
+" programma:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:56
+msgid ""
+"prende come parametri da linea di comando: un numero *N* e una stringa "
+"*S* da usare come nome del file da creare;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:57
+msgid "crea un file *S* contenente *N* byte randomici;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:58
+msgid ""
+"utilizza il dispositivo /dev/random come sorgente di numeri pseudo-"
+"casuali."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:60
+msgid ""
+"Dato un file binario contenente un sequenza di 2^15 interi di tipo "
+"*short*, scrivere un programma che crea N processi o threads, i quali "
+"leggono il contenuto del file ed individuano il valore minimo e massimo "
+"contenuto nel file. Nel fornire una soluzione rispettare i seguenti "
+"vincoli:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:62
+msgid "ciascun intero non può essere letto da più di un thread/processo;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:63
+msgid "ciascun thread/processo può leggere il medesimo intero al più una volta;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:64
+msgid ""
+"ciascun thread/processo può allocare memoria nell'heap per al più 512 "
+"byte;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:65
+msgid ""
+"N è un parametro definito a tempo di compilazione o tramite linea di "
+"comando;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:66
+msgid "N è minore o uguale a 8;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:67
+msgid ""
+"è ammesso allocare di variabili globali (data) e locali (stack) per "
+"memorizzare tipi primitivi (puntatori, int, short, char, long, etc.) per "
+"al più 128 byte;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:68
+msgid "per generare il file utilizzare la soluzione dell'esercizio 3.1."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:70
+msgid ""
+"Scrivere un programma C *invert* che dato un file *A* ne inverte il "
+"contenuto e lo memorizza in nuovo file *B*. Il programma deve:"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:72
+msgid "riportare il contenuto di *A* in memoria;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:73
+msgid ""
+"invertire la posizione di ciascun byte utilizzando un numero *N* di "
+"thread/processi concorrenti;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:74
+msgid "scrivere il risultato in un nuovo file *B*;"
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:75
+msgid "prendere *A*, *B* e *N* come argomenti da linea di comando."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:77
+msgid ""
+"Si scriva il codice di una funzione C con la seguente interfaccia "
+":code:`void tunnel(int descriptors[], int count)` tale che, se eseguita, "
+"porti l'applicazione a gestire, per ogni file-descriptor dell'array "
+"*descriptors* l'inoltro del flusso  dei dati in ingresso verso il canale "
+"di standard-output dell'applicazione. Il parametro *count* indica di "
+"quanti elementi è costituito l'array *descriptors*. L'inoltro dovrà "
+"essere attuato in modo concorrente per i diversi canali."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:78
+msgid ""
+"Si scriva una funzione C con la seguente interfaccia :code:`void "
+"file_check(char *file_name, int num_threads)`. Tale funzione dovrà "
+"lanciare num_thread nuovi threads, in modo che ciascuno di essi legga "
+"stringhe dallo standard input, e per ogni stringa letta verifichi "
+"l'occorrenza di tale stringa all'interno *di ciascuna riga* del file il "
+"cui path è identificato tramite il parametro file_name, e stampi la "
+"stringa su standard output in caso affermativo."
+msgstr ""
+
+#: ../source/2022/q_exercises/programming.rst:79
+msgid ""
+"Scrivere un programma C in cui dato un file *A*, una stringa *B* e un "
+"intero *N*, vengano creati *N* thread/processi che cerchino se "
+"all'interno del file *A* esiste una linea uguale a *B*."
+msgstr ""
+

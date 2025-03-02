@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione
+# Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-02 22:55+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../source/index.rst:2
+msgid "Programmazione Concorrente A.A. 2024/2025"
+msgstr ""
+
+#: ../source/index.rst:4
+msgid ""
+"Benvenuti al corso di Programmazione Concorrente per A.A. 2024/2025 del "
+"Corso di Laurea Magistrale in Ingegneria Informatica di Tor Vergata"
+msgstr ""
+
+#: ../source/index.rst:6
+msgid "Docente: `Romolo Marotta <https://romolomarotta.github.io>`_"
+msgstr ""
+
+#: ../source/index.rst:9
+msgid "News"
+msgstr ""
+
+#: ../source/index.rst:12
+msgid ":ref:`n02-03-2025`"
+msgstr ""
+
+#: ../source/index.rst:14
+msgid ""
+"Per la lista completa degli aggiornamenti visita la sezione dedicata: "
+":doc:`2025/news`"
+msgstr ""
+
+#: ../source/index.rst:17
+msgid "Obiettivi del corso"
+msgstr ""
+
+#: ../source/index.rst:19
+msgid ""
+"L'obiettivo del corso è fornire allo studente competenze su tematiche di "
+"programmazione concorrente con particolare attenzione ai sistemi "
+"multicore. Al termine del corso lo studente acquisirà le conoscenze e i "
+"concetti alla base di algoritmi concorrenti bloccanti e non, dei "
+"meccanismi di locking e delle memorie transazionali, fondamentali ad "
+"affrontare sfide nell'ambito della programmazione concorrente su sistemi "
+"multicore/multiprocessore."
+msgstr ""
+
+#: ../source/index.rst:24
+msgid "Prerequisiti"
+msgstr ""
+
+#: ../source/index.rst:26
+msgid "Il corso presuppone una buona conoscenza di:"
+msgstr ""
+
+#: ../source/index.rst:28
+msgid "calcolatori elettronici"
+msgstr ""
+
+#: ../source/index.rst:29
+msgid "sistemi operativi"
+msgstr ""
+
+#: ../source/index.rst:30
+msgid "programmazione in linguaggio C"
+msgstr ""
+
+#: ../source/index.rst:34
+msgid "Orario delle lezioni"
+msgstr ""
+
+#: ../source/index.rst:37
+msgid "Giorno"
+msgstr ""
+
+#: ../source/index.rst:37
+msgid "Orario"
+msgstr ""
+
+#: ../source/index.rst:37
+msgid "Aula"
+msgstr ""
+
+#: ../source/index.rst:39
+msgid "Lunedì"
+msgstr ""
+
+#: ../source/index.rst:39 ../source/index.rst:40
+msgid "14:00 - 16:00"
+msgstr ""
+
+#: ../source/index.rst:39 ../source/index.rst:40
+msgid "B10"
+msgstr ""
+
+#: ../source/index.rst:40
+msgid "Mercoledì"
+msgstr ""
+
+#: ../source/index.rst:45
+msgid "La didattica sarà svolta esclusivamente in presenza."
+msgstr ""
+
+#: ../source/index.rst:46
+msgid ""
+"La classe virtuale su Teams sarà utilizzata per condividere il materiale "
+"del corso e/o informazioni organizzative."
+msgstr ""
+
+#: ../source/index.rst:51
+msgid "Link ai contenuti del corso"
+msgstr ""
+
+#: ../source/index.rst:53
+msgid ":doc:`Slides <2025/slides>`"
+msgstr ""
+
+#: ../source/index.rst:54
+msgid "Teams (TBA)"
+msgstr ""
+
+#: ../source/index.rst:65
+msgid "Ricevimento"
+msgstr ""
+
+#: ../source/index.rst:67
+msgid ""
+"Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e"
+" riportare il prefisso **[PC2425]** nell'oggetto."
+msgstr ""
+
+#: ../source/index.rst:71
+msgid "Modalità d'esame"
+msgstr ""
+
+#: ../source/index.rst:73
+msgid "L'esame prevede 1 prova scritta."
+msgstr ""
+
+#: ../source/index.rst:77
+msgid "Date"
+msgstr ""
+
+#: ../source/index.rst:79
+msgid "**I Appello** (Giugno)"
+msgstr ""
+
+#: ../source/index.rst:81 ../source/index.rst:85
+msgid "TBD"
+msgstr ""
+
+#: ../source/index.rst:83
+msgid "**II Appello** (Febbraio)"
+msgstr ""
+
+#: ../source/index.rst:93
+msgid "Testi consigliati e link utili (in aggiornamento)"
+msgstr ""
+
+#: ../source/index.rst:95
+msgid ""
+"[t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit,"
+" Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione)."
+msgstr ""
+
+#: ../source/index.rst:96
+msgid "[t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham."
+msgstr ""
+
+#: ../source/index.rst:101
+msgid "Programma"
+msgstr ""
+
+#: ../source/index.rst:103
+msgid ""
+"**Introduzione alla programmazione concorrente e preliminari.**  Richiami"
+" a tematiche di sincronizzazione."
+msgstr ""
+
+#: ../source/index.rst:104
+msgid ""
+"**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, "
+"Sun-Ni) - Richiami a concetti di safety e liveness"
+msgstr ""
+
+#: ../source/index.rst:105
+msgid ""
+"**Correttezza.** Condizione di safety - Sequential consistency - "
+"Linearizability -Quiscient consistency."
+msgstr ""
+
+#: ../source/index.rst:106
+msgid ""
+"**Progresso.** Deadlock-freedom. Starvation-freedom. Progresso minimale e"
+" massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed "
+"indipendente dallo scheduler"
+msgstr ""
+
+#: ../source/index.rst:107
+msgid ""
+"**Richiami di architetture shared memory.**  Core e cache - Memory model "
+"- Primitive atomiche"
+msgstr ""
+
+#: ../source/index.rst:108
+msgid ""
+"**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code"
+" di priorità, Registri."
+msgstr ""
+
+#: ../source/index.rst:109
+msgid ""
+"**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. "
+"Implementazioni di lock basate su RMW. Cenni ad altri meccanismi di "
+"locking (barriere e condizioni)."
+msgstr ""
+
+#: ../source/index.rst:110
+msgid ""
+"**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity "
+"(cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware "
+"Transactional Memory (Intel TSX)."
+msgstr ""
+
+#: ../source/index.rst:111
+msgid ""
+"**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in "
+"algoritmi non bloccanti e non."
+msgstr ""
+
+#: ../source/index.rst:112
+msgid ""
+"**Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti"
+" universali."
+msgstr ""
+
+#~ msgid "Martedì"
+#~ msgstr ""
+
+#~ msgid "16:00 - 18:00"
+#~ msgstr ""
+
+#~ msgid "N13 [Vasca Navale 79/81]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Teams "
+#~ "<https://teams.microsoft.com/l/team/19%3aP9MxSHe2y0q9wpw9GJCsoFpsgnuKhN9ETf4DxOOIrw01%40thread.tacv2/conversations?groupId"
+#~ "=749b9d4b-045a-4b4a-a67c-"
+#~ "f49226de3c01&tenantId=ffb4df68-f464-458c-a546-00fb3af66f6a>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`SharePoint <https://uniroma3.sharepoint.com/sites/AA2223"
+#~ "-SISTEMIOPERATIVI-20801961MAROTTA/Documenti%20Condivisi/General>`_"
+#~ msgstr ""
+
+#~ msgid "Stream"
+#~ msgstr ""
+
+#~ msgid "`Moodle <https://ingegneria.el.uniroma3.it/course/view.php?id=1395>`_"
+#~ msgstr ""
+
+#~ msgid "`GitHub  <https://github.com/SistemiOperativi>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[t2] Sistemi operativi: Concetti ed "
+#~ "Esempi - Silberschatz Abraham, Galvin "
+#~ "Peter Baer, Gagne Greg - Addison "
+#~ "Wesley/Pearson, nona edizione (o superiori)."
+#~ " Riferimento: tenth global edition."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[t3] Programmazione in Ambiente UNIX -"
+#~ " Francesco Quaglia, Camil Demetrescu - "
+#~ "`Disponibile in formato pdf "
+#~ "<https://francescoquaglia.github.io/TEACHING/SISTEMI-"
+#~ "OPERATIVI/AA-2020-2021/TEXTS/dispensa.pdf>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Panoramica sui sistemi operativi moderni.**"
+#~ " definizione di sistema operativo, scopi,"
+#~ " architettura a strati, kernel/user mode,"
+#~ " caratteristiche salienti"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Processi e Thread.** dispatching, stati, "
+#~ "descrizione e controllo, modelli tipici "
+#~ "di sistemi operativi e di uso "
+#~ "della memoria nei processi"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Scheduling.** a breve medio e lungo"
+#~ " termine, algoritmi per cpu scheduling"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Sincronizzazione.** primitive di sincronizzazione,"
+#~ " RMW, mutex, semafori"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Memoria.** allocatori di memoria, "
+#~ "partitioning, best/first/next fit, buddy "
+#~ "algorithm, paging, segmentation, memoria "
+#~ "virtuale e sua gestione hardware/software"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**I/O e File Management.** Disk "
+#~ "scheduling, UNIX File Management, inode, "
+#~ "Linux VFS, ext2"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Introduzione a Linux.** comandi di "
+#~ "utilizzo frequente (e.g., gestione file "
+#~ "e directory), variabili di ambiente, "
+#~ "redirection, piping, :removedtopic:`segnali, "
+#~ "espressioni regolari (sed e grep), "
+#~ "scripting (bash, awk),` linux filesystem "
+#~ "management"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Programmazione di Sistema.** Gestione in "
+#~ "C dei processi/thread su ambiente linux"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":removedtopic:`**Debugger**.` :removedtopic:`utilizzo di"
+#~ " gdb stepping, breakpoints, watching, "
+#~ "backtrace, comandi gdb.`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ":removedtopic:`**Virtualizzazione.**` :removedtopic:`Concetti"
+#~ " generali, container, Docker`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Meccanismi di locking.** Richiami lamport"
+#~ " (only R&W) e Primitive RMW. Test "
+#~ "and set lock, test-and-test-"
+#~ "and-set lock. Ticket lock. MCS e "
+#~ "CLH lock. Busy waiting vs sleeping. "
+#~ "Malthusian lock. MUTEXEE"
+#~ msgstr ""
+
+#~ msgid "**Cenni ad altri meccanismi.** Barriere e condizioni."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Meccanismi di locking.** Richiami lamport"
+#~ " (only R&W) e Primitive RMW. Test "
+#~ "and set lock, test-and-test-"
+#~ "and-set lock. Ticket lock. MCS e "
+#~ "CLH lock. Busy waiting vs sleeping. "
+#~ "Malthusian lock. MUTEXEE. Cenni ad altri"
+#~ " meccanismi (barriere e condizioni)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MCS e CLH lock. Busy waiting vs"
+#~ " sleeping. Malthusian lock. MUTEXEE. Cenni"
+#~ " ad altri meccanismi (barriere e "
+#~ "condizioni)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Transactional Memory.**  Definizione,  Obstruction"
+#~ " freedom, Opacity (cenni a TS1 e "
+#~ "TS2). Software Transactional Memory (TinySTM)."
+#~ " Hardware Transactional Memory (Intel TSX)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Aspetti avanzati - Implementazioni ed "
+#~ "hardware**  NUMA-awareness in algoritmi "
+#~ "non bloccanti e non."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Aspetti avanzati - Teoria.**  Consensus "
+#~ "number and hierarchy. Costrutti universali."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MCS e CLH lock. Busy waiting vs"
+#~ " sleeping. Malthusian lock. MUTEXEE. Cenni"
+#~ " ad altri meccanismi (barriere e "
+#~ "condizioni). * **Transactional Memory.**  "
+#~ "Definizione,  Obstruction freedom, Opacity "
+#~ "(cenni a TS1 e TS2). Software "
+#~ "Transactional Memory (TinySTM). Hardware "
+#~ "Transactional Memory (Intel TSX). * "
+#~ "**Aspetti avanzati - Implementazioni ed "
+#~ "hardware**  NUMA-awareness in algoritmi "
+#~ "non bloccanti e non. * **Aspetti "
+#~ "avanzati - Teoria.**  Consensus number "
+#~ "and hierarchy. Costrutti universali."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Meccanismi di locking.** Richiami lamport"
+#~ " (only R&W) e Primitive RMW. Test "
+#~ "and set lock, test-and-test-"
+#~ "and-set lock. Ticket lock."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L'obiettivo del corso è fornire allo "
+#~ "studente competenze sull'architettura di un"
+#~ " generico sistema operativo moderno, con"
+#~ " particolare riferimento al sistema Linux,"
+#~ " e sulle metodologie usate per "
+#~ "risolvere le problematiche tipiche della "
+#~ "gestione di risorse in un sistema "
+#~ "operativo moderno. Infine, particolare "
+#~ "attenzione verrà dedicata alla programmazione"
+#~ " di sistema e scripting."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[t1] Operating Systems: Internals and "
+#~ "Design Principles - William Stallings -"
+#~ " Prentice Hall, fifth edition (o "
+#~ "superiori). Riferimento: ninth global edition."
+#~ msgstr ""
+
+#~ msgid "Il corso è pensato per essere seguito dagli studenti in presenza."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il corso presuppone una buona conoscenza"
+#~ " dei concetti fondamentali di calcolatori"
+#~ " elettronici, sistemi operativi e della "
+#~ "programmazione in linguaggio C. La "
+#~ "classe virtuale su Teams sarà utilizzata"
+#~ " per condividere il materiale del "
+#~ "corso e/o informazioni organizzative."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il corso presuppone una buona conoscenza"
+#~ " dei concetti fondamentali di calcolatori"
+#~ " elettronici, sistemi operativi e della "
+#~ "programmazione in linguaggio C."
+#~ msgstr ""
+
+#~ msgid "Il corso presuppone una buona conoscenza di:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L'obiettivo del corso è fornire allo "
+#~ "studente competenze su tematiche di "
+#~ "programmazione concorrente con particolare "
+#~ "attenzione ai sistemi multicore. Il "
+#~ "corso presuppone una buona conoscenza "
+#~ "di:"
+#~ msgstr ""
+
+#~ msgid "calcolatori elettronici"
+#~ msgstr ""
+
+#~ msgid "sistemi operativi"
+#~ msgstr ""
+
+#~ msgid "programmazione in linguaggio C"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L'obiettivo del corso è fornire allo "
+#~ "studente competenze su tematiche di "
+#~ "programmazione concorrente con particolare "
+#~ "attenzione ai sistemi multicore. Il "
+#~ "corso presuppone una buona conoscenza "
+#~ "di: * calcolatori elettronici * sistemi"
+#~ " operativi * programmazione in linguaggio"
+#~ " C"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Il corso presuppone una buona conoscenza"
+#~ " di: * calcolatori elettronici * "
+#~ "sistemi operativi * programmazione in "
+#~ "linguaggio C"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "L'obiettivo del corso è fornire allo "
+#~ "studente competenze su tematiche di "
+#~ "programmazione concorrente con particolare "
+#~ "attenzione ai sistemi multicore."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Progresso.** Deadlock-freedom. Starvation-"
+#~ "freedom.** Progresso minimale e massimale. "
+#~ "Wait-freedom. Lock-freedom. - Progresso"
+#~ " dipendente ed indipendente dallo scheduler"
+#~ msgstr ""
+
