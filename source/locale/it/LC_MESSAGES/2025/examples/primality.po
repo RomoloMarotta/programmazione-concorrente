@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione
+# Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-04 19:29+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../source/2025/examples/primality.rst:5
+msgid "Primality"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:8
+msgid "Il problema"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:10
+msgid "L'obiettivo è scrivere un programma tale che:"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:12
+msgid "conta i numeri primi tra uno e N;"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:13
+msgid "utilizza T threads;"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:14
+msgid "sia circa T volte più veloce rispetto ad una esecuzione sequenziale."
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:16
+msgid "Il test di primalita di un numero :code:`num` deve essere il seguente:"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:40
+msgid ""
+"dove :code:`test_count` è una variabile che viene incrementata ad ogni "
+"controllo eseguito."
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:44
+msgid "Cosa significa questo codice :code:`(num & 1ULL) == 0`?"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:45
+msgid "Perché i controlli vengono eseguiti fino a :code:`sqrt(num)`?"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:49
+msgid "Soluzione 1"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:134
+msgid "Come sfrutta il parallelismo la soluzione 1?"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:135
+#: ../source/2025/examples/primality.rst:173
+msgid "Quali sono i suoi limiti?"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:140
+msgid "Soluzione 2"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:172
+msgid "Come sfrutta il parallelismo la soluzione 2?"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:177
+msgid "Riferimenti"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:179
+msgid ":posix:`pthread_create <pthread_create>`"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:180
+msgid ":posix:`pthread_exit <pthread_create>`"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:181
+msgid ":posix:`pthread_join <pthread_join>`"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:182
+msgid ":posix:`pthread_spin_init <pthread_spin_init>`"
+msgstr ""
+
+#: ../source/2025/examples/primality.rst:183
+msgid ":posix:`pthread_mutex_init <pthread_mutex_init>`"
+msgstr ""
+
+#~ msgid ""
+#~ "L'obiettivo è scrivere un programma tale"
+#~ " che: * conta i numeri primi "
+#~ "tra uno e N; * utilizza T "
+#~ "threads; * sia circa T volte più"
+#~ " veloce rispetto ad una esecuzione "
+#~ "sequenziale."
+#~ msgstr ""
+
+#~ msgid "Perché i controlli vengono eseguiti fino a :code:`sqrt(num)`"
+#~ msgstr ""
+
+#~ msgid "Qualis sono i suoi limiti?"
+#~ msgstr ""
+

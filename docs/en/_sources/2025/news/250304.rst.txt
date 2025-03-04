@@ -1,0 +1,7 @@
+04-03-2025 - avviso: aggionamenti sito del corso
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornato il diario delle lezioni: :ref:`l03-03-2025`
+  * pubblicata una prima versione delle slide "Introduzione"

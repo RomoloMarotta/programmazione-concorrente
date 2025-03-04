@@ -8,7 +8,7 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
-  
+* :ref:`n04-03-2025`
 * :ref:`n02-03-2025`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news`
@@ -86,19 +86,10 @@ Date
 
 
 
-
-.. _books2025:
-
-Testi consigliati e link utili (in aggiornamento)
--------------------------------------------------
-
-* [t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione).
-* [t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham.
-
 .. role:: removedtopic
 
-Programma
----------
+Programma e testi
+-----------------
 
 * **Introduzione alla programmazione concorrente e preliminari.**  Richiami a tematiche di sincronizzazione.
 * **Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, Sun-Ni) - Richiami a concetti di safety e liveness
@@ -111,6 +102,7 @@ Programma
 * **Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in algoritmi non bloccanti e non.
 * **Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti universali.
 
+:ref:`Libri di testo <books2025>`
 
 .. disabled
  .. warning::
@@ -129,5 +121,7 @@ Programma
    2025/exams
    2025/news
    2025/errata
+
+..
    editions
    

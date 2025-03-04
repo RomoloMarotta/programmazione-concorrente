@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:18+0100\n"
+"POT-Creation-Date: 2025-03-04 18:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,18 +19,75 @@ msgstr ""
 "Generated-By: Babel 2.10.3\n"
 
 #: ../source/2025/slides.rst:2
-msgid "Slides"
+msgid "Slides e Testi"
 msgstr ""
 
 #: ../source/2025/slides.rst:4
 msgid "In questa sezione potete scaricare le slide delle lezioni."
 msgstr ""
 
-#: ../source/2025/slides.rst:10
+#: ../source/2025/slides.rst:7
+msgid ""
+"`01 - Introduzione  </programmazione-concorrente/slides/01-PC-intro-"
+"web.pdf>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:13
+msgid "Testi consigliati"
+msgstr ""
+
+#: ../source/2025/slides.rst:15
+msgid ""
+"[t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit,"
+" Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione)."
+msgstr ""
+
+#: ../source/2025/slides.rst:16
+msgid "[t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham."
+msgstr ""
+
+#: ../source/2025/slides.rst:20
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2025/slides.rst:33
-msgid "Approfondimenti"
+#: ../source/2025/slides.rst:43
+msgid "Altro materiale"
 msgstr ""
+
+#: ../source/2025/slides.rst:45
+msgid "Introduzione"
+msgstr ""
+
+#: ../source/2025/slides.rst:47
+msgid ""
+"`The free lunch is over by Herb Sutter <http://www.gotw.ca/publications"
+"/concurrency-ddj.htm>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:48
+msgid ""
+"`Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-"
+"the-jungle>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:49
+msgid ""
+"`50 Years of Microprocessor Trend Data by K. Rupp "
+"<https://github.com/karlrupp/microprocessor-trend-data>`_"
+msgstr ""
+
+#~ msgid "`01 - Introduzione  <slides/001-PC-intro-web.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "`01 - Introduzione  <slides/01-PC-intro-web.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "`01 - Introduzione  </slides/01-PC-intro-web.pdf>`_"
+#~ msgstr ""
+
+#~ msgid "Slides"
+#~ msgstr ""
+
+#~ msgid "Approfondimenti"
+#~ msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:16+0100\n"
+"POT-Creation-Date: 2025-03-04 18:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,15 +22,62 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/2025/news/250302.rst:2
-msgid "02-03-2025 - avviso: aggionamenti"
+#: ../source/2025/news/250304.rst:2
+msgid "04-03-2025 - avviso: aggionamenti sito del corso"
 msgstr ""
 
-#: ../source/2025/news/250302.rst:4
+#: ../source/2025/news/250304.rst:4
 msgid "Sito del corso:"
 msgstr ""
 
-#: ../source/2025/news/250302.rst:6
-msgid "pubblicato il sito del corso"
+#: ../source/2025/news/250304.rst:6
+msgid "aggiornato il diario delle lezioni: :ref:`l03-03-2025`"
 msgstr ""
+
+#: ../source/2025/news/250304.rst:7
+msgid "pubblicata una prima versione delle slide \"Introduzione\""
+msgstr ""
+
+#: ../source/2025/news/250302.rst:2
+msgid "02-03-2025 - pubblicato sito del corso"
+msgstr ""
+
+#: ../source/2025/news/250302.rst:4
+msgid "Il sito è live!"
+msgstr ""
+
+#~ msgid "04-03-2025 - avviso: aggionamenti"
+#~ msgstr ""
+
+#~ msgid "02-03-2025 - avviso: aggionamenti"
+#~ msgstr ""
+
+#~ msgid "pubblicato il sito del corso"
+#~ msgstr ""
+
+#~ msgid "Sito del corso:"
+#~ msgstr ""
+
+#~ msgid "aggiornato il diario delle lezioni"
+#~ msgstr ""
+
+#~ msgid "pubblicata una prima versione delle slide \"Introduzione\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sito del corso: * aggiornato il "
+#~ "diario delle lezioni * pubblicata una"
+#~ " prima versione delle slide "
+#~ "\"Introduzione\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sito del corso: * aggiornato il "
+#~ "diario delle lezioni: :ref:`l03-03-2025` * "
+#~ "pubblicata una prima versione delle "
+#~ "slide \"Introduzione\""
+#~ msgstr ""
+
+#~ msgid "02-03-2025 - Pubblicato sito del corso"
+#~ msgstr ""
 

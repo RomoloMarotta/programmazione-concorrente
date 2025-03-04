@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primality &mdash; Concurrent Programming 2024/2025 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" /><link rel="shortcut icon" href="../../_static/favicon.png"/>
+    <link rel="canonical" href="programmazione-concorrente/2025/examples/primality.html" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../../_static/documentation_options.js?v=94ea31ae"></script>
+        <script src="../../_static/doctools.js?v=9bcbadda"></script>
+        <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="../../_static/js/custom.js?v=4de0d654"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Esercizi di preparazione" href="../questions.html" />
+    <link rel="prev" title="Esempi di programmazione" href="../examples.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="/programmazione-concorrente/it/2025/examples/primality.html"><img src="/it/_static/it.png"/></a>
+            <a href="/programmazione-concorrente/en/2025/examples/primality.html"><img src="/it/_static/en.png"/></a>
+            <a href="../../index.html" class="icon icon-home"> Concurrent Programming
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../index.html">Programmazione Concorrente A.A. 2024/2025</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Esempi di programmazione</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Primality</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#il-problema">Il problema</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soluzione-1">Soluzione 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#soluzione-2">Soluzione 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#riferimenti">Riferimenti</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides e Testi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lectures/index.html">Diario delle lezioni</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exams.html">Appelli</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../news.html">News</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errata.html">Errata Corrige</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Concurrent Programming</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../examples.html">Esempi di programmazione</a> &raquo;</li>
+      <li>Primality</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/2025/examples/primality.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="primality">
+<h1>Primality<a class="headerlink" href="#primality" title="Link to this heading">¶</a></h1>
+<section id="il-problema">
+<h2>Il problema<a class="headerlink" href="#il-problema" title="Link to this heading">¶</a></h2>
+<p>L’obiettivo è scrivere un programma tale che:</p>
+<ul class="simple">
+<li><p>conta i numeri primi tra uno e N;</p></li>
+<li><p>utilizza T threads;</p></li>
+<li><p>sia circa T volte più veloce rispetto ad una esecuzione sequenziale.</p></li>
+</ul>
+<p>Il test di primalita di un numero <code class="code docutils literal notranslate"><span class="pre">num</span></code> deve essere il seguente:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">is_prime</span><span class="p">(</span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">num</span><span class="p">,</span><span class="w"> </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="o">*</span><span class="n">test_count</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">num</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="o">*</span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">num</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="o">*</span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">num</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="o">*</span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">((</span><span class="n">num</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">1ULL</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="o">*</span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">sqrt</span><span class="p">(</span><span class="n">num</span><span class="p">);</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="o">*</span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">num</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>dove <code class="code docutils literal notranslate"><span class="pre">test_count</span></code> è una variabile che viene incrementata ad ogni controllo eseguito.</p>
+<div class="admonition question" id="question-note-0">
+<p class="admonition-title">Question</p>
+<ul class="simple">
+<li><p>Cosa significa questo codice <code class="code docutils literal notranslate"><span class="pre">(num</span> <span class="pre">&amp;</span> <span class="pre">1ULL)</span> <span class="pre">==</span> <span class="pre">0</span></code>?</p></li>
+<li><p>Perché i controlli vengono eseguiti fino a <code class="code docutils literal notranslate"><span class="pre">sqrt(num)</span></code>?</p></li>
+</ul>
+</div>
+</section>
+<section id="soluzione-1">
+<h2>Soluzione 1<a class="headerlink" href="#soluzione-1" title="Link to this heading">¶</a></h2>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdlib.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;pthread.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;math.h&gt;</span>
+
+
+<span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">start</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">end</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">prime_count</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">test_count</span><span class="p">;</span>
+<span class="p">}</span><span class="w"> </span><span class="n">ThreadData</span><span class="p">;</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="o">*</span><span class="nf">check_primes</span><span class="p">(</span><span class="kt">void</span><span class="w"> </span><span class="o">*</span><span class="n">arg</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">ThreadData</span><span class="w"> </span><span class="o">*</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">ThreadData</span><span class="w"> </span><span class="o">*</span><span class="p">)</span><span class="n">arg</span><span class="p">;</span>
+<span class="w">    </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">prime_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">test_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">start</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">end</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">test_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">is_prime</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">test_count</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">prime_count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">test_count</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Thread [%llu - %llu] -&gt; Primi trovati: %llu, Test effettuati: %llu</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span>
+<span class="w">           </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">start</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">end</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">prime_count</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="o">-&gt;</span><span class="n">test_count</span><span class="p">);</span>
+
+<span class="w">    </span><span class="n">pthread_exit</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="w"> </span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">argc</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Uso: %s &lt;N&gt; &lt;NUM_THREADS&gt;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">N</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strtoull</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">NUM_THREADS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strtoull</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">N</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">NUM_THREADS</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Errore: N e il numero di thread devono essere maggiori di 0.</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">pthread_t</span><span class="w"> </span><span class="o">*</span><span class="n">threads</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">malloc</span><span class="p">(</span><span class="n">NUM_THREADS</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">pthread_t</span><span class="p">));</span>
+<span class="w">    </span><span class="n">ThreadData</span><span class="w"> </span><span class="o">*</span><span class="n">thread_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">malloc</span><span class="p">(</span><span class="n">NUM_THREADS</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">sizeof</span><span class="p">(</span><span class="n">ThreadData</span><span class="p">));</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">prime_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">test_count</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">chunk_size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">N</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">NUM_THREADS</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">NUM_THREADS</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">NUM_THREADS</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">start</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">chunk_size</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<span class="w">        </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">end</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">chunk_size</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">end</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">end</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">N</span><span class="p">;</span>
+<span class="w">        </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">prime_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">test_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="n">pthread_create</span><span class="p">(</span><span class="o">&amp;</span><span class="n">threads</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w"> </span><span class="nb">NULL</span><span class="p">,</span><span class="w"> </span><span class="n">check_primes</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">NUM_THREADS</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">pthread_join</span><span class="p">(</span><span class="n">threads</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="w"> </span><span class="nb">NULL</span><span class="p">);</span>
+<span class="w">        </span><span class="n">prime_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">prime_count</span><span class="p">;</span>
+<span class="w">        </span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">thread_data</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">test_count</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Totale numeri primi trovati: %llu</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">prime_count</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Totale test di divisibilità effettuati: %llu</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">test_count</span><span class="p">);</span>
+
+
+<span class="w">    </span><span class="n">free</span><span class="p">(</span><span class="n">threads</span><span class="p">);</span>
+<span class="w">    </span><span class="n">free</span><span class="p">(</span><span class="n">thread_data</span><span class="p">);</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition question" id="question-note-1">
+<p class="admonition-title">Question</p>
+<ul class="simple">
+<li><p>Come sfrutta il parallelismo la soluzione 1?</p></li>
+<li><p>Quali sono i suoi limiti?</p></li>
+</ul>
+</div>
+</section>
+<section id="soluzione-2">
+<h2>Soluzione 2<a class="headerlink" href="#soluzione-2" title="Link to this heading">¶</a></h2>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">current_number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">  </span><span class="c1">// Contatore globale</span>
+
+<span class="kt">void</span><span class="w"> </span><span class="o">*</span><span class="nf">check_primes</span><span class="p">(</span><span class="kt">void</span><span class="w"> </span><span class="o">*</span><span class="n">arg</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">local_prime_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">local_test_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">num</span><span class="p">;</span>
+
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">current_number</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">N</span><span class="p">)</span><span class="w"> </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="n">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">current_number</span><span class="o">++</span><span class="p">;</span>
+
+<span class="w">        </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">tests_done</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">is_prime</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">tests_done</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">local_prime_count</span><span class="o">++</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="n">local_test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">tests_done</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">prime_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">local_prime_count</span><span class="p">;</span>
+<span class="w">    </span><span class="n">test_count</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">local_test_count</span><span class="p">;</span>
+
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Thread terminato -&gt; Primi trovati: %llu, Test effettuati: %llu</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span>
+<span class="w">           </span><span class="n">local_prime_count</span><span class="p">,</span><span class="w"> </span><span class="n">local_test_count</span><span class="p">);</span>
+<span class="w">    </span><span class="n">pthread_exit</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<div class="admonition question" id="question-note-2">
+<p class="admonition-title">Question</p>
+<ul class="simple">
+<li><p>Come sfrutta il parallelismo la soluzione 2?</p></li>
+<li><p>Quali sono i suoi limiti?</p></li>
+</ul>
+</div>
+</section>
+<section id="riferimenti">
+<h2>Riferimenti<a class="headerlink" href="#riferimenti" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_exit</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">pthread_join</a></p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html">pthread_spin_init</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html">pthread_mutex_init</a></p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../examples.html" class="btn btn-neutral float-left" title="Esempi di programmazione" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../questions.html" class="btn btn-neutral float-right" title="Esercizi di preparazione" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Romolo Marotta.
+      <span class="lastupdated">Last updated on Mar 04, 2025.
+      </span></p>
+  </div>
+  <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
+
+ 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,9 +1,19 @@
-Slides
-======
+Slides e Testi
+==============
 
 In questa sezione potete scaricare le slide delle lezioni.
 
 
+* `01 - Introduzione  </programmazione-concorrente/slides/01-PC-intro-web.pdf>`_ 
+
+
+.. _books2025:
+
+Testi consigliati
+"""""""""""""""""
+
+* [t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit, Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione).
+* [t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham.
 
 
 Documentazione
@@ -29,23 +39,25 @@ Documentazione
     * `Bash redirection <https://www.gnu.org/software/bash/manual/html_node/Redirections.html>`_
 
 
-Approfondimenti
+Altro materiale
 """""""""""""""
+
+* Introduzione
+
+  * `The free lunch is over by Herb Sutter <http://www.gotw.ca/publications/concurrency-ddj.htm>`_
+  * `Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-the-jungle>`_
+  * `50 Years of Microprocessor Trend Data by K. Rupp <https://github.com/karlrupp/microprocessor-trend-data>`_
 
 ..
     * `Legge di Amdahl Sezione 4 Eq. 11 <http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_
     * `glibc source code <https://sourceware.org/git/?p=glibc.git;a=summary>`_
     * `Linux Kernel Source Code <https://elixir.bootlin.com/>`_
-    * `The free lunch is over <http://www.gotw.ca/publications/concurrency-ddj.htm>`_
     * `Introduction to Operating Systems <https://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf>`_
     * `GCC and Make Compiling, Linking and Building C/C++ Applications <https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html>`_
     * `Bakery algorithm <http://lamport.azurewebsites.net/pubs/bakery.pdf>`_
     * `Complete Fair Scheduler <https://www.kernel.org/doc/html/latest/scheduler/sched-design-CFS.html>`_
     * `Hard Disk <https://pages.cs.wisc.edu/~remzi/OSFEP/file-disks.pdf>`_
     * `Solid State Drives - Data Reliability and Lifetime <https://www.csee.umbc.edu/~squire/images/ssd1.pdf>`_
-
-
-.. 
     * `Filesystem Hierarchy Standard <https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf>`_
     * `objdump <https://man7.org/linux/man-pages/man1/objdump.1.html>`_
     * `readelf <https://man7.org/linux/man-pages/man1/readelf.1.html>`_
