@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 18:44+0100\n"
+"POT-Creation-Date: 2025-03-05 00:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,48 +29,54 @@ msgstr ""
 #: ../source/2025/slides.rst:7
 msgid ""
 "`01 - Introduzione  </programmazione-concorrente/slides/01-PC-intro-"
-"web.pdf>`_"
+"web-25-03-05.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25."
 msgstr ""
 
-#: ../source/2025/slides.rst:13
+#: ../source/2025/slides.rst:8
+msgid ""
+"`01 - Proprietà     </programmazione-concorrente/slides/01-PC-properties-"
+"web.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25."
+msgstr ""
+
+#: ../source/2025/slides.rst:14
 msgid "Testi consigliati"
 msgstr ""
 
-#: ../source/2025/slides.rst:15
+#: ../source/2025/slides.rst:16
 msgid ""
 "[t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit,"
 " Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione)."
 msgstr ""
 
-#: ../source/2025/slides.rst:16
+#: ../source/2025/slides.rst:17
 msgid "[t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham."
 msgstr ""
 
-#: ../source/2025/slides.rst:20
+#: ../source/2025/slides.rst:21
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2025/slides.rst:43
+#: ../source/2025/slides.rst:44
 msgid "Altro materiale"
 msgstr ""
 
-#: ../source/2025/slides.rst:45
+#: ../source/2025/slides.rst:46
 msgid "Introduzione"
 msgstr ""
 
-#: ../source/2025/slides.rst:47
+#: ../source/2025/slides.rst:48
 msgid ""
 "`The free lunch is over by Herb Sutter <http://www.gotw.ca/publications"
 "/concurrency-ddj.htm>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:48
+#: ../source/2025/slides.rst:49
 msgid ""
 "`Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-"
 "the-jungle>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:49
+#: ../source/2025/slides.rst:50
 msgid ""
 "`50 Years of Microprocessor Trend Data by K. Rupp "
 "<https://github.com/karlrupp/microprocessor-trend-data>`_"
@@ -89,5 +95,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Approfondimenti"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`01 - Introduzione  </programmazione-"
+#~ "concorrente/slides/01-PC-intro-web.pdf>`_"
 #~ msgstr ""
 

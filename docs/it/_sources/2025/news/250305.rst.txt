@@ -1,0 +1,8 @@
+05-03-2025 - avviso: aggionamenti sito del corso
+-------------------------------------------------
+
+* Sito del corso:
+
+  * aggiornate slide "Introduzione"
+  * pubblicate slide "Proprietà"
+  * aggiunto esempio "Primality"

@@ -1,6 +1,9 @@
 News
 ====
 
+.. _n05-03-2025:
+.. include:: news/250305.rst
+
 .. _n04-03-2025:
 .. include:: news/250304.rst
 
