@@ -1,34 +1,40 @@
-:orphan:
+12/03/2025 - Proprietà: Correttezza (tentative)
+--------------------------------------------------------
 
-TBD
----------------------------------
+* Preliminari
 
-* TBD
+  * ADT
+  * History
+  * Equivalenza
 
-Riferimenti libro di testo
-""""""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
+* Criteri
+  
+  * Sequential consistency
+  * Linearizability
+  * Sistemi transazionali
 
-Link di approfondimento
-"""""""""""""""""""""""
+    * Serializability
+    * Strict serializatbility
 
-* TBD
 
 -----------------------------------------------------------------------------------
 
 
-TBD
----------------------------------
 
+10/03/2025 - Proprietà: Scalabilità
+-----------------------------------
 
-* TBD
+* Leggi di Amdahl, Gustafson, Sun-Li
+* Scalabilità forte e debole
+
 
 Riferimenti libro di testo
 """"""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
+* [:ref:`t1 <books2025>`] Sezione  1.6
 
-Link di approfondimento
+Altre fonti
 """""""""""""""""""""""
 
-* TBD
+* `Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_
+* `Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_
 

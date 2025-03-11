@@ -5,7 +5,7 @@ In questa sezione potete scaricare le slide delle lezioni.
 
 
 * `01 - Introduzione  </programmazione-concorrente/slides/01-PC-intro-web-25-03-05.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25.
-* `02 - Proprietà     </programmazione-concorrente/slides/02-PC-properties-web.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25.
+* `02 - Proprietà     </programmazione-concorrente/slides/02-PC-properties-web-25-03-11.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 11/03/25.
 
 
 .. _books2025:
@@ -48,6 +48,13 @@ Altro materiale
   * `The free lunch is over by Herb Sutter <http://www.gotw.ca/publications/concurrency-ddj.htm>`_
   * `Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-the-jungle>`_
   * `50 Years of Microprocessor Trend Data by K. Rupp <https://github.com/karlrupp/microprocessor-trend-data>`_
+
+* Proprietà
+
+  * Scalabilità
+
+    * `Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_
+    * `Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_
 
 ..
     * `Legge di Amdahl Sezione 4 Eq. 11 <http://intranet.di.unisa.it/~vitsca/SC-2011/DesignPrinciplesMulticoreProcessors/Sun1990.pdf>`_

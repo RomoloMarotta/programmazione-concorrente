@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 00:58+0100\n"
+"POT-Creation-Date: 2025-03-11 15:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,21 +37,21 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:11
-msgid ":ref:`n05-03-2025`"
+msgid ":ref:`n11-03-2025`"
 msgstr ""
 
 #: ../source/index.rst:12
-msgid ":ref:`n04-03-2025`"
+msgid ":ref:`n05-03-2025`"
 msgstr ""
 
 #: ../source/index.rst:13
-msgid ":ref:`n02-03-2025`"
+msgid ":ref:`n04-03-2025`"
 msgstr ""
 
 #: ../source/index.rst:15
 msgid ""
 "Per la lista completa degli aggiornamenti visita la sezione dedicata: "
-":doc:`2025/news`"
+":doc:`2025/news/index`"
 msgstr ""
 
 #: ../source/index.rst:18
@@ -537,5 +537,17 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":doc:`Libri di testo <books2025>`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n02-03-2025`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n10-03-2025`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Per la lista completa degli "
+#~ "aggiornamenti visita la sezione dedicata: "
+#~ ":doc:`2025/news`"
 #~ msgstr ""
 

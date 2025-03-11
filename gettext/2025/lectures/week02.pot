@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:28+0100\n"
+"POT-Creation-Date: 2025-03-11 15:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/2025/lectures/week02.rst:2
+msgid "12/03/2025 - Proprietà: Correttezza (tentative)"
+msgstr ""
+
 #: ../source/2025/lectures/week02.rst:4
-#: ../source/2025/lectures/week02.rst:13
-#: ../source/2025/lectures/week02.rst:19
-#: ../source/2025/lectures/week02.rst:22
-#: ../source/2025/lectures/week02.rst:31
-msgid "TBD"
+msgid "Preliminari"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:6
+msgid "ADT"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:7
-#: ../source/2025/lectures/week02.rst:25
-msgid "Riferimenti libro di testo"
+msgid "History"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:8
-#: ../source/2025/lectures/week02.rst:26
-msgid "[:ref:`t1 <books2025>`] ?"
+msgid "Equivalenza"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:11
-#: ../source/2025/lectures/week02.rst:29
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week02.rst:10
+msgid "Criteri"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:12
+msgid "Sequential consistency"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:13
+msgid "Linearizability"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:14
+msgid "Sistemi transazionali"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:16
+msgid "Serializability"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:17
+msgid "Strict serializatbility"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:25
+msgid "10/03/2025 - Proprietà: Scalabilità"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:27
+msgid "Leggi di Amdahl, Gustafson, Sun-Li"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:28
+msgid "Scalabilità forte e debole"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:32
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:33
+msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:36
+msgid "Altre fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:38
+msgid "`Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:39
+msgid "`Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
 msgstr ""

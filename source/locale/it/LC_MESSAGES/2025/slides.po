@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-05 01:12+0100\n"
+"POT-Creation-Date: 2025-03-11 15:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgstr ""
 #: ../source/2025/slides.rst:8
 msgid ""
 "`02 - Proprietà     </programmazione-concorrente/slides/02-PC-properties-"
-"web.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25."
+"web-25-03-11.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 11/03/25."
 msgstr ""
 
 #: ../source/2025/slides.rst:14
@@ -82,6 +82,26 @@ msgid ""
 "<https://github.com/karlrupp/microprocessor-trend-data>`_"
 msgstr ""
 
+#: ../source/2025/slides.rst:52
+msgid "Proprietà"
+msgstr ""
+
+#: ../source/2025/slides.rst:54
+msgid "Scalabilità"
+msgstr ""
+
+#: ../source/2025/slides.rst:56
+msgid ""
+"`Another view on parallel speedup "
+"<https://dl.acm.org/doi/10.5555/110382.110450>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:57
+msgid ""
+"`Legge di Amdahl Sezione 4 Eq. 11 "
+"<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
+msgstr ""
+
 #~ msgid "`01 - Introduzione  <slides/001-PC-intro-web.pdf>`_"
 #~ msgstr ""
 
@@ -105,6 +125,13 @@ msgstr ""
 #~ msgid ""
 #~ "`01 - Proprietà     </programmazione-"
 #~ "concorrente/slides/01-PC-properties-web.pdf>`_. "
+#~ "Pubblicato il 04/03/25. Aggiornato il "
+#~ "05/03/25."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`02 - Proprietà     </programmazione-"
+#~ "concorrente/slides/02-PC-properties-web.pdf>`_. "
 #~ "Pubblicato il 04/03/25. Aggiornato il "
 #~ "05/03/25."
 #~ msgstr ""

@@ -8,11 +8,11 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+* :ref:`n11-03-2025`
 * :ref:`n05-03-2025`
 * :ref:`n04-03-2025`
-* :ref:`n02-03-2025`
 
-Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news`
+Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news/index`
 
 Obiettivi del corso
 -------------------
@@ -120,7 +120,7 @@ Programma e testi
    2025/slides
    2025/lectures/index
    2025/exams
-   2025/news
+   2025/news/index
    2025/errata
 
 ..

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 21:41+0100\n"
+"POT-Creation-Date: 2025-03-11 15:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,149 +32,181 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+#: ../source/index.rst:11
+msgid ":ref:`n11-03-2025`"
+msgstr ""
+
 #: ../source/index.rst:12
-msgid ":ref:`n02-03-2025`"
+msgid ":ref:`n05-03-2025`"
 msgstr ""
 
-#: ../source/index.rst:14
-msgid "Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news`"
+#: ../source/index.rst:13
+msgid ":ref:`n04-03-2025`"
 msgstr ""
 
-#: ../source/index.rst:17
+#: ../source/index.rst:15
+msgid "Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news/index`"
+msgstr ""
+
+#: ../source/index.rst:18
 msgid "Obiettivi del corso"
 msgstr ""
 
-#: ../source/index.rst:19
-msgid "L'obiettivo del corso è fornire allo studente competenze sull'architettura di un generico sistema operativo moderno, con particolare riferimento al sistema Linux, e sulle metodologie usate per risolvere le problematiche tipiche della gestione di risorse in un sistema operativo moderno. Infine, particolare attenzione verrà dedicata alla programmazione di sistema e scripting."
+#: ../source/index.rst:20
+msgid "L'obiettivo del corso è fornire allo studente competenze su tematiche di programmazione concorrente con particolare attenzione ai sistemi multicore. Al termine del corso lo studente acquisirà le conoscenze e i concetti alla base di algoritmi concorrenti bloccanti e non, dei meccanismi di locking e delle memorie transazionali, fondamentali ad affrontare sfide nell'ambito della programmazione concorrente su sistemi multicore/multiprocessore."
 msgstr ""
 
 #: ../source/index.rst:25
+msgid "Prerequisiti"
+msgstr ""
+
+#: ../source/index.rst:27
+msgid "Il corso presuppone una buona conoscenza di:"
+msgstr ""
+
+#: ../source/index.rst:29
+msgid "calcolatori elettronici"
+msgstr ""
+
+#: ../source/index.rst:30
+msgid "sistemi operativi"
+msgstr ""
+
+#: ../source/index.rst:31
+msgid "programmazione in linguaggio C"
+msgstr ""
+
+#: ../source/index.rst:35
 msgid "Orario delle lezioni"
 msgstr ""
 
-#: ../source/index.rst:28
+#: ../source/index.rst:38
 msgid "Giorno"
 msgstr ""
 
-#: ../source/index.rst:28
+#: ../source/index.rst:38
 msgid "Orario"
 msgstr ""
 
-#: ../source/index.rst:28
+#: ../source/index.rst:38
 msgid "Aula"
 msgstr ""
 
-#: ../source/index.rst:30
+#: ../source/index.rst:40
 msgid "Lunedì"
 msgstr ""
 
-#: ../source/index.rst:30
-#: ../source/index.rst:31
+#: ../source/index.rst:40
+#: ../source/index.rst:41
 msgid "14:00 - 16:00"
 msgstr ""
 
-#: ../source/index.rst:30
-#: ../source/index.rst:31
+#: ../source/index.rst:40
+#: ../source/index.rst:41
 msgid "B10"
 msgstr ""
 
-#: ../source/index.rst:31
+#: ../source/index.rst:41
 msgid "Mercoledì"
 msgstr ""
 
-#: ../source/index.rst:36
-msgid "Il corso è pensato per essere seguito dagli studenti in presenza."
+#: ../source/index.rst:46
+msgid "La didattica sarà svolta esclusivamente in presenza."
 msgstr ""
 
-#: ../source/index.rst:40
+#: ../source/index.rst:47
+msgid "La classe virtuale su Teams sarà utilizzata per condividere il materiale del corso e/o informazioni organizzative."
+msgstr ""
+
+#: ../source/index.rst:52
 msgid "Link ai contenuti del corso"
 msgstr ""
 
-#: ../source/index.rst:42
+#: ../source/index.rst:54
 msgid ":doc:`Slides <2025/slides>`"
 msgstr ""
 
-#: ../source/index.rst:54
-msgid "Ricevimento"
-msgstr ""
-
-#: ../source/index.rst:56
-msgid "Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e riportare il prefisso **[PC2425]** nell'oggetto."
-msgstr ""
-
-#: ../source/index.rst:60
-msgid "Modalità d'esame"
-msgstr ""
-
-#: ../source/index.rst:62
-msgid "L'esame prevede 1 prova scritta."
+#: ../source/index.rst:55
+msgid "Teams (TBA)"
 msgstr ""
 
 #: ../source/index.rst:66
-msgid "Date"
+msgid "Ricevimento"
 msgstr ""
 
 #: ../source/index.rst:68
-msgid "**I Appello** (Giugno)"
-msgstr ""
-
-#: ../source/index.rst:70
-#: ../source/index.rst:74
-msgid "TBD"
+msgid "Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e riportare il prefisso **[PC2425]** nell'oggetto."
 msgstr ""
 
 #: ../source/index.rst:72
-msgid "**II Appello** (Febbraio)"
+msgid "Modalità d'esame"
+msgstr ""
+
+#: ../source/index.rst:74
+msgid "L'esame prevede 1 prova scritta."
+msgstr ""
+
+#: ../source/index.rst:78
+msgid "Date"
+msgstr ""
+
+#: ../source/index.rst:80
+msgid "**I Appello** (Giugno)"
 msgstr ""
 
 #: ../source/index.rst:82
-msgid "Testi consigliati e link utili (in aggiornamento)"
+#: ../source/index.rst:86
+msgid "TBD"
 msgstr ""
 
 #: ../source/index.rst:84
-msgid "[t1] Operating Systems: Internals and Design Principles - William Stallings - Prentice Hall, fifth edition (o superiori). Riferimento: ninth global edition."
-msgstr ""
-
-#: ../source/index.rst:90
-msgid "Programma"
-msgstr ""
-
-#: ../source/index.rst:92
-msgid "**Introduzione alla programmazione concorrente e preliminari.**  Richiami a tematiche di sincronizzazione."
+msgid "**II Appello** (Febbraio)"
 msgstr ""
 
 #: ../source/index.rst:93
-msgid "**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, Sun-Ni) - Richiami a concetti di safety e liveness"
-msgstr ""
-
-#: ../source/index.rst:94
-msgid "**Correttezza.** Condizione di safety - Sequential consistency - Linearizability -Quiscient consistency."
+msgid "Programma e testi"
 msgstr ""
 
 #: ../source/index.rst:95
-msgid "**Progresso.** Deadlock-freedom. Starvation-freedom.** Progresso minimale e massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed indipendente dallo scheduler"
+msgid "**Introduzione alla programmazione concorrente e preliminari.**  Richiami a tematiche di sincronizzazione."
 msgstr ""
 
 #: ../source/index.rst:96
-msgid "**Richiami di architetture shared memory.**  Core e cache - Memory model - Primitive atomiche"
+msgid "**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, Sun-Ni) - Richiami a concetti di safety e liveness"
 msgstr ""
 
 #: ../source/index.rst:97
-msgid "**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code di priorità, Registri."
+msgid "**Correttezza.** Condizione di safety - Sequential consistency - Linearizability -Quiscient consistency."
 msgstr ""
 
 #: ../source/index.rst:98
-msgid "**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. Test and set lock, test-and-test-and-set lock. Ticket lock. MCS e CLH lock. Busy waiting vs sleeping. Malthusian lock. MUTEXEE. Cenni ad altri meccanismi (barriere e condizioni)."
+msgid "**Progresso.** Deadlock-freedom. Starvation-freedom. Progresso minimale e massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed indipendente dallo scheduler"
+msgstr ""
+
+#: ../source/index.rst:99
+msgid "**Richiami di architetture shared memory.**  Core e cache - Memory model - Primitive atomiche"
 msgstr ""
 
 #: ../source/index.rst:100
-msgid "**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity (cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware Transactional Memory (Intel TSX)."
+msgid "**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code di priorità, Registri."
 msgstr ""
 
 #: ../source/index.rst:101
-msgid "**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in algoritmi non bloccanti e non."
+msgid "**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. Implementazioni di lock basate su RMW. Cenni ad altri meccanismi di locking (barriere e condizioni)."
 msgstr ""
 
 #: ../source/index.rst:102
+msgid "**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity (cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware Transactional Memory (Intel TSX)."
+msgstr ""
+
+#: ../source/index.rst:103
+msgid "**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in algoritmi non bloccanti e non."
+msgstr ""
+
+#: ../source/index.rst:104
 msgid "**Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti universali."
+msgstr ""
+
+#: ../source/index.rst:106
+msgid ":ref:`Libri di testo <books2025>`"
 msgstr ""

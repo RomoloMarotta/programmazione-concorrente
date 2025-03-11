@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:28+0100\n"
+"POT-Creation-Date: 2025-03-11 15:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,182 +28,145 @@ msgstr ""
 msgid "L'unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione."
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:2
-#: ../source/2025/lectures/week01.rst:4
-#: ../source/2025/lectures/week01.rst:13
-#: ../source/2025/lectures/week01.rst:19
-#: ../source/2025/lectures/week01.rst:22
-#: ../source/2025/lectures/week01.rst:31
 #: ../source/2025/lectures/week02.rst:2
-#: ../source/2025/lectures/week02.rst:4
-#: ../source/2025/lectures/week02.rst:13
-#: ../source/2025/lectures/week02.rst:19
-#: ../source/2025/lectures/week02.rst:22
-#: ../source/2025/lectures/week02.rst:31
-#: ../source/2025/lectures/week03.rst:2
-#: ../source/2025/lectures/week03.rst:4
-#: ../source/2025/lectures/week03.rst:13
-#: ../source/2025/lectures/week03.rst:19
-#: ../source/2025/lectures/week03.rst:22
-#: ../source/2025/lectures/week03.rst:31
-#: ../source/2025/lectures/week04.rst:2
-#: ../source/2025/lectures/week04.rst:4
-#: ../source/2025/lectures/week04.rst:13
-#: ../source/2025/lectures/week04.rst:19
-#: ../source/2025/lectures/week04.rst:22
-#: ../source/2025/lectures/week04.rst:31
-#: ../source/2025/lectures/week05.rst:2
-#: ../source/2025/lectures/week05.rst:4
-#: ../source/2025/lectures/week05.rst:13
-#: ../source/2025/lectures/week05.rst:19
-#: ../source/2025/lectures/week05.rst:22
-#: ../source/2025/lectures/week05.rst:31
-#: ../source/2025/lectures/week06.rst:2
-#: ../source/2025/lectures/week06.rst:4
-#: ../source/2025/lectures/week06.rst:13
-#: ../source/2025/lectures/week06.rst:19
-#: ../source/2025/lectures/week06.rst:22
-#: ../source/2025/lectures/week06.rst:31
-#: ../source/2025/lectures/week07.rst:2
-#: ../source/2025/lectures/week07.rst:4
-#: ../source/2025/lectures/week07.rst:13
-#: ../source/2025/lectures/week07.rst:19
-#: ../source/2025/lectures/week07.rst:22
-#: ../source/2025/lectures/week07.rst:31
-#: ../source/2025/lectures/week08.rst:2
-#: ../source/2025/lectures/week08.rst:4
-#: ../source/2025/lectures/week08.rst:13
-#: ../source/2025/lectures/week08.rst:19
-#: ../source/2025/lectures/week08.rst:22
-#: ../source/2025/lectures/week08.rst:31
-#: ../source/2025/lectures/week09.rst:2
-#: ../source/2025/lectures/week09.rst:4
-#: ../source/2025/lectures/week09.rst:13
-#: ../source/2025/lectures/week09.rst:19
-#: ../source/2025/lectures/week09.rst:22
-#: ../source/2025/lectures/week09.rst:31
-#: ../source/2025/lectures/week10.rst:2
-#: ../source/2025/lectures/week10.rst:4
-#: ../source/2025/lectures/week10.rst:13
-#: ../source/2025/lectures/week10.rst:19
-#: ../source/2025/lectures/week10.rst:22
-#: ../source/2025/lectures/week10.rst:31
-#: ../source/2025/lectures/week11.rst:2
-#: ../source/2025/lectures/week11.rst:4
-#: ../source/2025/lectures/week11.rst:13
-#: ../source/2025/lectures/week11.rst:19
-#: ../source/2025/lectures/week11.rst:22
-#: ../source/2025/lectures/week11.rst:31
-#: ../source/2025/lectures/week12.rst:2
-#: ../source/2025/lectures/week12.rst:4
-#: ../source/2025/lectures/week12.rst:13
-#: ../source/2025/lectures/week12.rst:19
-#: ../source/2025/lectures/week12.rst:22
-#: ../source/2025/lectures/week12.rst:31
-#: ../source/2025/lectures/week13.rst:2
-#: ../source/2025/lectures/week13.rst:4
-#: ../source/2025/lectures/week13.rst:13
-#: ../source/2025/lectures/week13.rst:19
-#: ../source/2025/lectures/week13.rst:22
-#: ../source/2025/lectures/week13.rst:31
-#: ../source/2025/lectures/week14.rst:2
-#: ../source/2025/lectures/week14.rst:4
-#: ../source/2025/lectures/week14.rst:13
-#: ../source/2025/lectures/week14.rst:19
-#: ../source/2025/lectures/week14.rst:22
-#: ../source/2025/lectures/week14.rst:31
-msgid "TBD"
+msgid "12/03/2025 - Proprietà: Correttezza (tentative)"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:7
-#: ../source/2025/lectures/week01.rst:25
+#: ../source/2025/lectures/week02.rst:4
+msgid "Preliminari"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:6
+msgid "ADT"
+msgstr ""
+
 #: ../source/2025/lectures/week02.rst:7
+msgid "History"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:8
+msgid "Equivalenza"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:10
+msgid "Criteri"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:12
+msgid "Sequential consistency"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:13
+msgid "Linearizability"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:14
+msgid "Sistemi transazionali"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:16
+msgid "Serializability"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:17
+msgid "Strict serializatbility"
+msgstr ""
+
 #: ../source/2025/lectures/week02.rst:25
-#: ../source/2025/lectures/week03.rst:7
-#: ../source/2025/lectures/week03.rst:25
-#: ../source/2025/lectures/week04.rst:7
-#: ../source/2025/lectures/week04.rst:25
-#: ../source/2025/lectures/week05.rst:7
-#: ../source/2025/lectures/week05.rst:25
-#: ../source/2025/lectures/week06.rst:7
-#: ../source/2025/lectures/week06.rst:25
-#: ../source/2025/lectures/week07.rst:7
-#: ../source/2025/lectures/week07.rst:25
-#: ../source/2025/lectures/week08.rst:7
-#: ../source/2025/lectures/week08.rst:25
-#: ../source/2025/lectures/week09.rst:7
-#: ../source/2025/lectures/week09.rst:25
-#: ../source/2025/lectures/week10.rst:7
-#: ../source/2025/lectures/week10.rst:25
-#: ../source/2025/lectures/week11.rst:7
-#: ../source/2025/lectures/week11.rst:25
-#: ../source/2025/lectures/week12.rst:7
-#: ../source/2025/lectures/week12.rst:25
-#: ../source/2025/lectures/week13.rst:7
-#: ../source/2025/lectures/week13.rst:25
-#: ../source/2025/lectures/week14.rst:7
-#: ../source/2025/lectures/week14.rst:25
+msgid "10/03/2025 - Proprietà: Scalabilità"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:27
+msgid "Leggi di Amdahl, Gustafson, Sun-Li"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:28
+msgid "Scalabilità forte e debole"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:32
+#: ../source/2025/lectures/week02.rst:32
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:8
-#: ../source/2025/lectures/week01.rst:26
-#: ../source/2025/lectures/week02.rst:8
-#: ../source/2025/lectures/week02.rst:26
-#: ../source/2025/lectures/week03.rst:8
-#: ../source/2025/lectures/week03.rst:26
-#: ../source/2025/lectures/week04.rst:8
-#: ../source/2025/lectures/week04.rst:26
-#: ../source/2025/lectures/week05.rst:8
-#: ../source/2025/lectures/week05.rst:26
-#: ../source/2025/lectures/week06.rst:8
-#: ../source/2025/lectures/week06.rst:26
-#: ../source/2025/lectures/week07.rst:8
-#: ../source/2025/lectures/week07.rst:26
-#: ../source/2025/lectures/week08.rst:8
-#: ../source/2025/lectures/week08.rst:26
-#: ../source/2025/lectures/week09.rst:8
-#: ../source/2025/lectures/week09.rst:26
-#: ../source/2025/lectures/week10.rst:8
-#: ../source/2025/lectures/week10.rst:26
-#: ../source/2025/lectures/week11.rst:8
-#: ../source/2025/lectures/week11.rst:26
-#: ../source/2025/lectures/week12.rst:8
-#: ../source/2025/lectures/week12.rst:26
-#: ../source/2025/lectures/week13.rst:8
-#: ../source/2025/lectures/week13.rst:26
-#: ../source/2025/lectures/week14.rst:8
-#: ../source/2025/lectures/week14.rst:26
-msgid "[:ref:`t1 <books2025>`] ?"
+#: ../source/2025/lectures/week02.rst:33
+msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:11
-#: ../source/2025/lectures/week01.rst:29
-#: ../source/2025/lectures/week02.rst:11
-#: ../source/2025/lectures/week02.rst:29
-#: ../source/2025/lectures/week03.rst:11
-#: ../source/2025/lectures/week03.rst:29
-#: ../source/2025/lectures/week04.rst:11
-#: ../source/2025/lectures/week04.rst:29
-#: ../source/2025/lectures/week05.rst:11
-#: ../source/2025/lectures/week05.rst:29
-#: ../source/2025/lectures/week06.rst:11
-#: ../source/2025/lectures/week06.rst:29
-#: ../source/2025/lectures/week07.rst:11
-#: ../source/2025/lectures/week07.rst:29
-#: ../source/2025/lectures/week08.rst:11
-#: ../source/2025/lectures/week08.rst:29
-#: ../source/2025/lectures/week09.rst:11
-#: ../source/2025/lectures/week09.rst:29
-#: ../source/2025/lectures/week10.rst:11
-#: ../source/2025/lectures/week10.rst:29
-#: ../source/2025/lectures/week11.rst:11
-#: ../source/2025/lectures/week11.rst:29
-#: ../source/2025/lectures/week12.rst:11
-#: ../source/2025/lectures/week12.rst:29
-#: ../source/2025/lectures/week13.rst:11
-#: ../source/2025/lectures/week13.rst:29
-#: ../source/2025/lectures/week14.rst:11
-#: ../source/2025/lectures/week14.rst:29
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week01.rst:36
+#: ../source/2025/lectures/week02.rst:36
+msgid "Altre fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:38
+msgid "`Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:39
+msgid "`Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:2
+msgid "05/03/2025 - Introduzione al corso (parte 2)"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:4
+#: ../source/2025/lectures/week01.rst:24
+msgid "Introduzione alla programmazione concorrente e parallela"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:6
+msgid "Un esempio di programmazione concorrente e parallela: contare i numeri primi (parte 2)"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:15
+msgid "03/03/2025 - Introduzione al corso (parte 1)"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:17
+msgid "Presentazione del corso"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:19
+msgid "Programma"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:20
+msgid "Prerequisiti"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:21
+msgid "Libri di testo"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:22
+msgid "Prova d'esame"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:23
+msgid "Sito web"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:26
+msgid "Evoluzione dei processori"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:27
+msgid "Un esempio di programmazione concorrente e parallela: contare i numeri primi  (parte 1)"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:33
+msgid "[:ref:`t1 <books2025>`] Sezione  1.1"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:38
+msgid "`The free lunch is over by Herb Sutter <http://www.gotw.ca/publications/concurrency-ddj.htm>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:39
+msgid "`Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-the-jungle>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:40
+msgid "`50 Years of Microprocessor Trend Data by K. Rupp <https://github.com/karlrupp/microprocessor-trend-data>`_"
 msgstr ""

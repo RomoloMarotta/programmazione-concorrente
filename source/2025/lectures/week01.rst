@@ -1,10 +1,9 @@
-05/03/2025 - Introduzione al corso (parte 2) - tentative
+05/03/2025 - Introduzione al corso (parte 2)
 --------------------------------------------------------
 
 * Introduzione alla programmazione concorrente e parallela
 
   * Un esempio di programmazione concorrente e parallela: contare i numeri primi (parte 2)
-  * Proprietà di un programma concorrente e parallelo
 
 
 
