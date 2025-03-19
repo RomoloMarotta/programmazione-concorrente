@@ -66,10 +66,10 @@ Per ogni lezione vengono riportati riferimenti a paragrafi dei libri di testo e/
 
   -------------------------------------------------------
 
-  .. _l11-10-2022:
-  .. include::  week03.rst
+.. _l17-03-2025:
+.. include::  week03.rst
 
-  -------------------------------------------------------
+-------------------------------------------------------
 
 .. _l10-03-2025:
 .. include::  week02.rst

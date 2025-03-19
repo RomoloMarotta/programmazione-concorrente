@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 15:07+0100\n"
+"POT-Creation-Date: 2025-03-19 13:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.10.3\n"
 
 #: ../source/2025/lectures/week02.rst:2
-msgid "12/03/2025 - Proprietà: Correttezza (tentative)"
+msgid "12/03/2025 - Proprietà: Correttezza"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:4
@@ -62,37 +62,51 @@ msgstr ""
 msgid "Strict serializatbility"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:25
-msgid "10/03/2025 - Proprietà: Scalabilità"
-msgstr ""
-
-#: ../source/2025/lectures/week02.rst:27
-msgid "Leggi di Amdahl, Gustafson, Sun-Li"
-msgstr ""
-
-#: ../source/2025/lectures/week02.rst:28
-msgid "Scalabilità forte e debole"
-msgstr ""
-
-#: ../source/2025/lectures/week02.rst:32
+#: ../source/2025/lectures/week02.rst:21 ../source/2025/lectures/week02.rst:42
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:33
-msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
+#: ../source/2025/lectures/week02.rst:22
+msgid "[:ref:`t1 <books2025>`] Sezione  3.1, 3.2, 3.4, 3.5, 3.6, 3.6.1"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:36
+#: ../source/2025/lectures/week02.rst:23
+msgid "[:ref:`t2 <books2025>`] Sezione  3.1"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:26 ../source/2025/lectures/week02.rst:46
 msgid "Altre fonti"
 msgstr ""
 
+#: ../source/2025/lectures/week02.rst:28
+msgid ""
+"`Linearizability: a correctness condition for concurrent objects "
+"<https://dl.acm.org/doi/10.1145/78969.78972>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:35
+msgid "10/03/2025 - Proprietà: Scalabilità"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:37
+msgid "Leggi di Amdahl, Gustafson, Sun-Li"
+msgstr ""
+
 #: ../source/2025/lectures/week02.rst:38
+msgid "Scalabilità forte e debole"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:43
+msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:48
 msgid ""
 "`Another view on parallel speedup "
 "<https://dl.acm.org/doi/10.5555/110382.110450>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:39
+#: ../source/2025/lectures/week02.rst:49
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
@@ -105,5 +119,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Link di approfondimento"
+#~ msgstr ""
+
+#~ msgid "12/03/2025 - Proprietà: Correttezza (tentative)"
 #~ msgstr ""
 

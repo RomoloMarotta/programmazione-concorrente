@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 15:12+0100\n"
+"POT-Creation-Date: 2025-03-19 13:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,75 +28,83 @@ msgstr ""
 
 #: ../source/2025/slides.rst:7
 msgid ""
-"`01 - Introduzione  </programmazione-concorrente/slides/01-PC-intro-"
-"web-25-03-05.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25."
+"`01 - Introduzione    </programmazione-concorrente/slides/01-PC-intro-"
+"web-25-03-05.pdf>`_.      Pubblicato il 04/03/25. Aggiornato il 05/03/25."
 msgstr ""
 
 #: ../source/2025/slides.rst:8
 msgid ""
-"`02 - Proprietà     </programmazione-concorrente/slides/02-PC-properties-"
-"web-25-03-11.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 11/03/25."
+"`02 - Proprietà       </programmazione-concorrente/slides/02-PC-"
+"properties-web-25-03-19.pdf>`_. Pubblicato il 04/03/25. Aggiornato il "
+"19/03/25."
 msgstr ""
 
-#: ../source/2025/slides.rst:14
+#: ../source/2025/slides.rst:9
+msgid ""
+"`03 - Strutture dati  </programmazione-concorrente/slides/03-PC-"
+"concurrent-ds.pdf>`_.           Pubblicato il 19/03/25. Aggiornato il "
+"11/03/25."
+msgstr ""
+
+#: ../source/2025/slides.rst:15
 msgid "Testi consigliati"
 msgstr ""
 
-#: ../source/2025/slides.rst:16
+#: ../source/2025/slides.rst:17
 msgid ""
 "[t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit,"
 " Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione)."
 msgstr ""
 
-#: ../source/2025/slides.rst:17
+#: ../source/2025/slides.rst:18
 msgid "[t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham."
 msgstr ""
 
-#: ../source/2025/slides.rst:21
+#: ../source/2025/slides.rst:22
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2025/slides.rst:44
+#: ../source/2025/slides.rst:45
 msgid "Altro materiale"
 msgstr ""
 
-#: ../source/2025/slides.rst:46
+#: ../source/2025/slides.rst:47
 msgid "Introduzione"
 msgstr ""
 
-#: ../source/2025/slides.rst:48
+#: ../source/2025/slides.rst:49
 msgid ""
 "`The free lunch is over by Herb Sutter <http://www.gotw.ca/publications"
 "/concurrency-ddj.htm>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:49
+#: ../source/2025/slides.rst:50
 msgid ""
 "`Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-"
 "the-jungle>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:50
+#: ../source/2025/slides.rst:51
 msgid ""
 "`50 Years of Microprocessor Trend Data by K. Rupp "
 "<https://github.com/karlrupp/microprocessor-trend-data>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:52
+#: ../source/2025/slides.rst:53
 msgid "Proprietà"
 msgstr ""
 
-#: ../source/2025/slides.rst:54
+#: ../source/2025/slides.rst:55
 msgid "Scalabilità"
 msgstr ""
 
-#: ../source/2025/slides.rst:56
+#: ../source/2025/slides.rst:57
 msgid ""
 "`Another view on parallel speedup "
 "<https://dl.acm.org/doi/10.5555/110382.110450>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:57
+#: ../source/2025/slides.rst:58
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
@@ -134,5 +142,19 @@ msgstr ""
 #~ "concorrente/slides/02-PC-properties-web.pdf>`_. "
 #~ "Pubblicato il 04/03/25. Aggiornato il "
 #~ "05/03/25."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`01 - Introduzione  </programmazione-"
+#~ "concorrente/slides/01-PC-intro-web-25-03-05.pdf>`_. "
+#~ "Pubblicato il 04/03/25. Aggiornato il "
+#~ "05/03/25."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`02 - Proprietà     </programmazione-"
+#~ "concorrente/slides/02-PC-properties-web-25-03-11.pdf>`_."
+#~ " Pubblicato il 04/03/25. Aggiornato il "
+#~ "11/03/25."
 #~ msgstr ""
 

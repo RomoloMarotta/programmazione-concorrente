@@ -49,16 +49,25 @@
 <li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides e Testi</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Diario delle lezioni</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#proprieta-correttezza-tentative">12/03/2025 - Proprietà: Correttezza (tentative)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#proprieta-scalabilita">10/03/2025 - Proprietà: Scalabilità</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-a-strutture-dati-concorrenti-stack">17/03/2025 - Introduzione a strutture dati concorrenti - Stack</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti-libro-di-testo">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#altre-fonti">Altre fonti</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-2">05/03/2025 - Introduzione al corso (parte 2)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-1">03/03/2025 - Introduzione al corso (parte 1)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#proprieta-correttezza">12/03/2025 - Proprietà: Correttezza</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Altre fonti</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#proprieta-scalabilita">10/03/2025 - Proprietà: Scalabilità</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Altre fonti</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-2">05/03/2025 - Introduzione al corso (parte 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-1">03/03/2025 - Introduzione al corso (parte 1)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Altre fonti</a></li>
 </ul>
 </li>
 </ul>
@@ -100,8 +109,33 @@
 <p>L’unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione.</p>
 </div>
 <hr class="docutils" />
-<section id="proprieta-correttezza-tentative">
-<span id="l10-03-2025"></span><h2>12/03/2025 - Proprietà: Correttezza (tentative)<a class="headerlink" href="#proprieta-correttezza-tentative" title="Link to this heading">¶</a></h2>
+<section id="introduzione-a-strutture-dati-concorrenti-stack">
+<span id="l17-03-2025"></span><h2>17/03/2025 - Introduzione a strutture dati concorrenti - Stack<a class="headerlink" href="#introduzione-a-strutture-dati-concorrenti-stack" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Utilizzo di perf</p></li>
+<li><p>Stack</p>
+<ul>
+<li><p>seriale, concorrente (spin lock e mutex), treiber</p></li>
+</ul>
+</li>
+</ul>
+<section id="riferimenti-libro-di-testo">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.6</p></li>
+</ul>
+</section>
+<section id="altre-fonti">
+<h3>Altre fonti<a class="headerlink" href="#altre-fonti" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://dl.acm.org/doi/10.5555/110382.110450">Another view on parallel speedup</a></p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
+</ul>
+<hr class="docutils" />
+</section>
+</section>
+<section id="proprieta-correttezza">
+<span id="l10-03-2025"></span><h2>12/03/2025 - Proprietà: Correttezza<a class="headerlink" href="#proprieta-correttezza" title="Link to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>Preliminari</p>
 <ul>
@@ -123,6 +157,19 @@
 </ul>
 </li>
 </ul>
+<section id="id1">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  3.1, 3.2, 3.4, 3.5, 3.6, 3.6.1</p></li>
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t2</span></a>] Sezione  3.1</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>Altre fonti<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/78969.78972">Linearizability: a correctness condition for concurrent objects</a></p></li>
+</ul>
+</section>
 </section>
 <hr class="docutils" />
 <section id="proprieta-scalabilita">
@@ -131,14 +178,14 @@
 <li><p>Leggi di Amdahl, Gustafson, Sun-Li</p></li>
 <li><p>Scalabilità forte e debole</p></li>
 </ul>
-<section id="riferimenti-libro-di-testo">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Link to this heading">¶</a></h3>
+<section id="id3">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.6</p></li>
 </ul>
 </section>
-<section id="altre-fonti">
-<h3>Altre fonti<a class="headerlink" href="#altre-fonti" title="Link to this heading">¶</a></h3>
+<section id="id4">
+<h3>Altre fonti<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://dl.acm.org/doi/10.5555/110382.110450">Another view on parallel speedup</a></p></li>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
@@ -176,14 +223,14 @@
 </ul>
 </li>
 </ul>
-<section id="id1">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<section id="id7">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.1</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>Altre fonti<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<section id="id8">
+<h3>Altre fonti<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.gotw.ca/publications/concurrency-ddj.htm">The free lunch is over by Herb Sutter</a></p></li>
 <li><p><a class="reference external" href="https://herbsutter.com/welcome-to-the-jungle">Welcome to the jungle by Herb Sutter</a></p></li>
@@ -205,7 +252,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2025, Romolo Marotta.
-      <span class="lastupdated">Last updated on Mar 11, 2025.
+      <span class="lastupdated">Last updated on Mar 19, 2025.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

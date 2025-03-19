@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 18:29+0100\n"
+"POT-Creation-Date: 2025-03-19 13:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,26 +16,38 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../source/2025/lectures/week03.rst:4
-#: ../source/2025/lectures/week03.rst:6
-#: ../source/2025/lectures/week03.rst:15
-#: ../source/2025/lectures/week03.rst:21
-#: ../source/2025/lectures/week03.rst:24
-#: ../source/2025/lectures/week03.rst:33
-msgid "TBD"
+#: ../source/2025/lectures/week03.rst:2
+msgid "17/03/2025 - Introduzione a strutture dati concorrenti - Stack"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:9
-#: ../source/2025/lectures/week03.rst:27
+#: ../source/2025/lectures/week03.rst:4
+msgid "Utilizzo di perf"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:5
+msgid "Stack"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:7
+msgid "seriale, concorrente (spin lock e mutex), treiber"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:11
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:10
-#: ../source/2025/lectures/week03.rst:28
-msgid "[:ref:`t1 <books2025>`] ?"
+#: ../source/2025/lectures/week03.rst:12
+msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:13
-#: ../source/2025/lectures/week03.rst:31
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week03.rst:15
+msgid "Altre fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:17
+msgid "`Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:18
+msgid "`Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
 msgstr ""

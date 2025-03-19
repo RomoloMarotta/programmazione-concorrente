@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 15:08+0100\n"
+"POT-Creation-Date: 2025-03-19 13:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,18 +20,32 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/2025/news/250311.rst:2
-msgid "11-03-2025 - avviso: aggionamenti sito del corso"
+#: ../source/2025/news/250319.rst:2
+msgid "19-03-2025 - avviso: aggionamenti sito del corso"
 msgstr ""
 
 #: ../source/2025/news/250304.rst:4
 #: ../source/2025/news/250305.rst:4
 #: ../source/2025/news/250311.rst:4
+#: ../source/2025/news/250319.rst:4
 msgid "Sito del corso:"
 msgstr ""
 
 #: ../source/2025/news/250311.rst:6
+#: ../source/2025/news/250319.rst:6
 msgid "aggiornato diario delle lezioni"
+msgstr ""
+
+#: ../source/2025/news/250319.rst:7
+msgid "aggiornate slide su \"Proprietà\""
+msgstr ""
+
+#: ../source/2025/news/250319.rst:8
+msgid "pubblicata prima versione di \"Strutture dati concorrenti\""
+msgstr ""
+
+#: ../source/2025/news/250311.rst:2
+msgid "11-03-2025 - avviso: aggionamenti sito del corso"
 msgstr ""
 
 #: ../source/2025/news/250305.rst:2

@@ -8,9 +8,9 @@ Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 News
 ----
 
+* :ref:`n19-03-2025`
 * :ref:`n11-03-2025`
 * :ref:`n05-03-2025`
-* :ref:`n04-03-2025`
 
 Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`2025/news/index`
 

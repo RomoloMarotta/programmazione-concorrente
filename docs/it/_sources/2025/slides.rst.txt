@@ -4,8 +4,9 @@ Slides e Testi
 In questa sezione potete scaricare le slide delle lezioni.
 
 
-* `01 - Introduzione  </programmazione-concorrente/slides/01-PC-intro-web-25-03-05.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 05/03/25.
-* `02 - Proprietà     </programmazione-concorrente/slides/02-PC-properties-web-25-03-11.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 11/03/25.
+* `01 - Introduzione    </programmazione-concorrente/slides/01-PC-intro-web-25-03-05.pdf>`_.      Pubblicato il 04/03/25. Aggiornato il 05/03/25.
+* `02 - Proprietà       </programmazione-concorrente/slides/02-PC-properties-web-25-03-19.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 19/03/25.
+* `03 - Strutture dati  </programmazione-concorrente/slides/03-PC-concurrent-ds.pdf>`_.           Pubblicato il 19/03/25. Aggiornato il 11/03/25.
 
 
 .. _books2025:
