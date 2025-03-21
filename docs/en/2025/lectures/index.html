@@ -49,25 +49,34 @@
 <li class="toctree-l1"><a class="reference internal" href="../questions.html">Esercizi di preparazione</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../slides.html">Slides e Testi</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Diario delle lezioni</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-a-strutture-dati-concorrenti-stack">17/03/2025 - Introduzione a strutture dati concorrenti - Stack</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#stack-parte-2">19/03/2025 - Stack parte 2</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#riferimenti-libro-di-testo">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#altre-fonti">Altre fonti</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#proprieta-correttezza">12/03/2025 - Proprietà: Correttezza</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-a-strutture-dati-concorrenti-stack-parte-1">17/03/2025 - Introduzione a strutture dati concorrenti - Stack parte 1</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Altre fonti</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#proprieta-scalabilita">10/03/2025 - Proprietà: Scalabilità</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#proprieta-correttezza">12/03/2025 - Proprietà: Correttezza</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">Altre fonti</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-2">05/03/2025 - Introduzione al corso (parte 2)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-1">03/03/2025 - Introduzione al corso (parte 1)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#proprieta-scalabilita">10/03/2025 - Proprietà: Scalabilità</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Altre fonti</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-2">05/03/2025 - Introduzione al corso (parte 2)</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id7">Riferimenti libro di testo</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id8">Altre fonti</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#introduzione-al-corso-parte-1">03/03/2025 - Introduzione al corso (parte 1)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Riferimenti libro di testo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Altre fonti</a></li>
 </ul>
 </li>
 </ul>
@@ -109,27 +118,56 @@
 <p>L’unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione.</p>
 </div>
 <hr class="docutils" />
-<section id="introduzione-a-strutture-dati-concorrenti-stack">
-<span id="l17-03-2025"></span><h2>17/03/2025 - Introduzione a strutture dati concorrenti - Stack<a class="headerlink" href="#introduzione-a-strutture-dati-concorrenti-stack" title="Link to this heading">¶</a></h2>
+<section id="stack-parte-2">
+<span id="l17-03-2025"></span><h2>19/03/2025 - Stack parte 2<a class="headerlink" href="#stack-parte-2" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>Utilizzo di perf</p></li>
 <li><p>Stack</p>
 <ul>
-<li><p>seriale, concorrente (spin lock e mutex), treiber</p></li>
+<li><p>treiber, elimination stack</p></li>
 </ul>
 </li>
+<li><p>Microbenchmark
+* rand
+* lrand48_r</p></li>
 </ul>
 <section id="riferimenti-libro-di-testo">
 <h3>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Link to this heading">¶</a></h3>
 <ul class="simple">
-<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.6</p></li>
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  11.2, 11.3</p></li>
 </ul>
 </section>
 <section id="altre-fonti">
 <h3>Altre fonti<a class="headerlink" href="#altre-fonti" title="Link to this heading">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://dl.acm.org/doi/10.5555/110382.110450">Another view on parallel speedup</a></p></li>
-<li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
+<li><p>Elimination stack: <a class="reference external" href="https://dl.acm.org/doi/10.1145/1007912.1007944">A Scalable Lock-free Stack Algorithm</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/rand.3.html">rand</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/drand48_r.3.html">lrand48_r</a></p></li>
+<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html">GCC Thread Local Storage</a></p></li>
+</ul>
+</section>
+</section>
+<section id="introduzione-a-strutture-dati-concorrenti-stack-parte-1">
+<h2>17/03/2025 - Introduzione a strutture dati concorrenti - Stack parte 1<a class="headerlink" href="#introduzione-a-strutture-dati-concorrenti-stack-parte-1" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Utilizzo di perf</p></li>
+<li><p>Stack
+* seriale, concorrente (pthread spinlock e mutex), treiber</p></li>
+</ul>
+<section id="id1">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  11.1, 11.2</p></li>
+</ul>
+</section>
+<section id="id2">
+<h3>Altre fonti<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>perf:
+* <a class="reference external" href="https://perfwiki.github.io/main/">Perfwiki</a>
+* <a class="reference external" href="https://man7.org/linux/man-pages/man1/perf.1.html">Linux man</a></p></li>
+<li><p>Read Modify Write: <a class="reference external" href="https://dl.acm.org/doi/10.1145/48022.48024">Efficient synchronization of multiprocessors with shared memory</a></p></li>
+<li><p>Compare and swap: <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc/_005f_005fsync-Builtins.html">__sync built-in</a></p></li>
+<li><p>Treiber stack: <a class="reference external" href="https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf">Systems Programming: Coping With Parallelism</a></p></li>
 </ul>
 <hr class="docutils" />
 </section>
@@ -157,17 +195,19 @@
 </ul>
 </li>
 </ul>
-<section id="id1">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h3>
+<section id="id3">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  3.1, 3.2, 3.4, 3.5, 3.6, 3.6.1</p></li>
 <li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t2</span></a>] Sezione  3.1</p></li>
 </ul>
 </section>
-<section id="id2">
-<h3>Altre fonti<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<section id="id4">
+<h3>Altre fonti<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
 <ul class="simple">
+<li><p>Sequential consistency: <a class="reference external" href="https://ieeexplore.ieee.org/document/1675439">How to make a multiprocessor computer that correctly executes multiprocess programs</a></p></li>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/78969.78972">Linearizability: a correctness condition for concurrent objects</a></p></li>
+<li><p>Serializability: <a class="reference external" href="https://dl.acm.org/doi/10.1145/322154.322158">The Serializability of Concurrent Database Updates</a></p></li>
 </ul>
 </section>
 </section>
@@ -178,14 +218,14 @@
 <li><p>Leggi di Amdahl, Gustafson, Sun-Li</p></li>
 <li><p>Scalabilità forte e debole</p></li>
 </ul>
-<section id="id3">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<section id="id5">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.6</p></li>
 </ul>
 </section>
-<section id="id4">
-<h3>Altre fonti<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<section id="id6">
+<h3>Altre fonti<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://dl.acm.org/doi/10.5555/110382.110450">Another view on parallel speedup</a></p></li>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
@@ -202,8 +242,30 @@
 </ul>
 </li>
 </ul>
-</section>
 <hr class="docutils" />
+<section id="id7">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.1</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>Altre fonti<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Fetch and add: <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc/_005f_005fsync-Builtins.html">__sync built-in</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/pthread_create.3.html">pthread_create</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/pthread_exit.3.html">pthread_exit</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/pthread_join.3.html">pthread_join</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/pthread_spin_init.3.html">pthread_spin_init</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/pthread_mutex_init.3.html">pthread_mutex_init</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_create</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_create.html">pthread_exit</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_join.html">pthread_join</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_spin_init.html">pthread_spin_init</a></p></li>
+<li><p><a class="extlink-posix reference external" href="https://pubs.opengroup.org/onlinepubs/9699919799/functions/pthread_mutex_init.html">pthread_mutex_init</a></p></li>
+</ul>
+</section>
+</section>
 <section id="introduzione-al-corso-parte-1">
 <h2>03/03/2025 - Introduzione al corso (parte 1)<a class="headerlink" href="#introduzione-al-corso-parte-1" title="Link to this heading">¶</a></h2>
 <ul class="simple">
@@ -223,14 +285,14 @@
 </ul>
 </li>
 </ul>
-<section id="id7">
-<h3>Riferimenti libro di testo<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<section id="id10">
+<h3>Riferimenti libro di testo<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.1</p></li>
 </ul>
 </section>
-<section id="id8">
-<h3>Altre fonti<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<section id="id11">
+<h3>Altre fonti<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.gotw.ca/publications/concurrency-ddj.htm">The free lunch is over by Herb Sutter</a></p></li>
 <li><p><a class="reference external" href="https://herbsutter.com/welcome-to-the-jungle">Welcome to the jungle by Herb Sutter</a></p></li>
@@ -252,7 +314,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2025, Romolo Marotta.
-      <span class="lastupdated">Last updated on Mar 19, 2025.
+      <span class="lastupdated">Last updated on Mar 21, 2025.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>

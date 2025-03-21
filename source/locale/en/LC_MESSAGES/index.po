@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 13:18+0100\n"
+"POT-Creation-Date: 2025-03-21 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,15 +37,15 @@ msgid "News"
 msgstr ""
 
 #: ../source/index.rst:11
-msgid ":ref:`n19-03-2025`"
+msgid ":ref:`n21-03-2025`"
 msgstr ""
 
 #: ../source/index.rst:12
-msgid ":ref:`n11-03-2025`"
+msgid ":ref:`n19-03-2025`"
 msgstr ""
 
 #: ../source/index.rst:13
-msgid ":ref:`n05-03-2025`"
+msgid ":ref:`n11-03-2025`"
 msgstr ""
 
 #: ../source/index.rst:15
@@ -552,5 +552,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":ref:`n04-03-2025`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n05-03-2025`"
 #~ msgstr ""
 

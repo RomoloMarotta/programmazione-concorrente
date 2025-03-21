@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-11 15:07+0100\n"
+"POT-Creation-Date: 2025-03-21 15:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "05/03/2025 - Introduzione al corso (parte 2)"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:4 ../source/2025/lectures/week01.rst:24
+#: ../source/2025/lectures/week01.rst:4 ../source/2025/lectures/week01.rst:43
 msgid "Introduzione alla programmazione concorrente e parallela"
 msgstr ""
 
@@ -32,69 +32,126 @@ msgid ""
 "primi (parte 2)"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:15
-msgid "03/03/2025 - Introduzione al corso (parte 1)"
+#: ../source/2025/lectures/week01.rst:14 ../source/2025/lectures/week01.rst:51
+msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:17
-msgid "Presentazione del corso"
+#: ../source/2025/lectures/week01.rst:15 ../source/2025/lectures/week01.rst:52
+msgid "[:ref:`t1 <books2025>`] Sezione  1.1"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:19
-msgid "Programma"
+#: ../source/2025/lectures/week01.rst:18 ../source/2025/lectures/week01.rst:55
+msgid "Altre fonti"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:20
-msgid "Prerequisiti"
+msgid ""
+"Fetch and add: `__sync built-in "
+"<https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc/_005f_005fsync-"
+"Builtins.html>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:21
-msgid "Libri di testo"
+msgid ""
+"`pthread_create <https://man7.org/linux/man-"
+"pages/man3/pthread_create.3.html>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:22
-msgid "Prova d'esame"
+msgid ""
+"`pthread_exit <https://man7.org/linux/man-"
+"pages/man3/pthread_exit.3.html>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:23
-msgid "Sito web"
+msgid ""
+"`pthread_join <https://man7.org/linux/man-"
+"pages/man3/pthread_join.3.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:24
+msgid ""
+"`pthread_spin_init <https://man7.org/linux/man-"
+"pages/man3/pthread_spin_init.3.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:25
+msgid ""
+"`pthread_mutex_init <https://man7.org/linux/man-"
+"pages/man3/pthread_mutex_init.3.html>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:26
-msgid "Evoluzione dei processori"
+msgid ":posix:`pthread_create <pthread_create>`"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:27
+msgid ":posix:`pthread_exit <pthread_create>`"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:28
+msgid ":posix:`pthread_join <pthread_join>`"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:29
+msgid ":posix:`pthread_spin_init <pthread_spin_init>`"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:30
+msgid ":posix:`pthread_mutex_init <pthread_mutex_init>`"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:34
+msgid "03/03/2025 - Introduzione al corso (parte 1)"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:36
+msgid "Presentazione del corso"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:38
+msgid "Programma"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:39
+msgid "Prerequisiti"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:40
+msgid "Libri di testo"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:41
+msgid "Prova d'esame"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:42
+msgid "Sito web"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:45
+msgid "Evoluzione dei processori"
+msgstr ""
+
+#: ../source/2025/lectures/week01.rst:46
 msgid ""
 "Un esempio di programmazione concorrente e parallela: contare i numeri "
 "primi  (parte 1)"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:32
-msgid "Riferimenti libro di testo"
-msgstr ""
-
-#: ../source/2025/lectures/week01.rst:33
-msgid "[:ref:`t1 <books2025>`] Sezione  1.1"
-msgstr ""
-
-#: ../source/2025/lectures/week01.rst:36
-msgid "Altre fonti"
-msgstr ""
-
-#: ../source/2025/lectures/week01.rst:38
+#: ../source/2025/lectures/week01.rst:57
 msgid ""
 "`The free lunch is over by Herb Sutter <http://www.gotw.ca/publications"
 "/concurrency-ddj.htm>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:39
+#: ../source/2025/lectures/week01.rst:58
 msgid ""
 "`Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-"
 "the-jungle>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week01.rst:40
+#: ../source/2025/lectures/week01.rst:59
 msgid ""
 "`50 Years of Microprocessor Trend Data by K. Rupp "
 "<https://github.com/karlrupp/microprocessor-trend-data>`_"

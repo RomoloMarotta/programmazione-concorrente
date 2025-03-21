@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 13:18+0100\n"
+"POT-Creation-Date: 2025-03-21 15:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "Strict serializatbility"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:21
-#: ../source/2025/lectures/week02.rst:42
+#: ../source/2025/lectures/week02.rst:44
 msgid "Riferimenti libro di testo"
 msgstr ""
 
@@ -74,34 +74,42 @@ msgid "[:ref:`t2 <books2025>`] Sezione  3.1"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:26
-#: ../source/2025/lectures/week02.rst:46
+#: ../source/2025/lectures/week02.rst:48
 msgid "Altre fonti"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:28
+msgid "Sequential consistency: `How to make a multiprocessor computer that correctly executes multiprocess programs <https://ieeexplore.ieee.org/document/1675439>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:29
 msgid "`Linearizability: a correctness condition for concurrent objects <https://dl.acm.org/doi/10.1145/78969.78972>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:35
-msgid "10/03/2025 - Proprietà: Scalabilità"
+#: ../source/2025/lectures/week02.rst:30
+msgid "Serializability: `The Serializability of Concurrent Database Updates <https://dl.acm.org/doi/10.1145/322154.322158>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week02.rst:37
+msgid "10/03/2025 - Proprietà: Scalabilità"
+msgstr ""
+
+#: ../source/2025/lectures/week02.rst:39
 msgid "Leggi di Amdahl, Gustafson, Sun-Li"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:38
+#: ../source/2025/lectures/week02.rst:40
 msgid "Scalabilità forte e debole"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:43
+#: ../source/2025/lectures/week02.rst:45
 msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:48
+#: ../source/2025/lectures/week02.rst:50
 msgid "`Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week02.rst:49
+#: ../source/2025/lectures/week02.rst:51
 msgid "`Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
 msgstr ""

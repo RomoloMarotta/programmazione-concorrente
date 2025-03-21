@@ -179,13 +179,8 @@ Riferimenti
 * :posix:`pthread_create <pthread_create>`
 * :posix:`pthread_exit <pthread_create>`
 * :posix:`pthread_join <pthread_join>`
-
-
-
-..
-
-  * :posix:`pthread_spin_init <pthread_spin_init>`
-  * :posix:`pthread_mutex_init <pthread_mutex_init>`
+* :posix:`pthread_spin_init <pthread_spin_init>`
+* :posix:`pthread_mutex_init <pthread_mutex_init>`
 
 
 

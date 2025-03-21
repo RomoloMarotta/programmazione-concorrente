@@ -25,7 +25,9 @@ Riferimenti libro di testo
 Altre fonti
 """""""""""""""""""""""
 
+* Sequential consistency: `How to make a multiprocessor computer that correctly executes multiprocess programs <https://ieeexplore.ieee.org/document/1675439>`_
 * `Linearizability: a correctness condition for concurrent objects <https://dl.acm.org/doi/10.1145/78969.78972>`_
+* Serializability: `The Serializability of Concurrent Database Updates <https://dl.acm.org/doi/10.1145/322154.322158>`_
 
 -----------------------------------------------------------------------------------
 

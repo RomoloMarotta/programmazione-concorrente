@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 13:18+0100\n"
+"POT-Creation-Date: 2025-03-21 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,7 @@ msgstr ""
 #: ../source/2025/slides.rst:9
 msgid ""
 "`03 - Strutture dati  </programmazione-concorrente/slides/03-PC-"
-"concurrent-ds.pdf>`_.           Pubblicato il 19/03/25. Aggiornato il "
-"11/03/25."
+"concurrent-ds.pdf>`_.           Pubblicato il 19/03/25. Aggiornato il --."
 msgstr ""
 
 #: ../source/2025/slides.rst:15
@@ -62,6 +61,20 @@ msgstr ""
 
 #: ../source/2025/slides.rst:22
 msgid "Documentazione"
+msgstr ""
+
+#: ../source/2025/slides.rst:24
+msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:25
+msgid "`Linux <https://man7.org/linux/man-pages/>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:26
+msgid ""
+"`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
+"Builtins.html#g_t_005f_005fsync-Builtins>`_"
 msgstr ""
 
 #: ../source/2025/slides.rst:45
@@ -110,6 +123,49 @@ msgid ""
 "<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
 msgstr ""
 
+#: ../source/2025/slides.rst:60
+msgid "Correttezza:"
+msgstr ""
+
+#: ../source/2025/slides.rst:62
+msgid ""
+"Sequential consistency: `How to make a multiprocessor computer that "
+"correctly executes multiprocess programs "
+"<https://ieeexplore.ieee.org/document/1675439>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:63
+msgid ""
+"`Linearizability: a correctness condition for concurrent objects "
+"<https://dl.acm.org/doi/10.1145/78969.78972>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:64
+msgid ""
+"Serializability: `The Serializability of Concurrent Database Updates "
+"<https://dl.acm.org/doi/10.1145/322154.322158>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:66
+msgid "Strutture dati concorrenti"
+msgstr ""
+
+#: ../source/2025/slides.rst:68
+msgid "Stack"
+msgstr ""
+
+#: ../source/2025/slides.rst:70
+msgid ""
+"Treiber stack: `Systems Programming: Coping With Parallelism "
+"<https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf>`_"
+msgstr ""
+
+#: ../source/2025/slides.rst:71
+msgid ""
+"Elimination stack: `A Scalable Lock-free Stack Algorithm "
+"<https://dl.acm.org/doi/10.1145/1007912.1007944>`_"
+msgstr ""
+
 #~ msgid "`01 - Introduzione  <slides/001-PC-intro-web.pdf>`_"
 #~ msgstr ""
 
@@ -156,5 +212,12 @@ msgstr ""
 #~ "concorrente/slides/02-PC-properties-web-25-03-11.pdf>`_."
 #~ " Pubblicato il 04/03/25. Aggiornato il "
 #~ "11/03/25."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`03 - Strutture dati  </programmazione-"
+#~ "concorrente/slides/03-PC-concurrent-ds.pdf>`_."
+#~ "           Pubblicato il 19/03/25. Aggiornato "
+#~ "il 11/03/25."
 #~ msgstr ""
 

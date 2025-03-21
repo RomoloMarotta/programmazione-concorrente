@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-19 13:19+0100\n"
+"POT-Creation-Date: 2025-03-21 16:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,37 +17,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/2025/lectures/week03.rst:2
-msgid "17/03/2025 - Introduzione a strutture dati concorrenti - Stack"
+msgid "19/03/2025 - Stack parte 2"
 msgstr ""
 
 #: ../source/2025/lectures/week03.rst:4
-msgid "Utilizzo di perf"
-msgstr ""
-
-#: ../source/2025/lectures/week03.rst:5
 msgid "Stack"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:7
-msgid "seriale, concorrente (spin lock e mutex), treiber"
+#: ../source/2025/lectures/week03.rst:6
+msgid "treiber, elimination stack"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:11
-msgid "Riferimenti libro di testo"
-msgstr ""
-
-#: ../source/2025/lectures/week03.rst:12
-msgid "[:ref:`t1 <books2025>`] Sezione  1.6"
+#: ../source/2025/lectures/week03.rst:8
+msgid "Microbenchmark * rand * lrand48_r"
 msgstr ""
 
 #: ../source/2025/lectures/week03.rst:15
+#: ../source/2025/lectures/week03.rst:39
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:16
+msgid "[:ref:`t1 <books2025>`] Sezione  11.2, 11.3"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:19
+#: ../source/2025/lectures/week03.rst:43
 msgid "Altre fonti"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:17
-msgid "`Another view on parallel speedup <https://dl.acm.org/doi/10.5555/110382.110450>`_"
+#: ../source/2025/lectures/week03.rst:21
+msgid "Elimination stack: `A Scalable Lock-free Stack Algorithm <https://dl.acm.org/doi/10.1145/1007912.1007944>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week03.rst:18
-msgid "`Legge di Amdahl Sezione 4 Eq. 11 <https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
+#: ../source/2025/lectures/week03.rst:22
+msgid "`rand <https://man7.org/linux/man-pages/man3/rand.3.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:23
+msgid "`lrand48_r <https://man7.org/linux/man-pages/man3/drand48_r.3.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:24
+msgid "`GCC Thread Local Storage <https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:29
+msgid "17/03/2025 - Introduzione a strutture dati concorrenti - Stack parte 1"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:31
+msgid "Utilizzo di perf"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:32
+msgid "Stack * seriale, concorrente (pthread spinlock e mutex), treiber"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:40
+msgid "[:ref:`t1 <books2025>`] Sezione  11.1, 11.2"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:45
+msgid "perf: * `Perfwiki <https://perfwiki.github.io/main/>`_ * `Linux man <https://man7.org/linux/man-pages/man1/perf.1.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:49
+msgid "Read Modify Write: `Efficient synchronization of multiprocessors with shared memory <https://dl.acm.org/doi/10.1145/48022.48024>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:50
+msgid "Compare and swap: `__sync built-in <https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc/_005f_005fsync-Builtins.html>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week03.rst:51
+msgid "Treiber stack: `Systems Programming: Coping With Parallelism <https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf>`_"
 msgstr ""

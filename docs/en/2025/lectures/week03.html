@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>17/03/2025 - Introduzione a strutture dati concorrenti - Stack &mdash; Concurrent Programming 2024/2025 documentation</title>
+  <title>19/03/2025 - Stack parte 2 &mdash; Concurrent Programming 2024/2025 documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/custom.css" type="text/css" /><link rel="shortcut icon" href="../../_static/favicon.png"/>
@@ -66,7 +66,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>17/03/2025 - Introduzione a strutture dati concorrenti - Stack</li>
+      <li>19/03/2025 - Stack parte 2</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/2025/lectures/week03.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -76,27 +76,56 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="introduzione-a-strutture-dati-concorrenti-stack">
-<h1>17/03/2025 - Introduzione a strutture dati concorrenti - Stack<a class="headerlink" href="#introduzione-a-strutture-dati-concorrenti-stack" title="Link to this heading">¶</a></h1>
+  <section id="stack-parte-2">
+<h1>19/03/2025 - Stack parte 2<a class="headerlink" href="#stack-parte-2" title="Link to this heading">¶</a></h1>
 <ul class="simple">
-<li><p>Utilizzo di perf</p></li>
 <li><p>Stack</p>
 <ul>
-<li><p>seriale, concorrente (spin lock e mutex), treiber</p></li>
+<li><p>treiber, elimination stack</p></li>
 </ul>
 </li>
+<li><p>Microbenchmark
+* rand
+* lrand48_r</p></li>
 </ul>
 <section id="riferimenti-libro-di-testo">
 <h2>Riferimenti libro di testo<a class="headerlink" href="#riferimenti-libro-di-testo" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  1.6</p></li>
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  11.2, 11.3</p></li>
 </ul>
 </section>
 <section id="altre-fonti">
 <h2>Altre fonti<a class="headerlink" href="#altre-fonti" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://dl.acm.org/doi/10.5555/110382.110450">Another view on parallel speedup</a></p></li>
-<li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
+<li><p>Elimination stack: <a class="reference external" href="https://dl.acm.org/doi/10.1145/1007912.1007944">A Scalable Lock-free Stack Algorithm</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/rand.3.html">rand</a></p></li>
+<li><p><a class="reference external" href="https://man7.org/linux/man-pages/man3/drand48_r.3.html">lrand48_r</a></p></li>
+<li><p><a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc/Thread-Local.html">GCC Thread Local Storage</a></p></li>
+</ul>
+</section>
+</section>
+<section id="introduzione-a-strutture-dati-concorrenti-stack-parte-1">
+<h1>17/03/2025 - Introduzione a strutture dati concorrenti - Stack parte 1<a class="headerlink" href="#introduzione-a-strutture-dati-concorrenti-stack-parte-1" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p>Utilizzo di perf</p></li>
+<li><p>Stack
+* seriale, concorrente (pthread spinlock e mutex), treiber</p></li>
+</ul>
+<section id="id1">
+<h2>Riferimenti libro di testo<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>[<a class="reference internal" href="../slides.html#books2025"><span class="std std-ref">t1</span></a>] Sezione  11.1, 11.2</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>Altre fonti<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>perf:
+* <a class="reference external" href="https://perfwiki.github.io/main/">Perfwiki</a>
+* <a class="reference external" href="https://man7.org/linux/man-pages/man1/perf.1.html">Linux man</a></p></li>
+<li><p>Read Modify Write: <a class="reference external" href="https://dl.acm.org/doi/10.1145/48022.48024">Efficient synchronization of multiprocessors with shared memory</a></p></li>
+<li><p>Compare and swap: <a class="reference external" href="https://gcc.gnu.org/onlinedocs/gcc-14.2.0/gcc/_005f_005fsync-Builtins.html">__sync built-in</a></p></li>
+<li><p>Treiber stack: <a class="reference external" href="https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf">Systems Programming: Coping With Parallelism</a></p></li>
 </ul>
 </section>
 </section>
@@ -110,7 +139,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2025, Romolo Marotta.
-      <span class="lastupdated">Last updated on Mar 19, 2025.
+      <span class="lastupdated">Last updated on Mar 21, 2025.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
