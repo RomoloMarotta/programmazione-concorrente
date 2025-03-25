@@ -14,6 +14,7 @@
 Riferimenti libro di testo
 """"""""""""""""""""""""""
 * [:ref:`t1 <books2025>`] Sezione  11.2, 11.3
+* [:ref:`t2 <books2025>`] Sezione  8.8
 
 Altre fonti
 """""""""""""""""""""""
