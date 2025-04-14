@@ -109,39 +109,89 @@
 <section id="altro-materiale">
 <h2>Altro materiale<a class="headerlink" href="#altro-materiale" title="Link to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>Introduzione</p>
-<ul>
+<li><dl class="simple">
+<dt>Introduzione</dt><dd><ul>
 <li><p><a class="reference external" href="http://www.gotw.ca/publications/concurrency-ddj.htm">The free lunch is over by Herb Sutter</a></p></li>
 <li><p><a class="reference external" href="https://herbsutter.com/welcome-to-the-jungle">Welcome to the jungle by Herb Sutter</a></p></li>
 <li><p><a class="reference external" href="https://github.com/karlrupp/microprocessor-trend-data">50 Years of Microprocessor Trend Data by K. Rupp</a></p></li>
 </ul>
+</dd>
+</dl>
 </li>
-<li><p>Proprietà</p>
-<ul>
-<li><p>Scalabilità</p>
-<ul>
+<li><dl class="simple">
+<dt>Proprietà</dt><dd><ul>
+<li><dl class="simple">
+<dt>Scalabilità</dt><dd><ul>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/10.5555/110382.110450">Another view on parallel speedup</a></p></li>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.5555/110382.110450">Legge di Amdahl Sezione 4 Eq. 11</a></p></li>
 </ul>
+</dd>
+</dl>
 </li>
-<li><p>Correttezza:</p>
-<ul>
+<li><dl class="simple">
+<dt>Correttezza:</dt><dd><ul>
 <li><p>Sequential consistency: <a class="reference external" href="https://ieeexplore.ieee.org/document/1675439">How to make a multiprocessor computer that correctly executes multiprocess programs</a></p></li>
 <li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/78969.78972">Linearizability: a correctness condition for concurrent objects</a></p></li>
 <li><p>Serializability: <a class="reference external" href="https://dl.acm.org/doi/10.1145/322154.322158">The Serializability of Concurrent Database Updates</a></p></li>
 </ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Progresso:</dt><dd><ul>
+<li><p><a class="reference external" href="https://link.springer.com/chapter/10.1007/978-3-642-25873-2_22">On the nature of progress</a></p></li>
+</ul>
+</dd>
+</dl>
 </li>
 </ul>
+</dd>
+</dl>
 </li>
-<li><p>Strutture dati concorrenti</p>
-<ul>
-<li><p>Stack</p>
-<ul>
+<li><dl class="simple">
+<dt>Strutture dati concorrenti</dt><dd><ul>
+<li><dl class="simple">
+<dt>Stack</dt><dd><ul>
 <li><p>Treiber stack: <a class="reference external" href="https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf">Systems Programming: Coping With Parallelism</a></p></li>
 <li><p>Elimination stack: <a class="reference external" href="https://dl.acm.org/doi/10.1145/1007912.1007944">A Scalable Lock-free Stack Algorithm</a></p></li>
 </ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Set</dt><dd><ul>
+<li><p><a class="reference external" href="https://link.springer.com/chapter/10.1007/11795490_3">A Lazy Concurrent List-Based Set Algorithm</a></p></li>
+<li><p><a class="reference external" href="https://link.springer.com/chapter/10.1007/3-540-45414-4_21">A Pragmatic Implementation of Non-blocking Linked-Lists</a></p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/564870.564881">High performance dynamic lock-free hash tables and list-based sets</a></p></li>
+<li><p>Resizable hash table: <a class="reference external" href="https://dl.acm.org/doi/10.1145/1147954.1147958">Split-ordered lists: Lock-free extensible hash tables</a></p></li>
+<li><p><a class="reference external" href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf">Practical Lock-Feedom. Section 4.3.3</a></p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/78973.78977">Skip lists: a probabilistic alternative to balanced trees</a></p></li>
+<li><p><a class="reference external" href="https://drops.dagstuhl.de/storage/00lipics/lipics-vol121-disc2018/LIPIcs.DISC.2018.18/LIPIcs.DISC.2018.18.pdf">NUMASK: High Performance Scalable Skip List for NUMA</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Priority Queue:</dt><dd><ul>
+<li><p>Sundell et al: <a class="reference external" href="https://ieeexplore.ieee.org/document/1213189">Fast and lock-free concurrent priority queues for multi-thread systems</a></p></li>
+<li><p>Lothan et al: <a class="reference external" href="https://ieeexplore.ieee.org/document/845994">Skiplist-based concurrent priority queues</a></p></li>
+<li><p>Linden et al: <a class="reference external" href="https://link.springer.com/chapter/10.1007/978-3-319-03850-6_15">A Skiplist-Based Concurrent Priority Queue with Minimal Memory Contention</a></p></li>
+<li><dl class="simple">
+<dt>Marotta et al:</dt><dd><ul>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33">A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms</a></p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/3064911.3064926">A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms</a></p></li>
+<li><p><a class="reference external" href="https://dl.acm.org/doi/10.1145/3635163">A Conflict-Resilient Lock-Free Linearizable Calendar Queue</a></p></li>
+</ul>
+</dd>
+</dl>
 </li>
 </ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
 </li>
 </ul>
 </section>
@@ -159,7 +209,7 @@
 
   <div role="contentinfo">
     <p>&#169; Copyright 2025, Romolo Marotta.
-      <span class="lastupdated">Last updated on Apr 09, 2025.
+      <span class="lastupdated">Last updated on Apr 14, 2025.
       </span></p>
   </div>
   <div><p>Flag icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a><p></div>
