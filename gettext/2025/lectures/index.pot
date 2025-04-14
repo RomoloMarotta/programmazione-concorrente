@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-25 16:13+0100\n"
+"POT-Creation-Date: 2025-04-14 08:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,52 +28,18 @@ msgstr ""
 msgid "L'unione dei paragrafi può non rappresentare la totalità degli argomenti trattati durante la lezione."
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:2
-msgid "26/03/2025 - Strutture dati concorrenti: Set"
+#: ../source/2025/lectures/week07.rst:2
+msgid "16/04/2025 - TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:6
-msgid "24/03/2025 - Proprietà: Progresso"
+#: ../source/2025/lectures/week07.rst:4
+#: ../source/2025/lectures/week07.rst:14
+#: ../source/2025/lectures/week07.rst:23
+msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:8
-msgid "Deadlock freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:9
-msgid "Starvation freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:10
-msgid "Lock freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:11
-msgid "Wait freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:12
-msgid "Obstruction freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:13
-msgid "Minimal and maximal progress"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:14
-msgid "Fair execution"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:15
-msgid "Dependent and independent progress"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:16
-msgid "Blocking vs Non-blocking progress"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:17
-msgid "Esecuzione in isolamento"
+#: ../source/2025/lectures/week07.rst:11
+msgid "14/04/2025 - Strutture dati concorrenti: FIFO Queue"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:14
@@ -82,16 +48,116 @@ msgstr ""
 #: ../source/2025/lectures/week02.rst:44
 #: ../source/2025/lectures/week03.rst:15
 #: ../source/2025/lectures/week03.rst:40
-#: ../source/2025/lectures/week04.rst:21
+#: ../source/2025/lectures/week04.rst:11
+#: ../source/2025/lectures/week04.rst:33
+#: ../source/2025/lectures/week05.rst:8
+#: ../source/2025/lectures/week05.rst:29
+#: ../source/2025/lectures/week07.rst:17
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:23
-msgid "[:ref:`t1 <books2025>`] Sezione  3.6, 3.7"
+#: ../source/2025/lectures/week07.rst:18
+msgid "[:ref:`t1 <books2025>`] ?"
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:24
-msgid "[:ref:`t2 <books2025>`] Sezione  3.2"
+#: ../source/2025/lectures/week07.rst:21
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:2
+msgid "09/04/2025 - Strutture dati concorrenti: Set (approfondimenti) e Priority Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:4
+msgid "Set"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:5
+msgid "Harris + Search index"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:6
+msgid "Resizable hash table"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:7
+msgid "Skip list NUMASK"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:9
+msgid "Lock-free Priority Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:10
+msgid "Richiami"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:11
+msgid "Heap"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:12
+msgid "Calendar Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:13
+msgid "Linearizable (Sundell and Tsigats)"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:14
+msgid "Lazy deletion"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:15
+msgid "Timestamping (Lothan and Shavit)"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:16
+msgid "Marked prefix (Linden and Johosson)"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:17
+msgid "Adaptive (Marotta and Ianni and Pellegrini and Quaglia)"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:22
+msgid "Altre Fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:24
+msgid "Resizable hash table: `Split-ordered lists: Lock-free extensible hash tables <https://dl.acm.org/doi/10.1145/1147954.1147958>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:25
+msgid "`NUMASK: High Performance Scalable Skip List for NUMA <https://drops.dagstuhl.de/storage/00lipics/lipics-vol121-disc2018/LIPIcs.DISC.2018.18/LIPIcs.DISC.2018.18.pdf>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:26
+msgid "Priority Queue by Sundell et al: `Fast and lock-free concurrent priority queues for multi-thread systems <https://ieeexplore.ieee.org/document/1213189>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:27
+msgid "Priority Queue by Lothan et al: `Skiplist-based concurrent priority queues <https://ieeexplore.ieee.org/document/845994>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:28
+msgid "Priority Queue by Linden et al: `A Skiplist-Based Concurrent Priority Queue with Minimal Memory Contention <https://link.springer.com/chapter/10.1007/978-3-319-03850-6_15>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:29
+msgid "Priority Queue by Marotta et al: * `A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_ * `A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms <https://dl.acm.org/doi/10.1145/3064911.3064926>`_ * `A Conflict-Resilient Lock-Free Linearizable Calendar Queue <https://dl.acm.org/doi/10.1145/3635163>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:40
+msgid "07/04/2025 - Strutture dati concorrenti: Set Hashtable e Skip list"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:42
+msgid "Hashtable"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:43
+msgid "Skip list"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:18
@@ -100,11 +166,126 @@ msgstr ""
 #: ../source/2025/lectures/week02.rst:48
 #: ../source/2025/lectures/week03.rst:20
 #: ../source/2025/lectures/week03.rst:44
-#: ../source/2025/lectures/week04.rst:27
+#: ../source/2025/lectures/week04.rst:39
+#: ../source/2025/lectures/week05.rst:13
+#: ../source/2025/lectures/week05.rst:35
+#: ../source/2025/lectures/week06.rst:46
 msgid "Altre fonti"
 msgstr ""
 
+#: ../source/2025/lectures/week06.rst:48
+msgid "`High performance dynamic lock-free hash tables and list-based sets <https://dl.acm.org/doi/10.1145/564870.564881>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:49
+msgid "`Skip lists: a probabilistic alternative to balanced trees <https://dl.acm.org/doi/10.1145/78973.78977>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:50
+msgid "`Practical Lock-Feedom. Section 4.3.3  <https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:2
+msgid "02/04/2025 - Strutture dati concorrenti: Set Lazy"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:4
+msgid "Set * Lazy list"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:9
+msgid "[:ref:`t1 <books2025>`] Sezione  9.6, 9.7"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:15
+msgid "`A Lazy Concurrent List-Based Set Algorithm <https://link.springer.com/chapter/10.1007/11795490_3>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:22
+msgid "31/03/2025 - Strutture dati concorrenti: Set Harris"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:25
+msgid "Set * Harris' Linked List"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:31
+msgid "[:ref:`t1 <books2025>`] Sezione  9.8"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:32
+msgid "[:ref:`t2 <books2025>`] Sezione  8.3"
+msgstr ""
+
+#: ../source/2025/lectures/week05.rst:37
+msgid "`A Pragmatic Implementation of Non-blocking Linked-Lists <https://link.springer.com/chapter/10.1007/3-540-45414-4_21>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:2
+msgid "26/03/2025 - Strutture dati concorrenti: Set"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:5
+msgid "Set * ADT * Global lock * Lock Coupling"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:13
+msgid "[:ref:`t1 <books2025>`] Sezione  9.1, 9.2, 9.3, 9.4, 9.5"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:18
+msgid "24/03/2025 - Proprietà: Progresso"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:20
+msgid "Deadlock freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:21
+msgid "Starvation freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:22
+msgid "Lock freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:23
+msgid "Wait freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:24
+msgid "Obstruction freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:25
+msgid "Minimal and maximal progress"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:26
+msgid "Fair execution"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:27
+msgid "Dependent and independent progress"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:28
+msgid "Blocking vs Non-blocking progress"
+msgstr ""
+
 #: ../source/2025/lectures/week04.rst:29
+msgid "Esecuzione in isolamento"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:35
+msgid "[:ref:`t1 <books2025>`] Sezione  3.6, 3.7"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:36
+msgid "[:ref:`t2 <books2025>`] Sezione  3.2"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:41
 msgid "`On the nature of progress <https://link.springer.com/chapter/10.1007/978-3-642-25873-2_22>`_"
 msgstr ""
 

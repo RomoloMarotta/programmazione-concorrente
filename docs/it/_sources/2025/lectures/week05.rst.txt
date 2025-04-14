@@ -1,34 +1,37 @@
-:orphan:
+02/04/2025 - Strutture dati concorrenti: Set Lazy
+--------------------------------------------------
 
-TBD
----------------------------------
-
-* TBD
+* Set
+  * Lazy list
 
 Riferimenti libro di testo
 """"""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
+* [:ref:`t1 <books2025>`] Sezione  9.6, 9.7
 
-Link di approfondimento
-"""""""""""""""""""""""
 
-* TBD
+Altre fonti
+"""""""""""
+
+* `A Lazy Concurrent List-Based Set Algorithm <https://link.springer.com/chapter/10.1007/11795490_3>`_
+
 
 -----------------------------------------------------------------------------------
 
 
-TBD
----------------------------------
+31/03/2025 - Strutture dati concorrenti: Set Harris
+-----------------------------------------------------------------------
 
 
-* TBD
+* Set
+  * Harris' Linked List
 
 Riferimenti libro di testo
 """"""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
 
-Link di approfondimento
-"""""""""""""""""""""""
+* [:ref:`t1 <books2025>`] Sezione  9.8
+* [:ref:`t2 <books2025>`] Sezione  8.3
 
-* TBD
+Altre fonti
+"""""""""""
 
+* `A Pragmatic Implementation of Non-blocking Linked-Lists <https://link.springer.com/chapter/10.1007/3-540-45414-4_21>`_

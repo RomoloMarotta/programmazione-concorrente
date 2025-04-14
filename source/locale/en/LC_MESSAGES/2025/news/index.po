@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-25 16:12+0100\n"
+"POT-Creation-Date: 2025-04-14 08:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,22 +22,37 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/2025/news/250325.rst:2
-msgid "25-03-2025 - avviso: aggionamenti sito del corso"
+#: ../source/2025/news/250414.rst:2
+msgid "14-04-2025 - avviso: aggionamenti sito del corso"
 msgstr ""
 
 #: ../source/2025/news/250304.rst:4 ../source/2025/news/250305.rst:4
 #: ../source/2025/news/250311.rst:4 ../source/2025/news/250319.rst:4
 #: ../source/2025/news/250321.rst:4 ../source/2025/news/250325.rst:4
+#: ../source/2025/news/250414.rst:4
 msgid "Sito del corso:"
 msgstr ""
 
 #: ../source/2025/news/250311.rst:6 ../source/2025/news/250319.rst:6
-#: ../source/2025/news/250321.rst:6 ../source/2025/news/250325.rst:6
+#: ../source/2025/news/250321.rst:6 ../source/2025/news/250414.rst:6
 msgid "aggiornato diario delle lezioni"
 msgstr ""
 
-#: ../source/2025/news/250325.rst:7
+#: ../source/2025/news/250414.rst:7
+msgid "aggiornate le slide di \"Strutture dati\""
+msgstr ""
+
+#: ../source/2025/news/250325.rst:2
+msgid "25-03-2025 - avviso: aggionamenti sito del corso"
+msgstr ""
+
+#: ../source/2025/news/250325.rst:6
+msgid ""
+"aggiornato diario delle lezioni: * :ref:`l24-03-2025` * "
+":ref:`l31-03-2025` * :ref:`l07-04-2025` * :ref:`l14-04-2025`"
+msgstr ""
+
+#: ../source/2025/news/250325.rst:11
 msgid "aggiornate le slide di \"Proprietà\" e \"Strutture dati\""
 msgstr ""
 

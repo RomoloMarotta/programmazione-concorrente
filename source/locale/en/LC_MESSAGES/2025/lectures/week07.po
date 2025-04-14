@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:15+0100\n"
+"POT-Creation-Date: 2025-04-14 08:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../source/2025/lectures/week07.rst:2 ../source/2025/lectures/week07.rst:4
-#: ../source/2025/lectures/week07.rst:13 ../source/2025/lectures/week07.rst:19
-#: ../source/2025/lectures/week07.rst:22 ../source/2025/lectures/week07.rst:31
+#: ../source/2025/lectures/week07.rst:2
+msgid "16/04/2025 - TBD"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:4 ../source/2025/lectures/week07.rst:14
+#: ../source/2025/lectures/week07.rst:23
 msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:7 ../source/2025/lectures/week07.rst:25
+#: ../source/2025/lectures/week07.rst:11
+msgid "14/04/2025 - Strutture dati concorrenti: FIFO Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:17
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:8 ../source/2025/lectures/week07.rst:26
+#: ../source/2025/lectures/week07.rst:18
 msgid "[:ref:`t1 <books2025>`] ?"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:11 ../source/2025/lectures/week07.rst:29
+#: ../source/2025/lectures/week07.rst:21
 msgid "Link di approfondimento"
 msgstr ""
 

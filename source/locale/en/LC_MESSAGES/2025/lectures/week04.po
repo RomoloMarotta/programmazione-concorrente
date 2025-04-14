@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-25 16:12+0100\n"
+"POT-Creation-Date: 2025-04-14 08:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,67 +22,75 @@ msgstr ""
 msgid "26/03/2025 - Strutture dati concorrenti: Set"
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:6
-msgid "24/03/2025 - Proprietà: Progresso"
+#: ../source/2025/lectures/week04.rst:5
+msgid "Set * ADT * Global lock * Lock Coupling"
 msgstr ""
 
-#: ../source/2025/lectures/week04.rst:8
-msgid "Deadlock freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:9
-msgid "Starvation freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:10
-msgid "Lock freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:11
-msgid "Wait freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:12
-msgid "Obstruction freedom"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:13
-msgid "Minimal and maximal progress"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:14
-msgid "Fair execution"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:15
-msgid "Dependent and independent progress"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:16
-msgid "Blocking vs Non-blocking progress"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:17
-msgid "Esecuzione in isolamento"
-msgstr ""
-
-#: ../source/2025/lectures/week04.rst:21
+#: ../source/2025/lectures/week04.rst:11 ../source/2025/lectures/week04.rst:33
 msgid "Riferimenti libro di testo"
 msgstr ""
 
+#: ../source/2025/lectures/week04.rst:13
+msgid "[:ref:`t1 <books2025>`] Sezione  9.1, 9.2, 9.3, 9.4, 9.5"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:18
+msgid "24/03/2025 - Proprietà: Progresso"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:20
+msgid "Deadlock freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:21
+msgid "Starvation freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:22
+msgid "Lock freedom"
+msgstr ""
+
 #: ../source/2025/lectures/week04.rst:23
-msgid "[:ref:`t1 <books2025>`] Sezione  3.6, 3.7"
+msgid "Wait freedom"
 msgstr ""
 
 #: ../source/2025/lectures/week04.rst:24
-msgid "[:ref:`t2 <books2025>`] Sezione  3.2"
+msgid "Obstruction freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:25
+msgid "Minimal and maximal progress"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:26
+msgid "Fair execution"
 msgstr ""
 
 #: ../source/2025/lectures/week04.rst:27
-msgid "Altre fonti"
+msgid "Dependent and independent progress"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:28
+msgid "Blocking vs Non-blocking progress"
 msgstr ""
 
 #: ../source/2025/lectures/week04.rst:29
+msgid "Esecuzione in isolamento"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:35
+msgid "[:ref:`t1 <books2025>`] Sezione  3.6, 3.7"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:36
+msgid "[:ref:`t2 <books2025>`] Sezione  3.2"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:39
+msgid "Altre fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week04.rst:41
 msgid ""
 "`On the nature of progress "
 "<https://link.springer.com/chapter/10.1007/978-3-642-25873-2_22>`_"
