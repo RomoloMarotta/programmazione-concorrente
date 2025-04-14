@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-14 08:27+0200\n"
+"POT-Creation-Date: 2025-04-14 08:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "`02 - Proprietà       </programmazione-concorrente/slides/02-PC-properti
 msgstr ""
 
 #: ../source/2025/slides.rst:9
-msgid "`03 - Strutture dati  </programmazione-concorrente/slides/03-PC-concurrent-ds-25-04-09.pdf>`_.  Pubblicato il 19/03/25. Aggiornato il 09/04/25."
+msgid "`03 - Strutture dati  </programmazione-concorrente/slides/03-PC-concurrent-ds-25-04-14.pdf>`_.  Pubblicato il 19/03/25. Aggiornato il 14/04/25."
 msgstr ""
 
 #: ../source/2025/slides.rst:15

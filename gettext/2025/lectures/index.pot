@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-14 08:20+0200\n"
+"POT-Creation-Date: 2025-04-14 08:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,7 +145,19 @@ msgid "Priority Queue by Linden et al: `A Skiplist-Based Concurrent Priority Que
 msgstr ""
 
 #: ../source/2025/lectures/week06.rst:29
-msgid "Priority Queue by Marotta et al: * `A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_ * `A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms <https://dl.acm.org/doi/10.1145/3064911.3064926>`_ * `A Conflict-Resilient Lock-Free Linearizable Calendar Queue <https://dl.acm.org/doi/10.1145/3635163>`_"
+msgid "Priority Queue by Marotta et al:"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:30
+msgid "`A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:31
+msgid "`A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms <https://dl.acm.org/doi/10.1145/3064911.3064926>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:32
+msgid "`A Conflict-Resilient Lock-Free Linearizable Calendar Queue <https://dl.acm.org/doi/10.1145/3635163>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week06.rst:40
