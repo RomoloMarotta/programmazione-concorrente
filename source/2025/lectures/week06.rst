@@ -27,9 +27,9 @@ Altre Fonti
 * Priority Queue by Lothan et al: `Skiplist-based concurrent priority queues <https://ieeexplore.ieee.org/document/845994>`_
 * Priority Queue by Linden et al: `A Skiplist-Based Concurrent Priority Queue with Minimal Memory Contention <https://link.springer.com/chapter/10.1007/978-3-319-03850-6_15>`_
 * Priority Queue by Marotta et al: 
-  * `A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_
-  * `A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms <https://dl.acm.org/doi/10.1145/3064911.3064926>`_
-  * `A Conflict-Resilient Lock-Free Linearizable Calendar Queue <https://dl.acm.org/doi/10.1145/3635163>`_
+    * `A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_
+    * `A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms <https://dl.acm.org/doi/10.1145/3064911.3064926>`_
+    * `A Conflict-Resilient Lock-Free Linearizable Calendar Queue <https://dl.acm.org/doi/10.1145/3635163>`_
 
 
 
