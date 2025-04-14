@@ -2,6 +2,9 @@
 -------------------------------------------------
 
 * Sito del corso:
-
-  * aggiornato diario delle lezioni
-  * aggiornate le slide di "Strutture dati"
+    * aggiornato diario delle lezioni
+        * :ref:`l24-03-2025`
+        * :ref:`l31-03-2025`
+        * :ref:`l07-04-2025`
+        * :ref:`l14-04-2025`
+    * aggiornate le slide di "Strutture dati"

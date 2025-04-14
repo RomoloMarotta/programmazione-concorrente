@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-14 08:16+0200\n"
+"POT-Creation-Date: 2025-04-14 08:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,15 +27,19 @@ msgid "Sito del corso:"
 msgstr ""
 
 #: ../source/2025/news/250325.rst:6
-msgid ""
-"aggiornato diario delle lezioni: * :ref:`l24-03-2025` * "
-":ref:`l31-03-2025` * :ref:`l07-04-2025` * :ref:`l14-04-2025`"
+msgid "aggiornato diario delle lezioni"
 msgstr ""
 
-#: ../source/2025/news/250325.rst:11
+#: ../source/2025/news/250325.rst:7
 msgid "aggiornate le slide di \"Proprietà\" e \"Strutture dati\""
 msgstr ""
 
 #~ msgid "aggiornato diario delle lezioni"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "aggiornato diario delle lezioni: * "
+#~ ":ref:`l24-03-2025` * :ref:`l31-03-2025` * "
+#~ ":ref:`l07-04-2025` * :ref:`l14-04-2025`"
 #~ msgstr ""
 
