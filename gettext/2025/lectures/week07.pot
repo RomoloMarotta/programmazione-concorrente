@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-14 08:13+0200\n"
+"POT-Creation-Date: 2025-05-26 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/2025/lectures/week07.rst:2
-msgid "16/04/2025 - TBD"
+msgid "16/04/2025 - Strutture dati concorrenti: FIFO Queue"
 msgstr ""
 
 #: ../source/2025/lectures/week07.rst:4
-#: ../source/2025/lectures/week07.rst:14
-#: ../source/2025/lectures/week07.rst:23
+#: ../source/2025/lectures/week07.rst:20
 msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:11
-msgid "14/04/2025 - Strutture dati concorrenti: FIFO Queue"
+#: ../source/2025/lectures/week07.rst:8
+#: ../source/2025/lectures/week07.rst:29
+msgid "Altre Fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:10
+msgid "`A methodology for creating fast wait-free data structures <https://dl.acm.org/doi/10.1145/2370036.2145835>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week07.rst:17
+msgid "14/04/2025 - Strutture dati concorrenti: FIFO Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:24
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:18
+#: ../source/2025/lectures/week07.rst:25
 msgid "[:ref:`t1 <books2025>`] ?"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:21
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week07.rst:31
+msgid "`Simple, fast, and practical non-blocking and blocking concurrent queue algorithms <https://dl.acm.org/doi/10.1145/248052.2481061>`_"
 msgstr ""

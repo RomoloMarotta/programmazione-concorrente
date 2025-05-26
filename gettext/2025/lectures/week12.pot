@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-04 18:29+0100\n"
+"POT-Creation-Date: 2025-05-26 13:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,26 +16,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../source/2025/lectures/week12.rst:2
+msgid "21/05/2025 - Locking"
+msgstr ""
+
 #: ../source/2025/lectures/week12.rst:4
+msgid "Approcci ibridi"
+msgstr ""
+
 #: ../source/2025/lectures/week12.rst:6
-#: ../source/2025/lectures/week12.rst:15
-#: ../source/2025/lectures/week12.rst:21
-#: ../source/2025/lectures/week12.rst:24
-#: ../source/2025/lectures/week12.rst:33
-msgid "TBD"
+msgid "Mutexee"
 msgstr ""
 
-#: ../source/2025/lectures/week12.rst:9
-#: ../source/2025/lectures/week12.rst:27
-msgid "Riferimenti libro di testo"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:10
-#: ../source/2025/lectures/week12.rst:28
-msgid "[:ref:`t1 <books2025>`] ?"
+#: ../source/2025/lectures/week12.rst:7
+msgid "Malthusian Locks"
 msgstr ""
 
 #: ../source/2025/lectures/week12.rst:13
-#: ../source/2025/lectures/week12.rst:31
+msgid "Altre Fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:15
+msgid "`Unlocking Energy <https://www.usenix.org/conference/atc16/technical-sessions/presentation/falsafi>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:16
+msgid "`Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:23
+msgid "19/05/2025 - Transactional Memory"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:25
+msgid "Opacity"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:26
+msgid "Obstruction Freedom"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:29
+msgid "Riferimenti libro di testo"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:30
+#: ../source/2025/lectures/week12.rst:35
+msgid "TBD"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:33
 msgid "Link di approfondimento"
 msgstr ""

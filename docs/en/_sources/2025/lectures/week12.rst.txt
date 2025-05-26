@@ -1,31 +1,33 @@
-:orphan:
-
-TBD
+21/05/2025 - Locking
 ---------------------------------
 
-* TBD
+* Approcci ibridi
+ 
+  * Mutexee
+  * Malthusian Locks
 
-Riferimenti libro di testo
-""""""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
 
-Link di approfondimento
+
+
+Altre Fonti
 """""""""""""""""""""""
 
-* TBD
+* `Unlocking Energy <https://www.usenix.org/conference/atc16/technical-sessions/presentation/falsafi>`_
+* `Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_
+
 
 -----------------------------------------------------------------------------------
 
 
-TBD
----------------------------------
+19/05/2025 - Transactional Memory
+-----------------------------------------------------------------------
 
-
-* TBD
+* Opacity
+* Obstruction Freedom
 
 Riferimenti libro di testo
 """"""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
+* TBD
 
 Link di approfondimento
 """""""""""""""""""""""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-14 08:30+0200\n"
+"POT-Creation-Date: 2025-05-26 13:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,17 +34,48 @@ msgid ""
 "trattati durante la lezione."
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:2
-msgid "16/04/2025 - TBD"
+#: ../source/2025/lectures/week12.rst:2
+msgid "21/05/2025 - Locking"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:4 ../source/2025/lectures/week07.rst:14
-#: ../source/2025/lectures/week07.rst:23
-msgid "TBD"
+#: ../source/2025/lectures/week12.rst:4
+msgid "Approcci ibridi"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:11
-msgid "14/04/2025 - Strutture dati concorrenti: FIFO Queue"
+#: ../source/2025/lectures/week12.rst:6
+msgid "Mutexee"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:7
+msgid "Malthusian Locks"
+msgstr ""
+
+#: ../source/2025/lectures/week06.rst:22 ../source/2025/lectures/week07.rst:8
+#: ../source/2025/lectures/week07.rst:29 ../source/2025/lectures/week08.rst:8
+#: ../source/2025/lectures/week09.rst:20 ../source/2025/lectures/week12.rst:13
+msgid "Altre Fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:15
+msgid ""
+"`Unlocking Energy <https://www.usenix.org/conference/atc16/technical-"
+"sessions/presentation/falsafi>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:16
+msgid "`Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:23
+msgid "19/05/2025 - Transactional Memory"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:25
+msgid "Opacity"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:26
+msgid "Obstruction Freedom"
 msgstr ""
 
 #: ../source/2025/lectures/week01.rst:14 ../source/2025/lectures/week01.rst:51
@@ -52,16 +83,91 @@ msgstr ""
 #: ../source/2025/lectures/week03.rst:15 ../source/2025/lectures/week03.rst:40
 #: ../source/2025/lectures/week04.rst:11 ../source/2025/lectures/week04.rst:33
 #: ../source/2025/lectures/week05.rst:8 ../source/2025/lectures/week05.rst:29
-#: ../source/2025/lectures/week07.rst:17
+#: ../source/2025/lectures/week07.rst:24 ../source/2025/lectures/week09.rst:17
+#: ../source/2025/lectures/week10.rst:17 ../source/2025/lectures/week11.rst:17
+#: ../source/2025/lectures/week12.rst:29
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:18
+#: ../source/2025/lectures/week07.rst:4 ../source/2025/lectures/week07.rst:20
+#: ../source/2025/lectures/week08.rst:4 ../source/2025/lectures/week09.rst:4
+#: ../source/2025/lectures/week09.rst:14 ../source/2025/lectures/week10.rst:4
+#: ../source/2025/lectures/week10.rst:14 ../source/2025/lectures/week10.rst:23
+#: ../source/2025/lectures/week11.rst:4 ../source/2025/lectures/week11.rst:14
+#: ../source/2025/lectures/week11.rst:23 ../source/2025/lectures/week12.rst:30
+#: ../source/2025/lectures/week12.rst:35
+msgid "TBD"
+msgstr ""
+
+#: ../source/2025/lectures/week10.rst:21 ../source/2025/lectures/week11.rst:21
+#: ../source/2025/lectures/week12.rst:33
+msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2025/lectures/week11.rst:2
+msgid "14/05/2025 - Locking"
+msgstr ""
+
+#: ../source/2025/lectures/week11.rst:11
+msgid "12/05/2025 - Locking - FIFO Locks"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:25 ../source/2025/lectures/week10.rst:18
+#: ../source/2025/lectures/week11.rst:18
 msgid "[:ref:`t1 <books2025>`] ?"
 msgstr ""
 
-#: ../source/2025/lectures/week07.rst:21
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week10.rst:2
+msgid "07/05/2025 - Locking"
+msgstr ""
+
+#: ../source/2025/lectures/week10.rst:11
+msgid "05/05/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
+msgstr ""
+
+#: ../source/2025/lectures/week09.rst:2
+msgid "30/04/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
+msgstr ""
+
+#: ../source/2025/lectures/week09.rst:11
+msgid "28/04/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
+msgstr ""
+
+#: ../source/2025/lectures/week09.rst:22
+msgid ""
+"`Multiword atomic read/write registers on multiprocessor systems "
+"<https://dl.acm.org/doi/10.1145/1412228.1455262>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week09.rst:23
+msgid ""
+"`A Wait-Free Multi-word Atomic (1,N) Register for Large-Scale Data "
+"Sharing on Multi-core Machines "
+"<https://ieeexplore.ieee.org/document/8048930>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week08.rst:2
+msgid "23/04/2025 -  Strutture dati concorrenti: FIFO Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:10 ../source/2025/lectures/week08.rst:10
+msgid ""
+"`A methodology for creating fast wait-free data structures "
+"<https://dl.acm.org/doi/10.1145/2370036.2145835>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:2
+msgid "16/04/2025 - Strutture dati concorrenti: FIFO Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:17
+msgid "14/04/2025 - Strutture dati concorrenti: FIFO Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week07.rst:31
+msgid ""
+"`Simple, fast, and practical non-blocking and blocking concurrent queue "
+"algorithms <https://dl.acm.org/doi/10.1145/248052.2481061>`_"
 msgstr ""
 
 #: ../source/2025/lectures/week06.rst:2
@@ -120,10 +226,6 @@ msgstr ""
 
 #: ../source/2025/lectures/week06.rst:17
 msgid "Adaptive (Marotta and Ianni and Pellegrini and Quaglia)"
-msgstr ""
-
-#: ../source/2025/lectures/week06.rst:22
-msgid "Altre Fonti"
 msgstr ""
 
 #: ../source/2025/lectures/week06.rst:24
@@ -775,5 +877,8 @@ msgstr ""
 #~ " Conflict-Resilient Lock-Free Linearizable"
 #~ " Calendar Queue "
 #~ "<https://dl.acm.org/doi/10.1145/3635163>`_"
+#~ msgstr ""
+
+#~ msgid "16/04/2025 - TBD"
 #~ msgstr ""
 

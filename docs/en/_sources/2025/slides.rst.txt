@@ -7,7 +7,8 @@ In questa sezione potete scaricare le slide delle lezioni.
 * `01 - Introduzione    </programmazione-concorrente/slides/01-PC-intro-web-25-03-05.pdf>`_.      Pubblicato il 04/03/25. Aggiornato il 05/03/25.
 * `02 - Proprietà       </programmazione-concorrente/slides/02-PC-properties-web-25-03-25.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 25/03/25.
 * `03 - Strutture dati  </programmazione-concorrente/slides/03-PC-concurrent-ds-25-05-05.pdf>`_.  Pubblicato il 19/03/25. Aggiornato il 05/05/25.
-
+* `04 - Locking         </programmazione-concorrente/slides/04-PC-lock.pdf>`_.  Pubblicato il 26/05/25.
+* `05 - Transactinal Memory         </programmazione-concorrente/slides/04-PC-lock.pdf>`_.  Pubblicato il 26/05/25.
 
 .. _books2025:
 
@@ -78,6 +79,16 @@ Altro materiale
             * `A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_
             * `A conflict-resilient lock-free calendar queue for scalable share-everything PDES platforms <https://dl.acm.org/doi/10.1145/3064911.3064926>`_
             * `A Conflict-Resilient Lock-Free Linearizable Calendar Queue <https://dl.acm.org/doi/10.1145/3635163>`_
+    * FIFO Queue
+        * `Simple, fast, and practical non-blocking and blocking concurrent queue algorithms <https://dl.acm.org/doi/10.1145/248052.2481061>`_
+        * `A methodology for creating fast wait-free data structures <https://dl.acm.org/doi/10.1145/2370036.2145835>`_
+    * Wait-free Multiple-Reader Single-Writer Register
+        * `Multiword atomic read/write registers on multiprocessor systems <https://dl.acm.org/doi/10.1145/1412228.1455262>`_
+        * `A Wait-Free Multi-word Atomic (1,N) Register for Large-Scale Data Sharing on Multi-core Machines <https://ieeexplore.ieee.org/document/8048930>`_
+* Lock
+    *  Ibridi:
+        * Mutexee: `Unlocking Energy <https://www.usenix.org/conference/atc16/technical-sessions/presentation/falsafi>`_
+        * `Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_
 
 
 

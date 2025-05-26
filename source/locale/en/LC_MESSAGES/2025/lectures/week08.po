@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:15+0100\n"
+"POT-Creation-Date: 2025-05-26 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../source/2025/lectures/week08.rst:2 ../source/2025/lectures/week08.rst:4
-#: ../source/2025/lectures/week08.rst:13 ../source/2025/lectures/week08.rst:19
-#: ../source/2025/lectures/week08.rst:22 ../source/2025/lectures/week08.rst:31
+#: ../source/2025/lectures/week08.rst:2
+msgid "23/04/2025 -  Strutture dati concorrenti: FIFO Queue"
+msgstr ""
+
+#: ../source/2025/lectures/week08.rst:4
 msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week08.rst:7 ../source/2025/lectures/week08.rst:25
-msgid "Riferimenti libro di testo"
+#: ../source/2025/lectures/week08.rst:8
+msgid "Altre Fonti"
 msgstr ""
 
-#: ../source/2025/lectures/week08.rst:8 ../source/2025/lectures/week08.rst:26
-msgid "[:ref:`t1 <books2025>`] ?"
+#: ../source/2025/lectures/week08.rst:10
+msgid ""
+"`A methodology for creating fast wait-free data structures "
+"<https://dl.acm.org/doi/10.1145/2370036.2145835>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week08.rst:11 ../source/2025/lectures/week08.rst:29
-msgid "Link di approfondimento"
-msgstr ""
+#~ msgid "Riferimenti libro di testo"
+#~ msgstr ""
+
+#~ msgid "[:ref:`t1 <books2025>`] ?"
+#~ msgstr ""
+
+#~ msgid "Link di approfondimento"
+#~ msgstr ""
 

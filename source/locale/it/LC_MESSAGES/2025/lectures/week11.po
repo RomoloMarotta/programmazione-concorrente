@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:15+0100\n"
+"POT-Creation-Date: 2025-05-26 13:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../source/2025/lectures/week11.rst:2 ../source/2025/lectures/week11.rst:4
-#: ../source/2025/lectures/week11.rst:13 ../source/2025/lectures/week11.rst:19
-#: ../source/2025/lectures/week11.rst:22 ../source/2025/lectures/week11.rst:31
+#: ../source/2025/lectures/week11.rst:2
+msgid "14/05/2025 - Locking"
+msgstr ""
+
+#: ../source/2025/lectures/week11.rst:4 ../source/2025/lectures/week11.rst:14
+#: ../source/2025/lectures/week11.rst:23
 msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week11.rst:7 ../source/2025/lectures/week11.rst:25
+#: ../source/2025/lectures/week11.rst:11
+msgid "12/05/2025 - Locking - FIFO Locks"
+msgstr ""
+
+#: ../source/2025/lectures/week11.rst:17
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week11.rst:8 ../source/2025/lectures/week11.rst:26
+#: ../source/2025/lectures/week11.rst:18
 msgid "[:ref:`t1 <books2025>`] ?"
 msgstr ""
 
-#: ../source/2025/lectures/week11.rst:11 ../source/2025/lectures/week11.rst:29
+#: ../source/2025/lectures/week11.rst:21
 msgid "Link di approfondimento"
 msgstr ""
+
+#~ msgid "12/05/2025 - Locking"
+#~ msgstr ""
 
