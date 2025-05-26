@@ -7,8 +7,8 @@ In questa sezione potete scaricare le slide delle lezioni.
 * `01 - Introduzione    </programmazione-concorrente/slides/01-PC-intro-web-25-03-05.pdf>`_.      Pubblicato il 04/03/25. Aggiornato il 05/03/25.
 * `02 - Proprietà       </programmazione-concorrente/slides/02-PC-properties-web-25-03-25.pdf>`_. Pubblicato il 04/03/25. Aggiornato il 25/03/25.
 * `03 - Strutture dati  </programmazione-concorrente/slides/03-PC-concurrent-ds-25-05-05.pdf>`_.  Pubblicato il 19/03/25. Aggiornato il 05/05/25.
-* `04 - Locking         </programmazione-concorrente/slides/04-PC-lock.pdf>`_.  Pubblicato il 26/05/25.
-* `05 - Transactinal Memory         </programmazione-concorrente/slides/04-PC-lock.pdf>`_.  Pubblicato il 26/05/25.
+* `04 - Locking         </programmazione-concorrente/slides/04-PC-locks.pdf>`_.  Pubblicato il 26/05/25.
+* `05 - Transactinal Memory         </programmazione-concorrente/slides/05-PC-tm.pdf>`_.  Pubblicato il 26/05/25.
 
 .. _books2025:
 
