@@ -11,14 +11,12 @@
 -----------------------------------------------------------------------
 
 
-* TBD
+* ARC Wait-free MRSW Register
 
-Riferimenti libro di testo
-""""""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
 
 Link di approfondimento
 """""""""""""""""""""""
 
-* TBD
+* `A Wait-Free Multi-word Atomic (1,N) Register for Large-Scale Data Sharing on Multi-core Machines <https://ieeexplore.ieee.org/document/8048930>`_
+
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:15+0100\n"
+"POT-Creation-Date: 2025-06-04 13:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../source/2025/lectures/week13.rst:2 ../source/2025/lectures/week13.rst:4
-#: ../source/2025/lectures/week13.rst:13 ../source/2025/lectures/week13.rst:19
-#: ../source/2025/lectures/week13.rst:22 ../source/2025/lectures/week13.rst:31
-msgid "TBD"
+#: ../source/2025/lectures/week13.rst:2
+msgid "28/05/2025 - Transactional Memory"
 msgstr ""
 
-#: ../source/2025/lectures/week13.rst:7 ../source/2025/lectures/week13.rst:25
-msgid "Riferimenti libro di testo"
+#: ../source/2025/lectures/week13.rst:4
+msgid "Hardware transactional memory"
 msgstr ""
 
-#: ../source/2025/lectures/week13.rst:8 ../source/2025/lectures/week13.rst:26
-msgid "[:ref:`t1 <books2025>`] ?"
+#: ../source/2025/lectures/week13.rst:11
+msgid "26/05/2025 - Transactional Memory"
 msgstr ""
 
-#: ../source/2025/lectures/week13.rst:11 ../source/2025/lectures/week13.rst:29
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week13.rst:13
+msgid "DSTM"
 msgstr ""
+
+#: ../source/2025/lectures/week13.rst:14
+msgid "Transactonal locking II"
+msgstr ""
+
+#~ msgid "[:ref:`t1 <books2025>`] ?"
+#~ msgstr ""
+
+#~ msgid "Riferimenti libro di testo"
+#~ msgstr ""
+
+#~ msgid "TBD"
+#~ msgstr ""
+
+#~ msgid "Link di approfondimento"
+#~ msgstr ""
+
+#~ msgid "Altre Fonti"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 13:05+0200\n"
+"POT-Creation-Date: 2025-06-04 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,8 +21,6 @@ msgid "07/05/2025 - Locking"
 msgstr ""
 
 #: ../source/2025/lectures/week10.rst:4
-#: ../source/2025/lectures/week10.rst:14
-#: ../source/2025/lectures/week10.rst:23
 msgid "TBD"
 msgstr ""
 
@@ -30,14 +28,14 @@ msgstr ""
 msgid "05/05/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
 msgstr ""
 
-#: ../source/2025/lectures/week10.rst:17
-msgid "Riferimenti libro di testo"
+#: ../source/2025/lectures/week10.rst:14
+msgid "ARC Wait-free MRSW Register"
 msgstr ""
 
 #: ../source/2025/lectures/week10.rst:18
-msgid "[:ref:`t1 <books2025>`] ?"
+msgid "Link di approfondimento"
 msgstr ""
 
-#: ../source/2025/lectures/week10.rst:21
-msgid "Link di approfondimento"
+#: ../source/2025/lectures/week10.rst:20
+msgid "`A Wait-Free Multi-word Atomic (1,N) Register for Large-Scale Data Sharing on Multi-core Machines <https://ieeexplore.ieee.org/document/8048930>`_"
 msgstr ""

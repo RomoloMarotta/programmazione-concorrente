@@ -1,34 +1,16 @@
-:orphan:
+28/05/2025 - Transactional Memory
+-----------------------------------------------------------------------
 
-TBD
----------------------------------
+* Hardware transactional memory
 
-* TBD
-
-Riferimenti libro di testo
-""""""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
-
-Link di approfondimento
-"""""""""""""""""""""""
-
-* TBD
 
 -----------------------------------------------------------------------------------
 
 
-TBD
+26/05/2025 - Transactional Memory
 ---------------------------------
 
+* DSTM
+* Transactonal locking II
 
-* TBD
-
-Riferimenti libro di testo
-""""""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
-
-Link di approfondimento
-"""""""""""""""""""""""
-
-* TBD
 

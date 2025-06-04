@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 13:21+0200\n"
+"POT-Creation-Date: 2025-06-04 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "23/04/2025 -  Strutture dati concorrenti: FIFO Queue"
 msgstr ""
 
 #: ../source/2025/lectures/week08.rst:4
-msgid "TBD"
+msgid "Wait-free Fifo Queue"
 msgstr ""
 
 #: ../source/2025/lectures/week08.rst:8

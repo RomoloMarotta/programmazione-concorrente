@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:15+0100\n"
+"POT-Creation-Date: 2025-06-04 13:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../source/2025/lectures/week14.rst:2 ../source/2025/lectures/week14.rst:4
-#: ../source/2025/lectures/week14.rst:13 ../source/2025/lectures/week14.rst:19
-#: ../source/2025/lectures/week14.rst:22 ../source/2025/lectures/week14.rst:31
+#: ../source/2025/lectures/week14.rst:2
+msgid "04/06/2025 - Approfondimenti"
+msgstr ""
+
+#: ../source/2025/lectures/week14.rst:4
 msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week14.rst:7 ../source/2025/lectures/week14.rst:25
-msgid "Riferimenti libro di testo"
-msgstr ""
+#~ msgid "Riferimenti libro di testo"
+#~ msgstr ""
 
-#: ../source/2025/lectures/week14.rst:8 ../source/2025/lectures/week14.rst:26
-msgid "[:ref:`t1 <books2025>`] ?"
-msgstr ""
+#~ msgid "[:ref:`t1 <books2025>`] ?"
+#~ msgstr ""
 
-#: ../source/2025/lectures/week14.rst:11 ../source/2025/lectures/week14.rst:29
-msgid "Link di approfondimento"
-msgstr ""
+#~ msgid "Link di approfondimento"
+#~ msgstr ""
 

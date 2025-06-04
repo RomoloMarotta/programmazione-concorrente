@@ -1,7 +1,7 @@
 23/04/2025 -  Strutture dati concorrenti: FIFO Queue
 -----------------------------------------------------
 
-* TBD
+* Wait-free Fifo Queue
 
 
 Altre Fonti

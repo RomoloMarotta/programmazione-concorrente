@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 13:21+0200\n"
+"POT-Creation-Date: 2025-06-04 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,38 +22,44 @@ msgstr ""
 msgid "30/04/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
 msgstr ""
 
-#: ../source/2025/lectures/week09.rst:4 ../source/2025/lectures/week09.rst:14
-msgid "TBD"
+#: ../source/2025/lectures/week09.rst:4 ../source/2025/lectures/week09.rst:22
+msgid "Peterson (Wait-free) MRSW Register"
 msgstr ""
 
-#: ../source/2025/lectures/week09.rst:11
-msgid "28/04/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
+#: ../source/2025/lectures/week09.rst:5
+msgid "Larsson (Wait-free) MRSW Register"
 msgstr ""
 
-#: ../source/2025/lectures/week09.rst:17
-msgid "Riferimenti libro di testo"
-msgstr ""
-
-#: ../source/2025/lectures/week09.rst:20
+#: ../source/2025/lectures/week09.rst:10 ../source/2025/lectures/week09.rst:26
 msgid "Altre Fonti"
 msgstr ""
 
-#: ../source/2025/lectures/week09.rst:22
+#: ../source/2025/lectures/week09.rst:12 ../source/2025/lectures/week09.rst:28
 msgid ""
 "`Multiword atomic read/write registers on multiprocessor systems "
 "<https://dl.acm.org/doi/10.1145/1412228.1455262>`_"
 msgstr ""
 
-#: ../source/2025/lectures/week09.rst:23
-msgid ""
-"`A Wait-Free Multi-word Atomic (1,N) Register for Large-Scale Data "
-"Sharing on Multi-core Machines "
-"<https://ieeexplore.ieee.org/document/8048930>`_"
+#: ../source/2025/lectures/week09.rst:19
+msgid "28/04/2025 - Wait-Free Multiple-Reader-Single-Writer Register"
 msgstr ""
 
 #~ msgid "[:ref:`t1 <books2025>`] ?"
 #~ msgstr ""
 
 #~ msgid "Link di approfondimento"
+#~ msgstr ""
+
+#~ msgid "TBD"
+#~ msgstr ""
+
+#~ msgid "Riferimenti libro di testo"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`A Wait-Free Multi-word Atomic "
+#~ "(1,N) Register for Large-Scale Data "
+#~ "Sharing on Multi-core Machines "
+#~ "<https://ieeexplore.ieee.org/document/8048930>`_"
 #~ msgstr ""
 

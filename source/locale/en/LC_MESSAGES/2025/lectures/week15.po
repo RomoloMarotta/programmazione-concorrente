@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-02 19:15+0100\n"
+"POT-Creation-Date: 2025-06-04 13:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,4 +17,25 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
+
+#: ../source/2025/lectures/week15.rst:2
+msgid "11/06/2025 - Safe Memory Reclamation"
+msgstr ""
+
+#: ../source/2025/lectures/week15.rst:4 ../source/2025/lectures/week15.rst:16
+msgid "TBD"
+msgstr ""
+
+#: ../source/2025/lectures/week15.rst:13
+msgid "09/06/2025 - Safe Memory Reclamation"
+msgstr ""
+
+#~ msgid "Riferimenti libro di testo"
+#~ msgstr ""
+
+#~ msgid "Link di approfondimento"
+#~ msgstr ""
+
+#~ msgid "Altre Fonti"
+#~ msgstr ""
 

@@ -1,8 +1,7 @@
 16/04/2025 - Strutture dati concorrenti: FIFO Queue
 ------------------------------------------------------
 
-* TBD
-
+* Wait-free Fifo Queue
 
 Altre Fonti
 """""""""""""""""""""""
@@ -17,12 +16,15 @@ Altre Fonti
 -----------------------------------------------------------------------
 
 
-* TBD
+* Lock-free Fifo Queue
 
 
 Riferimenti libro di testo
 """"""""""""""""""""""""""
-* [:ref:`t1 <books2025>`] ?
+
+
+* [:ref:`t1 <books2025>`] Sezione  10.5
+* [:ref:`t2 <books2025>`] Sezione  8.2
 
 
 Altre Fonti

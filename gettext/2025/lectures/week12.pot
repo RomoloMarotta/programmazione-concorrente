@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-26 13:26+0200\n"
+"POT-Creation-Date: 2025-06-04 13:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,54 +17,58 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../source/2025/lectures/week12.rst:2
-msgid "21/05/2025 - Locking"
+msgid "21/05/2025 - Transactional Memory"
 msgstr ""
 
 #: ../source/2025/lectures/week12.rst:4
-msgid "Approcci ibridi"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:6
-msgid "Mutexee"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:7
-msgid "Malthusian Locks"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:13
-msgid "Altre Fonti"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:15
-msgid "`Unlocking Energy <https://www.usenix.org/conference/atc16/technical-sessions/presentation/falsafi>`_"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:16
-msgid "`Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:23
-msgid "19/05/2025 - Transactional Memory"
-msgstr ""
-
-#: ../source/2025/lectures/week12.rst:25
 msgid "Opacity"
 msgstr ""
 
-#: ../source/2025/lectures/week12.rst:26
+#: ../source/2025/lectures/week12.rst:5
 msgid "Obstruction Freedom"
 msgstr ""
 
-#: ../source/2025/lectures/week12.rst:29
+#: ../source/2025/lectures/week12.rst:6
+msgid "DSTM"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:9
 msgid "Riferimenti libro di testo"
 msgstr ""
 
-#: ../source/2025/lectures/week12.rst:30
-#: ../source/2025/lectures/week12.rst:35
+#: ../source/2025/lectures/week12.rst:10
+#: ../source/2025/lectures/week12.rst:15
 msgid "TBD"
 msgstr ""
 
-#: ../source/2025/lectures/week12.rst:33
+#: ../source/2025/lectures/week12.rst:13
 msgid "Link di approfondimento"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:21
+msgid "19/05/2025 - Locking"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:23
+msgid "Approcci ibridi"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:25
+msgid "Mutexee"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:26
+msgid "Malthusian Locks"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:32
+msgid "Altre Fonti"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:34
+msgid "`Unlocking Energy <https://www.usenix.org/conference/atc16/technical-sessions/presentation/falsafi>`_"
+msgstr ""
+
+#: ../source/2025/lectures/week12.rst:35
+msgid "`Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_"
 msgstr ""
