@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-04 13:07+0200\n"
+"POT-Creation-Date: 2025-06-09 13:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,278 +58,284 @@ msgid ""
 "-PC-tm-25-06-04.pdf>`_.  Pubblicato il 26/05/25.  Aggiornato il 04/06/25."
 msgstr ""
 
-#: ../source/2025/slides.rst:16
+#: ../source/2025/slides.rst:12
+msgid ""
+"`06 - Safe Memory Reclamation      </programmazione-concorrente/slides/06"
+"-PC-SMR.pdf>`_.  Pubblicato il 09/06/25."
+msgstr ""
+
+#: ../source/2025/slides.rst:17
 msgid "Testi consigliati"
 msgstr ""
 
-#: ../source/2025/slides.rst:18
+#: ../source/2025/slides.rst:19
 msgid ""
 "[t1] The Art of Multiprocessor Programming - Maurice Herlihy, Nir Shavit,"
 " Victor Luchangco, Michael Spear - Morgan Kaufmann (seconda edizione)."
 msgstr ""
 
-#: ../source/2025/slides.rst:19
+#: ../source/2025/slides.rst:20
 msgid "[t2] Shared-Memory Synchronization - Michael L. Scott - Springer Cham."
 msgstr ""
 
-#: ../source/2025/slides.rst:23
+#: ../source/2025/slides.rst:24
 msgid "Documentazione"
 msgstr ""
 
-#: ../source/2025/slides.rst:25
+#: ../source/2025/slides.rst:26
 msgid "`POSIX <https://pubs.opengroup.org/onlinepubs/9699919799>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:26
+#: ../source/2025/slides.rst:27
 msgid "`Linux <https://man7.org/linux/man-pages/>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:27
+#: ../source/2025/slides.rst:28
 msgid ""
 "`gcc sync builtins <https://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-"
 "Builtins.html#g_t_005f_005fsync-Builtins>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:46
+#: ../source/2025/slides.rst:47
 msgid "Altro materiale"
 msgstr ""
 
-#: ../source/2025/slides.rst:48
+#: ../source/2025/slides.rst:49
 msgid "Introduzione"
 msgstr ""
 
-#: ../source/2025/slides.rst:49
+#: ../source/2025/slides.rst:50
 msgid ""
 "`The free lunch is over by Herb Sutter <http://www.gotw.ca/publications"
 "/concurrency-ddj.htm>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:50
+#: ../source/2025/slides.rst:51
 msgid ""
 "`Welcome to the jungle by Herb Sutter <https://herbsutter.com/welcome-to-"
 "the-jungle>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:51
+#: ../source/2025/slides.rst:52
 msgid ""
 "`50 Years of Microprocessor Trend Data by K. Rupp "
 "<https://github.com/karlrupp/microprocessor-trend-data>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:52
+#: ../source/2025/slides.rst:53
 msgid "Proprietà"
 msgstr ""
 
-#: ../source/2025/slides.rst:53
+#: ../source/2025/slides.rst:54
 msgid "Scalabilità"
 msgstr ""
 
-#: ../source/2025/slides.rst:54
+#: ../source/2025/slides.rst:55
 msgid ""
 "`Another view on parallel speedup "
 "<https://dl.acm.org/doi/10.5555/110382.110450>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:55
+#: ../source/2025/slides.rst:56
 msgid ""
 "`Legge di Amdahl Sezione 4 Eq. 11 "
 "<https://dl.acm.org/doi/pdf/10.5555/110382.110450>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:56
+#: ../source/2025/slides.rst:57
 msgid "Correttezza:"
 msgstr ""
 
-#: ../source/2025/slides.rst:57
+#: ../source/2025/slides.rst:58
 msgid ""
 "Sequential consistency: `How to make a multiprocessor computer that "
 "correctly executes multiprocess programs "
 "<https://ieeexplore.ieee.org/document/1675439>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:58
+#: ../source/2025/slides.rst:59
 msgid ""
 "`Linearizability: a correctness condition for concurrent objects "
 "<https://dl.acm.org/doi/10.1145/78969.78972>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:59
+#: ../source/2025/slides.rst:60
 msgid ""
 "Serializability: `The Serializability of Concurrent Database Updates "
 "<https://dl.acm.org/doi/10.1145/322154.322158>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:60
+#: ../source/2025/slides.rst:61
 msgid "Progresso:"
 msgstr ""
 
-#: ../source/2025/slides.rst:61
+#: ../source/2025/slides.rst:62
 msgid ""
 "`On the nature of progress "
 "<https://link.springer.com/chapter/10.1007/978-3-642-25873-2_22>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:62
+#: ../source/2025/slides.rst:63
 msgid "Strutture dati concorrenti"
 msgstr ""
 
-#: ../source/2025/slides.rst:63
+#: ../source/2025/slides.rst:64
 msgid "Stack"
 msgstr ""
 
-#: ../source/2025/slides.rst:64
+#: ../source/2025/slides.rst:65
 msgid ""
 "Treiber stack: `Systems Programming: Coping With Parallelism "
 "<https://dominoweb.draco.res.ibm.com/reports/rj5118.pdf>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:65
+#: ../source/2025/slides.rst:66
 msgid ""
 "Elimination stack: `A Scalable Lock-free Stack Algorithm "
 "<https://dl.acm.org/doi/10.1145/1007912.1007944>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:66
+#: ../source/2025/slides.rst:67
 msgid "Set"
 msgstr ""
 
-#: ../source/2025/slides.rst:67
+#: ../source/2025/slides.rst:68
 msgid ""
 "`A Lazy Concurrent List-Based Set Algorithm "
 "<https://link.springer.com/chapter/10.1007/11795490_3>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:68
+#: ../source/2025/slides.rst:69
 msgid ""
 "`A Pragmatic Implementation of Non-blocking Linked-Lists "
 "<https://link.springer.com/chapter/10.1007/3-540-45414-4_21>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:69
+#: ../source/2025/slides.rst:70
 msgid ""
 "`High performance dynamic lock-free hash tables and list-based sets "
 "<https://dl.acm.org/doi/10.1145/564870.564881>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:70
+#: ../source/2025/slides.rst:71
 msgid ""
 "Resizable hash table: `Split-ordered lists: Lock-free extensible hash "
 "tables <https://dl.acm.org/doi/10.1145/1147954.1147958>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:71
+#: ../source/2025/slides.rst:72
 msgid ""
 "`Practical Lock-Feedom. Section 4.3.3  "
 "<https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:72
+#: ../source/2025/slides.rst:73
 msgid ""
 "`Skip lists: a probabilistic alternative to balanced trees "
 "<https://dl.acm.org/doi/10.1145/78973.78977>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:73
+#: ../source/2025/slides.rst:74
 msgid ""
 "`NUMASK: High Performance Scalable Skip List for NUMA "
 "<https://drops.dagstuhl.de/storage/00lipics/lipics-"
 "vol121-disc2018/LIPIcs.DISC.2018.18/LIPIcs.DISC.2018.18.pdf>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:74
+#: ../source/2025/slides.rst:75
 msgid "Priority Queue:"
 msgstr ""
 
-#: ../source/2025/slides.rst:75
+#: ../source/2025/slides.rst:76
 msgid ""
 "Sundell et al: `Fast and lock-free concurrent priority queues for multi-"
 "thread systems <https://ieeexplore.ieee.org/document/1213189>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:76
+#: ../source/2025/slides.rst:77
 msgid ""
 "Lothan et al: `Skiplist-based concurrent priority queues "
 "<https://ieeexplore.ieee.org/document/845994>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:77
+#: ../source/2025/slides.rst:78
 msgid ""
 "Linden et al: `A Skiplist-Based Concurrent Priority Queue with Minimal "
 "Memory Contention "
 "<https://link.springer.com/chapter/10.1007/978-3-319-03850-6_15>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:78
+#: ../source/2025/slides.rst:79
 msgid "Marotta et al:"
 msgstr ""
 
-#: ../source/2025/slides.rst:79
+#: ../source/2025/slides.rst:80
 msgid ""
 "`A Lock-Free O(1) Event Pool and its Application to Share-Everything PDES"
 " Platforms <https://dl.acm.org/doi/abs/10.1109/DS-RT.2016.33>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:80
+#: ../source/2025/slides.rst:81
 msgid ""
 "`A conflict-resilient lock-free calendar queue for scalable share-"
 "everything PDES platforms "
 "<https://dl.acm.org/doi/10.1145/3064911.3064926>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:81
+#: ../source/2025/slides.rst:82
 msgid ""
 "`A Conflict-Resilient Lock-Free Linearizable Calendar Queue "
 "<https://dl.acm.org/doi/10.1145/3635163>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:82
+#: ../source/2025/slides.rst:83
 msgid "FIFO Queue"
 msgstr ""
 
-#: ../source/2025/slides.rst:83
+#: ../source/2025/slides.rst:84
 msgid ""
 "`Simple, fast, and practical non-blocking and blocking concurrent queue "
 "algorithms <https://dl.acm.org/doi/10.1145/248052.2481061>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:84
+#: ../source/2025/slides.rst:85
 msgid ""
 "`A methodology for creating fast wait-free data structures "
 "<https://dl.acm.org/doi/10.1145/2370036.2145835>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:85
+#: ../source/2025/slides.rst:86
 msgid "Wait-free Multiple-Reader Single-Writer Register"
 msgstr ""
 
-#: ../source/2025/slides.rst:86
+#: ../source/2025/slides.rst:87
 msgid ""
 "`Multiword atomic read/write registers on multiprocessor systems "
 "<https://dl.acm.org/doi/10.1145/1412228.1455262>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:87
+#: ../source/2025/slides.rst:88
 msgid ""
 "`A Wait-Free Multi-word Atomic (1,N) Register for Large-Scale Data "
 "Sharing on Multi-core Machines "
 "<https://ieeexplore.ieee.org/document/8048930>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:88
+#: ../source/2025/slides.rst:89
 msgid "Lock"
 msgstr ""
 
-#: ../source/2025/slides.rst:89
+#: ../source/2025/slides.rst:90
 msgid "Ibridi:"
 msgstr ""
 
-#: ../source/2025/slides.rst:90
+#: ../source/2025/slides.rst:91
 msgid ""
 "Mutexee: `Unlocking Energy <https://www.usenix.org/conference/atc16"
 "/technical-sessions/presentation/falsafi>`_"
 msgstr ""
 
-#: ../source/2025/slides.rst:91
+#: ../source/2025/slides.rst:92
 msgid "`Malthusian Locks <https://dl.acm.org/doi/10.1145/3064176.3064203>`_"
 msgstr ""
 

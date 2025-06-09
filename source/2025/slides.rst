@@ -9,6 +9,7 @@ In questa sezione potete scaricare le slide delle lezioni.
 * `03 - Strutture dati  </programmazione-concorrente/slides/03-PC-concurrent-ds-25-05-05.pdf>`_.  Pubblicato il 19/03/25. Aggiornato il 05/05/25.
 * `04 - Locking         </programmazione-concorrente/slides/04-PC-locks-25-06-04.pdf>`_.  Pubblicato il 26/05/25. Aggiornato il 04/06/25.
 * `05 - Transactional Memory         </programmazione-concorrente/slides/05-PC-tm-25-06-04.pdf>`_.  Pubblicato il 26/05/25.  Aggiornato il 04/06/25.
+* `06 - Safe Memory Reclamation      </programmazione-concorrente/slides/06-PC-SMR.pdf>`_.  Pubblicato il 09/06/25. 
 
 .. _books2025:
 
