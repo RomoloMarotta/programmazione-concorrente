@@ -79,12 +79,11 @@ Date
 
 * **I Appello** (Giugno)
   
-  * TBD
+  * 27/06/2025 aula B10 15:00 – 19:00
 
 * **II Appello** (Febbraio)
 
-  * TBD
-
+  * 24/07/2025 aula B10 15:00 – 19:00
 
 
 .. role:: removedtopic
