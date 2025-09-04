@@ -85,6 +85,14 @@ Date
 
   * 24/07/2025 aula B10 15:00 – 19:00
 
+* **III Appello** (Agosto)
+
+  * 05/09/2025 aula B6 15:00 – 19:00
+
+* **IV Appello** (Settembre)
+
+  * 15/09/2025 aula TBD 10:00 – 13:00
+
 
 .. role:: removedtopic
 

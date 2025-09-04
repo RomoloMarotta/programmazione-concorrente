@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-25 16:57+0200\n"
+"POT-Creation-Date: 2025-09-04 17:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,74 +181,90 @@ msgstr ""
 msgid "24/07/2025 aula B10 15:00 – 19:00"
 msgstr ""
 
+#: ../source/index.rst:88
+msgid "**III Appello** (Agosto)"
+msgstr ""
+
+#: ../source/index.rst:90
+msgid "05/09/2025 aula B6 15:00 – 19:00"
+msgstr ""
+
 #: ../source/index.rst:92
-msgid "Programma e testi"
+msgid "**IV Appello** (Settembre)"
 msgstr ""
 
 #: ../source/index.rst:94
+msgid "15/09/2025 aula TBD 10:00 – 13:00"
+msgstr ""
+
+#: ../source/index.rst:100
+msgid "Programma e testi"
+msgstr ""
+
+#: ../source/index.rst:102
 msgid ""
 "**Introduzione alla programmazione concorrente e preliminari.**  Richiami"
 " a tematiche di sincronizzazione."
 msgstr ""
 
-#: ../source/index.rst:95
+#: ../source/index.rst:103
 msgid ""
 "**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, "
 "Sun-Ni) - Richiami a concetti di safety e liveness"
 msgstr ""
 
-#: ../source/index.rst:96
+#: ../source/index.rst:104
 msgid ""
 "**Correttezza.** Condizione di safety - Sequential consistency - "
 "Linearizability -Quiscient consistency."
 msgstr ""
 
-#: ../source/index.rst:97
+#: ../source/index.rst:105
 msgid ""
 "**Progresso.** Deadlock-freedom. Starvation-freedom. Progresso minimale e"
 " massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed "
 "indipendente dallo scheduler"
 msgstr ""
 
-#: ../source/index.rst:98
+#: ../source/index.rst:106
 msgid ""
 "**Richiami di architetture shared memory.**  Core e cache - Memory model "
 "- Primitive atomiche"
 msgstr ""
 
-#: ../source/index.rst:99
+#: ../source/index.rst:107
 msgid ""
 "**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code"
 " di priorità, Registri."
 msgstr ""
 
-#: ../source/index.rst:100
+#: ../source/index.rst:108
 msgid ""
 "**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. "
 "Implementazioni di lock basate su RMW. Cenni ad altri meccanismi di "
 "locking (barriere e condizioni)."
 msgstr ""
 
-#: ../source/index.rst:101
+#: ../source/index.rst:109
 msgid ""
 "**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity "
 "(cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware "
 "Transactional Memory (Intel TSX)."
 msgstr ""
 
-#: ../source/index.rst:102
+#: ../source/index.rst:110
 msgid ""
 "**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in "
 "algoritmi non bloccanti e non."
 msgstr ""
 
-#: ../source/index.rst:103
+#: ../source/index.rst:111
 msgid ""
 "**Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti"
 " universali."
 msgstr ""
 
-#: ../source/index.rst:105
+#: ../source/index.rst:113
 msgid ":ref:`Libri di testo <books2025>`"
 msgstr ""
 
