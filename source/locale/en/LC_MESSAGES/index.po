@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-04 17:15+0200\n"
+"POT-Creation-Date: 2025-09-15 01:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,7 @@ msgid "**IV Appello** (Settembre)"
 msgstr ""
 
 #: ../source/index.rst:94
-msgid "15/09/2025 aula TBD 10:00 – 13:00"
+msgid "15/09/2025 aula 11 10:00 – 13:00"
 msgstr ""
 
 #: ../source/index.rst:100
@@ -587,5 +587,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "TBD"
+#~ msgstr ""
+
+#~ msgid "15/09/2025 aula TBD 10:00 – 13:00"
 #~ msgstr ""
 

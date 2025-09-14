@@ -91,7 +91,7 @@ Date
 
 * **IV Appello** (Settembre)
 
-  * 15/09/2025 aula TBD 10:00 – 13:00
+  * 15/09/2025 aula 11 10:00 – 13:00
 
 
 .. role:: removedtopic
