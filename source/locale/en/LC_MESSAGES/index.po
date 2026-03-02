@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Programmazione Concorrente \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-15 01:49+0200\n"
+"POT-Creation-Date: 2026-03-02 08:31+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Generated-By: Babel 2.10.3\n"
 
 #: ../source/index.rst:2
-msgid "Programmazione Concorrente A.A. 2024/2025"
+msgid "Programmazione Concorrente A.A. 2025/2026"
 msgstr ""
 
 #: ../source/index.rst:4
 msgid ""
-"Benvenuti al corso di Programmazione Concorrente per A.A. 2024/2025 del "
+"Benvenuti al corso di Programmazione Concorrente per A.A. 2025/2026 del "
 "Corso di Laurea Magistrale in Ingegneria Informatica di Tor Vergata"
 msgstr ""
 
@@ -36,29 +36,15 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: ../source/index.rst:11
-msgid ":ref:`n14-04-2025`"
-msgstr ""
-
-#: ../source/index.rst:12
-msgid ":ref:`n25-03-2025`"
-msgstr ""
-
 #: ../source/index.rst:13
-msgid ":ref:`n21-03-2025`"
+msgid "Per motivi di salute, il corso inizia il 09 Marzo 2026."
 msgstr ""
 
-#: ../source/index.rst:15
-msgid ""
-"Per la lista completa degli aggiornamenti visita la sezione dedicata: "
-":doc:`2025/news/index`"
-msgstr ""
-
-#: ../source/index.rst:18
+#: ../source/index.rst:16
 msgid "Obiettivi del corso"
 msgstr ""
 
-#: ../source/index.rst:20
+#: ../source/index.rst:18
 msgid ""
 "L'obiettivo del corso è fornire allo studente competenze su tematiche di "
 "programmazione concorrente con particolare attenzione ai sistemi "
@@ -69,202 +55,170 @@ msgid ""
 "multicore/multiprocessore."
 msgstr ""
 
-#: ../source/index.rst:25
+#: ../source/index.rst:23
 msgid "Prerequisiti"
 msgstr ""
 
-#: ../source/index.rst:27
+#: ../source/index.rst:25
 msgid "Il corso presuppone una buona conoscenza di:"
 msgstr ""
 
-#: ../source/index.rst:29
+#: ../source/index.rst:27
 msgid "calcolatori elettronici"
 msgstr ""
 
-#: ../source/index.rst:30
+#: ../source/index.rst:28
 msgid "sistemi operativi"
 msgstr ""
 
-#: ../source/index.rst:31
+#: ../source/index.rst:29
 msgid "programmazione in linguaggio C"
 msgstr ""
 
-#: ../source/index.rst:35
+#: ../source/index.rst:33
 msgid "Orario delle lezioni"
 msgstr ""
 
-#: ../source/index.rst:38
+#: ../source/index.rst:36
 msgid "Giorno"
 msgstr ""
 
-#: ../source/index.rst:38
+#: ../source/index.rst:36
 msgid "Orario"
 msgstr ""
 
-#: ../source/index.rst:38
+#: ../source/index.rst:36
 msgid "Aula"
 msgstr ""
 
-#: ../source/index.rst:40
+#: ../source/index.rst:38
 msgid "Lunedì"
 msgstr ""
 
-#: ../source/index.rst:40 ../source/index.rst:41
+#: ../source/index.rst:38 ../source/index.rst:39
 msgid "14:00 - 16:00"
 msgstr ""
 
-#: ../source/index.rst:40 ../source/index.rst:41
+#: ../source/index.rst:38 ../source/index.rst:39
 msgid "B10"
 msgstr ""
 
-#: ../source/index.rst:41
+#: ../source/index.rst:39
 msgid "Mercoledì"
 msgstr ""
 
-#: ../source/index.rst:46
+#: ../source/index.rst:44
 msgid "La didattica sarà svolta esclusivamente in presenza."
 msgstr ""
 
-#: ../source/index.rst:47
+#: ../source/index.rst:45
 msgid ""
 "La classe virtuale su Teams sarà utilizzata per condividere il materiale "
 "del corso e/o informazioni organizzative."
 msgstr ""
 
-#: ../source/index.rst:52
+#: ../source/index.rst:50
 msgid "Link ai contenuti del corso"
 msgstr ""
 
-#: ../source/index.rst:54
+#: ../source/index.rst:52
 msgid ":doc:`Slides <2025/slides>`"
 msgstr ""
 
-#: ../source/index.rst:55
+#: ../source/index.rst:53
 msgid "Teams (TBA)"
 msgstr ""
 
-#: ../source/index.rst:66
+#: ../source/index.rst:64
 msgid "Ricevimento"
 msgstr ""
 
-#: ../source/index.rst:68
+#: ../source/index.rst:66
 msgid ""
 "Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e"
-" riportare il prefisso **[PC2425]** nell'oggetto."
+" riportare il prefisso **[PC2526]** nell'oggetto."
 msgstr ""
 
-#: ../source/index.rst:72
+#: ../source/index.rst:70
 msgid "Modalità d'esame"
 msgstr ""
 
-#: ../source/index.rst:74
+#: ../source/index.rst:72
 msgid "L'esame prevede 1 prova scritta."
 msgstr ""
 
-#: ../source/index.rst:78
+#: ../source/index.rst:76
 msgid "Date"
 msgstr ""
 
-#: ../source/index.rst:80
-msgid "**I Appello** (Giugno)"
-msgstr ""
-
-#: ../source/index.rst:82
-msgid "27/06/2025 aula B10 15:00 – 19:00"
-msgstr ""
-
-#: ../source/index.rst:84
-msgid "**II Appello** (Febbraio)"
-msgstr ""
-
-#: ../source/index.rst:86
-msgid "24/07/2025 aula B10 15:00 – 19:00"
-msgstr ""
-
-#: ../source/index.rst:88
-msgid "**III Appello** (Agosto)"
-msgstr ""
-
-#: ../source/index.rst:90
-msgid "05/09/2025 aula B6 15:00 – 19:00"
-msgstr ""
-
-#: ../source/index.rst:92
-msgid "**IV Appello** (Settembre)"
-msgstr ""
-
-#: ../source/index.rst:94
-msgid "15/09/2025 aula 11 10:00 – 13:00"
-msgstr ""
-
-#: ../source/index.rst:100
+#: ../source/index.rst:81
 msgid "Programma e testi"
 msgstr ""
 
-#: ../source/index.rst:102
+#: ../source/index.rst:83
 msgid ""
 "**Introduzione alla programmazione concorrente e preliminari.**  Richiami"
 " a tematiche di sincronizzazione."
 msgstr ""
 
-#: ../source/index.rst:103
+#: ../source/index.rst:84
 msgid ""
 "**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, "
 "Sun-Ni) - Richiami a concetti di safety e liveness"
 msgstr ""
 
-#: ../source/index.rst:104
+#: ../source/index.rst:85
 msgid ""
 "**Correttezza.** Condizione di safety - Sequential consistency - "
 "Linearizability -Quiscient consistency."
 msgstr ""
 
-#: ../source/index.rst:105
+#: ../source/index.rst:86
 msgid ""
 "**Progresso.** Deadlock-freedom. Starvation-freedom. Progresso minimale e"
 " massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed "
 "indipendente dallo scheduler"
 msgstr ""
 
-#: ../source/index.rst:106
+#: ../source/index.rst:87
 msgid ""
 "**Richiami di architetture shared memory.**  Core e cache - Memory model "
 "- Primitive atomiche"
 msgstr ""
 
-#: ../source/index.rst:107
+#: ../source/index.rst:88
 msgid ""
 "**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code"
 " di priorità, Registri."
 msgstr ""
 
-#: ../source/index.rst:108
+#: ../source/index.rst:89
 msgid ""
 "**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. "
 "Implementazioni di lock basate su RMW. Cenni ad altri meccanismi di "
 "locking (barriere e condizioni)."
 msgstr ""
 
-#: ../source/index.rst:109
+#: ../source/index.rst:90
 msgid ""
 "**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity "
 "(cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware "
 "Transactional Memory (Intel TSX)."
 msgstr ""
 
-#: ../source/index.rst:110
+#: ../source/index.rst:91
 msgid ""
 "**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in "
 "algoritmi non bloccanti e non."
 msgstr ""
 
-#: ../source/index.rst:111
+#: ../source/index.rst:92
 msgid ""
 "**Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti"
 " universali."
 msgstr ""
 
-#: ../source/index.rst:113
+#: ../source/index.rst:94
 msgid ":ref:`Libri di testo <books2025>`"
 msgstr ""
 
@@ -590,5 +544,63 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "15/09/2025 aula TBD 10:00 – 13:00"
+#~ msgstr ""
+
+#~ msgid "Programmazione Concorrente A.A. 2024/2025"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Benvenuti al corso di Programmazione "
+#~ "Concorrente per A.A. 2024/2025 del Corso"
+#~ " di Laurea Magistrale in Ingegneria "
+#~ "Informatica di Tor Vergata"
+#~ msgstr ""
+
+#~ msgid ":ref:`n14-04-2025`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n25-03-2025`"
+#~ msgstr ""
+
+#~ msgid ":ref:`n21-03-2025`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Per la lista completa degli "
+#~ "aggiornamenti visita la sezione dedicata: "
+#~ ":doc:`2025/news/index`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Contattare il docente alla seguente "
+#~ "email **{cognome}@ing.uniroma2.it** e riportare "
+#~ "il prefisso **[PC2425]** nell'oggetto."
+#~ msgstr ""
+
+#~ msgid "**I Appello** (Giugno)"
+#~ msgstr ""
+
+#~ msgid "27/06/2025 aula B10 15:00 – 19:00"
+#~ msgstr ""
+
+#~ msgid "**II Appello** (Febbraio)"
+#~ msgstr ""
+
+#~ msgid "24/07/2025 aula B10 15:00 – 19:00"
+#~ msgstr ""
+
+#~ msgid "**III Appello** (Agosto)"
+#~ msgstr ""
+
+#~ msgid "05/09/2025 aula B6 15:00 – 19:00"
+#~ msgstr ""
+
+#~ msgid "**IV Appello** (Settembre)"
+#~ msgstr ""
+
+#~ msgid "15/09/2025 aula 11 10:00 – 13:00"
+#~ msgstr ""
+
+#~ msgid "Per motivi di saluto, il corso inizia il 09 Marzo 2026."
 #~ msgstr ""
 

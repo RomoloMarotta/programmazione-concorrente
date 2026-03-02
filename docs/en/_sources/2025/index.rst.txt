@@ -1,16 +1,18 @@
-Programmazione Concorrente A.A. 2025/2026
+Programmazione Concorrente A.A. 2024/2025
 =============================================
 
-Benvenuti al corso di Programmazione Concorrente per A.A. 2025/2026 del Corso di Laurea Magistrale in Ingegneria Informatica di Tor Vergata
+Benvenuti al corso di Programmazione Concorrente per A.A. 2024/2025 del Corso di Laurea Magistrale in Ingegneria Informatica di Tor Vergata
 
 Docente: `Romolo Marotta <https://romolomarotta.github.io>`_
 
 News
 ----
 
-.. warning::
+* :ref:`n14-04-2025`
+* :ref:`n25-03-2025`
+* :ref:`n21-03-2025`
 
-  Per motivi di salute, il corso inizia il 09 Marzo 2026.
+Per la lista completa degli aggiornamenti visita la sezione dedicata: :doc:`news/index`
 
 Obiettivi del corso
 -------------------
@@ -49,7 +51,7 @@ Mercoledì  14:00 - 16:00  B10
 Link ai contenuti del corso
 ---------------------------
 
-- :doc:`Slides <2025/slides>`
+- :doc:`Slides <slides>`
 - Teams (TBA)
 
 ..
@@ -63,7 +65,7 @@ Link ai contenuti del corso
 Ricevimento
 -----------
 
-Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e riportare il prefisso **[PC2526]** nell'oggetto.
+Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e riportare il prefisso **[PC2425]** nell'oggetto.
 
 
 Modalità d'esame
@@ -74,6 +76,23 @@ L'esame prevede 1 prova scritta.
 
 Date
 """"""""
+
+* **I Appello** (Giugno)
+  
+  * 27/06/2025 aula B10 15:00 – 19:00
+
+* **II Appello** (Febbraio)
+
+  * 24/07/2025 aula B10 15:00 – 19:00
+
+* **III Appello** (Agosto)
+
+  * 05/09/2025 aula B6 15:00 – 19:00
+
+* **IV Appello** (Settembre)
+
+  * 15/09/2025 aula 11 10:00 – 13:00
+
 
 .. role:: removedtopic
 
@@ -103,5 +122,14 @@ Programma e testi
    :hidden:
 
    self
+   examples
+   questions
+   slides
+   lectures/index
+   exams
+   news/index
+   errata
+
+..
    editions
    

@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Romolo Marotta
+# This file is distributed under the same license as the Programmazione
+# Concorrente package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Programmazione Concorrente \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-02 08:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../source/2025/index.rst:2
+msgid "Programmazione Concorrente A.A. 2024/2025"
+msgstr ""
+
+#: ../source/2025/index.rst:4
+msgid ""
+"Benvenuti al corso di Programmazione Concorrente per A.A. 2024/2025 del "
+"Corso di Laurea Magistrale in Ingegneria Informatica di Tor Vergata"
+msgstr ""
+
+#: ../source/2025/index.rst:6
+msgid "Docente: `Romolo Marotta <https://romolomarotta.github.io>`_"
+msgstr ""
+
+#: ../source/2025/index.rst:9
+msgid "News"
+msgstr ""
+
+#: ../source/2025/index.rst:11
+msgid ":ref:`n14-04-2025`"
+msgstr ""
+
+#: ../source/2025/index.rst:12
+msgid ":ref:`n25-03-2025`"
+msgstr ""
+
+#: ../source/2025/index.rst:13
+msgid ":ref:`n21-03-2025`"
+msgstr ""
+
+#: ../source/2025/index.rst:15
+msgid ""
+"Per la lista completa degli aggiornamenti visita la sezione dedicata: "
+":doc:`news/index`"
+msgstr ""
+
+#: ../source/2025/index.rst:18
+msgid "Obiettivi del corso"
+msgstr ""
+
+#: ../source/2025/index.rst:20
+msgid ""
+"L'obiettivo del corso è fornire allo studente competenze su tematiche di "
+"programmazione concorrente con particolare attenzione ai sistemi "
+"multicore. Al termine del corso lo studente acquisirà le conoscenze e i "
+"concetti alla base di algoritmi concorrenti bloccanti e non, dei "
+"meccanismi di locking e delle memorie transazionali, fondamentali ad "
+"affrontare sfide nell'ambito della programmazione concorrente su sistemi "
+"multicore/multiprocessore."
+msgstr ""
+
+#: ../source/2025/index.rst:25
+msgid "Prerequisiti"
+msgstr ""
+
+#: ../source/2025/index.rst:27
+msgid "Il corso presuppone una buona conoscenza di:"
+msgstr ""
+
+#: ../source/2025/index.rst:29
+msgid "calcolatori elettronici"
+msgstr ""
+
+#: ../source/2025/index.rst:30
+msgid "sistemi operativi"
+msgstr ""
+
+#: ../source/2025/index.rst:31
+msgid "programmazione in linguaggio C"
+msgstr ""
+
+#: ../source/2025/index.rst:35
+msgid "Orario delle lezioni"
+msgstr ""
+
+#: ../source/2025/index.rst:38
+msgid "Giorno"
+msgstr ""
+
+#: ../source/2025/index.rst:38
+msgid "Orario"
+msgstr ""
+
+#: ../source/2025/index.rst:38
+msgid "Aula"
+msgstr ""
+
+#: ../source/2025/index.rst:40
+msgid "Lunedì"
+msgstr ""
+
+#: ../source/2025/index.rst:40 ../source/2025/index.rst:41
+msgid "14:00 - 16:00"
+msgstr ""
+
+#: ../source/2025/index.rst:40 ../source/2025/index.rst:41
+msgid "B10"
+msgstr ""
+
+#: ../source/2025/index.rst:41
+msgid "Mercoledì"
+msgstr ""
+
+#: ../source/2025/index.rst:46
+msgid "La didattica sarà svolta esclusivamente in presenza."
+msgstr ""
+
+#: ../source/2025/index.rst:47
+msgid ""
+"La classe virtuale su Teams sarà utilizzata per condividere il materiale "
+"del corso e/o informazioni organizzative."
+msgstr ""
+
+#: ../source/2025/index.rst:52
+msgid "Link ai contenuti del corso"
+msgstr ""
+
+#: ../source/2025/index.rst:54
+msgid ":doc:`Slides <slides>`"
+msgstr ""
+
+#: ../source/2025/index.rst:55
+msgid "Teams (TBA)"
+msgstr ""
+
+#: ../source/2025/index.rst:66
+msgid "Ricevimento"
+msgstr ""
+
+#: ../source/2025/index.rst:68
+msgid ""
+"Contattare il docente alla seguente email **{cognome}@ing.uniroma2.it** e"
+" riportare il prefisso **[PC2425]** nell'oggetto."
+msgstr ""
+
+#: ../source/2025/index.rst:72
+msgid "Modalità d'esame"
+msgstr ""
+
+#: ../source/2025/index.rst:74
+msgid "L'esame prevede 1 prova scritta."
+msgstr ""
+
+#: ../source/2025/index.rst:78
+msgid "Date"
+msgstr ""
+
+#: ../source/2025/index.rst:80
+msgid "**I Appello** (Giugno)"
+msgstr ""
+
+#: ../source/2025/index.rst:82
+msgid "27/06/2025 aula B10 15:00 – 19:00"
+msgstr ""
+
+#: ../source/2025/index.rst:84
+msgid "**II Appello** (Febbraio)"
+msgstr ""
+
+#: ../source/2025/index.rst:86
+msgid "24/07/2025 aula B10 15:00 – 19:00"
+msgstr ""
+
+#: ../source/2025/index.rst:88
+msgid "**III Appello** (Agosto)"
+msgstr ""
+
+#: ../source/2025/index.rst:90
+msgid "05/09/2025 aula B6 15:00 – 19:00"
+msgstr ""
+
+#: ../source/2025/index.rst:92
+msgid "**IV Appello** (Settembre)"
+msgstr ""
+
+#: ../source/2025/index.rst:94
+msgid "15/09/2025 aula 11 10:00 – 13:00"
+msgstr ""
+
+#: ../source/2025/index.rst:100
+msgid "Programma e testi"
+msgstr ""
+
+#: ../source/2025/index.rst:102
+msgid ""
+"**Introduzione alla programmazione concorrente e preliminari.**  Richiami"
+" a tematiche di sincronizzazione."
+msgstr ""
+
+#: ../source/2025/index.rst:103
+msgid ""
+"**Programmi concorrenti.** Speedup e relative leggi (Amdhal, Gustavson, "
+"Sun-Ni) - Richiami a concetti di safety e liveness"
+msgstr ""
+
+#: ../source/2025/index.rst:104
+msgid ""
+"**Correttezza.** Condizione di safety - Sequential consistency - "
+"Linearizability -Quiscient consistency."
+msgstr ""
+
+#: ../source/2025/index.rst:105
+msgid ""
+"**Progresso.** Deadlock-freedom. Starvation-freedom. Progresso minimale e"
+" massimale. Wait-freedom. Lock-freedom. - Progresso dipendente ed "
+"indipendente dallo scheduler"
+msgstr ""
+
+#: ../source/2025/index.rst:106
+msgid ""
+"**Richiami di architetture shared memory.**  Core e cache - Memory model "
+"- Primitive atomiche"
+msgstr ""
+
+#: ../source/2025/index.rst:107
+msgid ""
+"**Algoritmi non-bloccanti (lock-free e wait-free).** Stack, Insiemi, Code"
+" di priorità, Registri."
+msgstr ""
+
+#: ../source/2025/index.rst:108
+msgid ""
+"**Meccanismi di locking.** Richiami lamport (only R&W) e Primitive RMW. "
+"Implementazioni di lock basate su RMW. Cenni ad altri meccanismi di "
+"locking (barriere e condizioni)."
+msgstr ""
+
+#: ../source/2025/index.rst:109
+msgid ""
+"**Transactional Memory.**  Definizione,  Obstruction freedom, Opacity "
+"(cenni a TS1 e TS2). Software Transactional Memory (TinySTM). Hardware "
+"Transactional Memory (Intel TSX)."
+msgstr ""
+
+#: ../source/2025/index.rst:110
+msgid ""
+"**Aspetti avanzati - Implementazioni ed hardware**  NUMA-awareness in "
+"algoritmi non bloccanti e non."
+msgstr ""
+
+#: ../source/2025/index.rst:111
+msgid ""
+"**Aspetti avanzati - Teoria.**  Consensus number and hierarchy. Costrutti"
+" universali."
+msgstr ""
+
+#: ../source/2025/index.rst:113
+msgid ":ref:`Libri di testo <books2025>`"
+msgstr ""
+
+#~ msgid ""
+#~ "Per la lista completa degli "
+#~ "aggiornamenti visita la sezione dedicata: "
+#~ ":doc:`2025/news/index`"
+#~ msgstr ""
+
+#~ msgid ":doc:`Slides <2025/slides>`"
+#~ msgstr ""
+
